@@ -444,19 +444,19 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 3,Ravana Falls,Nature,Badulla,Badulla,4.2,0,500,6.8456,81.0465,Low,Beautiful 25-meter waterfall,"waterfall,scenic,nature,ravana",
 4,Lipton Seat,Nature,Badulla,Badulla,4.1,200,800,6.7667,81,Low,Famous tea estate viewpoint,"tea,viewpoint,scenic,nature",
 5,Demodara Loop,Nature,Badulla,Badulla,3.6,0,500,6.8756,81.0472,Low,Unique railway loop engineering,"railway,loop,unique,engineering",
-6,Haputale,Nature,Badulla,Badulla,4.8,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+6,Haputale,Nature,Badulla,Badulla,4.8,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 7,Diyaluma Falls,Nature,Badulla,Badulla,4.5,200,800,6.7333,81.0167,Low,Second highest waterfall in Sri Lanka,"waterfall,tallest,scenic,nature",
 8,Dunhinda Falls,Nature,Badulla,Badulla,4.3,300,1000,7.05,81.0667,Low,Beautiful waterfall near Badulla town,"waterfall,scenic,nature,beautiful",
 9,Bogoda Wooden Bridge,Historical,Badulla,Badulla,4.8,100,400,7.05,81.0833,Low,Oldest wooden bridge in Sri Lanka,"bridge,wooden,ancient,historical",
 10,Dunhinda Falls,Nature,Badulla,Badulla,4.3,300,1000,7.05,81.0667,Low,Beautiful waterfall near Badulla town,"waterfall,scenic,nature,beautiful",
-11,Haputale,Nature,Badulla,Badulla,4.9,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+11,Haputale,Nature,Badulla,Badulla,4.9,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 12,Diyaluma Falls,Nature,Badulla,Badulla,4.7,200,800,6.7333,81.0167,Low,Second highest waterfall in Sri Lanka,"waterfall,tallest,scenic,nature",
-13,Haputale,Nature,Badulla,Badulla,3.8,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+13,Haputale,Nature,Badulla,Badulla,3.8,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 14,Ella Rock,Adventure,Badulla,Badulla,3.2,200,1500,6.8667,81.0466,Low,Scenic hiking with valley views,"hiking,adventure,viewpoint,nature",
-15,Haputale,Nature,Badulla,Badulla,4.9,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+15,Haputale,Nature,Badulla,Badulla,4.9,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 16,Dunhinda Falls,Nature,Badulla,Badulla,3,300,1000,7.05,81.0667,Low,Beautiful waterfall near Badulla town,"waterfall,scenic,nature,beautiful",
 17,Ella Rock,Adventure,Badulla,Badulla,4.5,200,1500,6.8667,81.0466,Low,Scenic hiking with valley views,"hiking,adventure,viewpoint,nature",
-18,Haputale,Nature,Badulla,Badulla,3.4,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+18,Haputale,Nature,Badulla,Badulla,3.4,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 19,Demodara Loop,Nature,Badulla,Badulla,4.6,0,500,6.8756,81.0472,Low,Unique railway loop engineering,"railway,loop,unique,engineering",
 20,Lipton Seat,Nature,Badulla,Badulla,3.5,200,800,6.7667,81,Low,Famous tea estate viewpoint,"tea,viewpoint,scenic,nature",
 21,Dunhinda Falls,Nature,Badulla,Badulla,4.9,300,1000,7.05,81.0667,Low,Beautiful waterfall near Badulla town,"waterfall,scenic,nature,beautiful",
@@ -476,23 +476,23 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 35,Bogoda Wooden Bridge,Historical,Badulla,Badulla,4.8,100,400,7.05,81.0833,Low,Oldest wooden bridge in Sri Lanka,"bridge,wooden,ancient,historical",
 36,Ella Rock,Adventure,Badulla,Badulla,4.9,200,1500,6.8667,81.0466,Low,Scenic hiking with valley views,"hiking,adventure,viewpoint,nature",
 37,Ella Rock,Adventure,Badulla,Badulla,4.7,200,1500,6.8667,81.0466,Low,Scenic hiking with valley views,"hiking,adventure,viewpoint,nature",
-38,Haputale,Nature,Badulla,Badulla,3.9,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+38,Haputale,Nature,Badulla,Badulla,3.9,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 39,Diyaluma Falls,Nature,Badulla,Badulla,3.5,200,800,6.7333,81.0167,Low,Second highest waterfall in Sri Lanka,"waterfall,tallest,scenic,nature",
 40,Bogoda Wooden Bridge,Historical,Badulla,Badulla,3.9,100,400,7.05,81.0833,Low,Oldest wooden bridge in Sri Lanka,"bridge,wooden,ancient,historical",
-41,Haputale,Nature,Badulla,Badulla,4,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+41,Haputale,Nature,Badulla,Badulla,4,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 42,Ella Rock,Adventure,Badulla,Badulla,4.8,200,1500,6.8667,81.0466,Low,Scenic hiking with valley views,"hiking,adventure,viewpoint,nature",
 43,Lipton Seat,Nature,Badulla,Badulla,3.1,200,800,6.7667,81,Low,Famous tea estate viewpoint,"tea,viewpoint,scenic,nature",
 44,Diyaluma Falls,Nature,Badulla,Badulla,4.1,200,800,6.7333,81.0167,Low,Second highest waterfall in Sri Lanka,"waterfall,tallest,scenic,nature",
-45,Haputale,Nature,Badulla,Badulla,3,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+45,Haputale,Nature,Badulla,Badulla,3,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 46,Lipton Seat,Nature,Badulla,Badulla,3.7,200,800,6.7667,81,Low,Famous tea estate viewpoint,"tea,viewpoint,scenic,nature",
 47,Ella Rock,Adventure,Badulla,Badulla,5,200,1500,6.8667,81.0466,Low,Scenic hiking with valley views,"hiking,adventure,viewpoint,nature",
 48,Lipton Seat,Nature,Badulla,Badulla,5,200,800,6.7667,81,Low,Famous tea estate viewpoint,"tea,viewpoint,scenic,nature",
 49,Diyaluma Falls,Nature,Badulla,Badulla,4.9,200,800,6.7333,81.0167,Low,Second highest waterfall in Sri Lanka,"waterfall,tallest,scenic,nature",
 50,Lipton Seat,Nature,Badulla,Badulla,3.4,200,800,6.7667,81,Low,Famous tea estate viewpoint,"tea,viewpoint,scenic,nature",
-51,Haputale,Nature,Badulla,Badulla,3.6,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+51,Haputale,Nature,Badulla,Badulla,3.6,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 52,Nine Arches Bridge,Nature,Badulla,Badulla,3.1,0,500,6.879,81.059,Low,Iconic colonial railway bridge,"bridge,railway,colonial,scenic",
 53,Diyaluma Falls,Nature,Badulla,Badulla,4.6,200,800,6.7333,81.0167,Low,Second highest waterfall in Sri Lanka,"waterfall,tallest,scenic,nature",
-54,Haputale,Nature,Badulla,Badulla,4.7,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+54,Haputale,Nature,Badulla,Badulla,4.7,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 55,Lipton Seat,Nature,Badulla,Badulla,3.2,200,800,6.7667,81,Low,Famous tea estate viewpoint,"tea,viewpoint,scenic,nature",
 56,Lipton Seat,Nature,Badulla,Badulla,4.9,200,800,6.7667,81,Low,Famous tea estate viewpoint,"tea,viewpoint,scenic,nature",
 57,Ella Rock,Adventure,Badulla,Badulla,4.6,200,1500,6.8667,81.0466,Low,Scenic hiking with valley views,"hiking,adventure,viewpoint,nature",
@@ -514,7 +514,7 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 73,Dunhinda Falls,Nature,Badulla,Badulla,4.6,300,1000,7.05,81.0667,Low,Beautiful waterfall near Badulla town,"waterfall,scenic,nature,beautiful",
 74,Nine Arches Bridge,Nature,Badulla,Badulla,3.7,0,500,6.879,81.059,Low,Iconic colonial railway bridge,"bridge,railway,colonial,scenic",
 75,Ella Rock,Adventure,Badulla,Badulla,3.9,200,1500,6.8667,81.0466,Low,Scenic hiking with valley views,"hiking,adventure,viewpoint,nature",
-76,Haputale,Nature,Badulla,Badulla,4.2,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+76,Haputale,Nature,Badulla,Badulla,4.2,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 77,Nine Arches Bridge,Nature,Badulla,Badulla,3.2,0,500,6.879,81.059,Low,Iconic colonial railway bridge,"bridge,railway,colonial,scenic",
 78,Nine Arches Bridge,Nature,Badulla,Badulla,4.2,0,500,6.879,81.059,Low,Iconic colonial railway bridge,"bridge,railway,colonial,scenic",
 79,Lipton Seat,Nature,Badulla,Badulla,4.8,200,800,6.7667,81,Low,Famous tea estate viewpoint,"tea,viewpoint,scenic,nature",
@@ -525,10 +525,10 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 84,Ravana Falls,Nature,Badulla,Badulla,4.6,0,500,6.8456,81.0465,Low,Beautiful 25-meter waterfall,"waterfall,scenic,nature,ravana",
 85,Ella Rock,Adventure,Badulla,Badulla,3.3,200,1500,6.8667,81.0466,Low,Scenic hiking with valley views,"hiking,adventure,viewpoint,nature",
 86,Diyaluma Falls,Nature,Badulla,Badulla,4,200,800,6.7333,81.0167,Low,Second highest waterfall in Sri Lanka,"waterfall,tallest,scenic,nature",
-87,Haputale,Nature,Badulla,Badulla,3.6,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+87,Haputale,Nature,Badulla,Badulla,3.6,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 88,Bogoda Wooden Bridge,Historical,Badulla,Badulla,4.6,100,400,7.05,81.0833,Low,Oldest wooden bridge in Sri Lanka,"bridge,wooden,ancient,historical",
 89,Ravana Falls,Nature,Badulla,Badulla,3.9,0,500,6.8456,81.0465,Low,Beautiful 25-meter waterfall,"waterfall,scenic,nature,ravana",
-90,Haputale,Nature,Badulla,Badulla,3.6,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+90,Haputale,Nature,Badulla,Badulla,3.6,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 91,Ella Rock,Adventure,Badulla,Badulla,4,200,1500,6.8667,81.0466,Low,Scenic hiking with valley views,"hiking,adventure,viewpoint,nature",
 92,Ravana Falls,Nature,Badulla,Badulla,3.1,0,500,6.8456,81.0465,Low,Beautiful 25-meter waterfall,"waterfall,scenic,nature,ravana",
 93,Bogoda Wooden Bridge,Historical,Badulla,Badulla,4.6,100,400,7.05,81.0833,Low,Oldest wooden bridge in Sri Lanka,"bridge,wooden,ancient,historical",
@@ -536,29 +536,29 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 95,Diyaluma Falls,Nature,Badulla,Badulla,3.7,200,800,6.7333,81.0167,Low,Second highest waterfall in Sri Lanka,"waterfall,tallest,scenic,nature",
 96,Lipton Seat,Nature,Badulla,Badulla,4.3,200,800,6.7667,81,Low,Famous tea estate viewpoint,"tea,viewpoint,scenic,nature",
 97,Lipton Seat,Nature,Badulla,Badulla,4.6,200,800,6.7667,81,Low,Famous tea estate viewpoint,"tea,viewpoint,scenic,nature",
-98,Haputale,Nature,Badulla,Badulla,3.4,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+98,Haputale,Nature,Badulla,Badulla,3.4,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 99,Dunhinda Falls,Nature,Badulla,Badulla,4.4,300,1000,7.05,81.0667,Low,Beautiful waterfall near Badulla town,"waterfall,scenic,nature,beautiful",
 100,Dunhinda Falls,Nature,Badulla,Badulla,4.2,300,1000,7.05,81.0667,Low,Beautiful waterfall near Badulla town,"waterfall,scenic,nature,beautiful",
-101,Haputale,Nature,Badulla,Badulla,4.7,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
-102,Haputale,Nature,Badulla,Badulla,4.2,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+101,Haputale,Nature,Badulla,Badulla,4.7,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
+102,Haputale,Nature,Badulla,Badulla,4.2,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 103,Diyaluma Falls,Nature,Badulla,Badulla,3.7,200,800,6.7333,81.0167,Low,Second highest waterfall in Sri Lanka,"waterfall,tallest,scenic,nature",
 104,Nine Arches Bridge,Nature,Badulla,Badulla,3.9,0,500,6.879,81.059,Low,Iconic colonial railway bridge,"bridge,railway,colonial,scenic",
 105,Ella Rock,Adventure,Badulla,Badulla,4,200,1500,6.8667,81.0466,Low,Scenic hiking with valley views,"hiking,adventure,viewpoint,nature",
 106,Ella Rock,Adventure,Badulla,Badulla,4.3,200,1500,6.8667,81.0466,Low,Scenic hiking with valley views,"hiking,adventure,viewpoint,nature",
 107,Lipton Seat,Nature,Badulla,Badulla,3.9,200,800,6.7667,81,Low,Famous tea estate viewpoint,"tea,viewpoint,scenic,nature",
 108,Lipton Seat,Nature,Badulla,Badulla,3.5,200,800,6.7667,81,Low,Famous tea estate viewpoint,"tea,viewpoint,scenic,nature",
-109,Haputale,Nature,Badulla,Badulla,4.6,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+109,Haputale,Nature,Badulla,Badulla,4.6,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 110,Diyaluma Falls,Nature,Badulla,Badulla,3.4,200,800,6.7333,81.0167,Low,Second highest waterfall in Sri Lanka,"waterfall,tallest,scenic,nature",
 111,Ravana Falls,Nature,Badulla,Badulla,4.7,0,500,6.8456,81.0465,Low,Beautiful 25-meter waterfall,"waterfall,scenic,nature,ravana",
 112,Ella Rock,Adventure,Badulla,Badulla,3.7,200,1500,6.8667,81.0466,Low,Scenic hiking with valley views,"hiking,adventure,viewpoint,nature",
 113,Nine Arches Bridge,Nature,Badulla,Badulla,3.7,0,500,6.879,81.059,Low,Iconic colonial railway bridge,"bridge,railway,colonial,scenic",
 114,Bogoda Wooden Bridge,Historical,Badulla,Badulla,3.2,100,400,7.05,81.0833,Low,Oldest wooden bridge in Sri Lanka,"bridge,wooden,ancient,historical",
 115,Demodara Loop,Nature,Badulla,Badulla,3.9,0,500,6.8756,81.0472,Low,Unique railway loop engineering,"railway,loop,unique,engineering",
-116,Haputale,Nature,Badulla,Badulla,3.1,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+116,Haputale,Nature,Badulla,Badulla,3.1,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 117,Ella Rock,Adventure,Badulla,Badulla,3.4,200,1500,6.8667,81.0466,Low,Scenic hiking with valley views,"hiking,adventure,viewpoint,nature",
 118,Demodara Loop,Nature,Badulla,Badulla,3.3,0,500,6.8756,81.0472,Low,Unique railway loop engineering,"railway,loop,unique,engineering",
 119,Demodara Loop,Nature,Badulla,Badulla,4.4,0,500,6.8756,81.0472,Low,Unique railway loop engineering,"railway,loop,unique,engineering",
-120,Haputale,Nature,Badulla,Badulla,4.7,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+120,Haputale,Nature,Badulla,Badulla,4.7,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 121,Lipton Seat,Nature,Badulla,Badulla,3.4,200,800,6.7667,81,Low,Famous tea estate viewpoint,"tea,viewpoint,scenic,nature",
 122,Ella Rock,Adventure,Badulla,Badulla,3.4,200,1500,6.8667,81.0466,Low,Scenic hiking with valley views,"hiking,adventure,viewpoint,nature",
 123,Demodara Loop,Nature,Badulla,Badulla,4.8,0,500,6.8756,81.0472,Low,Unique railway loop engineering,"railway,loop,unique,engineering",
@@ -567,18 +567,18 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 126,Nine Arches Bridge,Nature,Badulla,Badulla,3.7,0,500,6.879,81.059,Low,Iconic colonial railway bridge,"bridge,railway,colonial,scenic",
 127,Lipton Seat,Nature,Badulla,Badulla,3.6,200,800,6.7667,81,Low,Famous tea estate viewpoint,"tea,viewpoint,scenic,nature",
 128,Lipton Seat,Nature,Badulla,Badulla,3.7,200,800,6.7667,81,Low,Famous tea estate viewpoint,"tea,viewpoint,scenic,nature",
-129,Haputale,Nature,Badulla,Badulla,4.3,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+129,Haputale,Nature,Badulla,Badulla,4.3,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 130,Bogoda Wooden Bridge,Historical,Badulla,Badulla,5,100,400,7.05,81.0833,Low,Oldest wooden bridge in Sri Lanka,"bridge,wooden,ancient,historical",
 131,Diyaluma Falls,Nature,Badulla,Badulla,4.8,200,800,6.7333,81.0167,Low,Second highest waterfall in Sri Lanka,"waterfall,tallest,scenic,nature",
 132,Nine Arches Bridge,Nature,Badulla,Badulla,3.2,0,500,6.879,81.059,Low,Iconic colonial railway bridge,"bridge,railway,colonial,scenic",
 133,Ravana Falls,Nature,Badulla,Badulla,4.6,0,500,6.8456,81.0465,Low,Beautiful 25-meter waterfall,"waterfall,scenic,nature,ravana",
 134,Lipton Seat,Nature,Badulla,Badulla,4.1,200,800,6.7667,81,Low,Famous tea estate viewpoint,"tea,viewpoint,scenic,nature",
-135,Haputale,Nature,Badulla,Badulla,3.6,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+135,Haputale,Nature,Badulla,Badulla,3.6,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 136,Diyaluma Falls,Nature,Badulla,Badulla,5,200,800,6.7333,81.0167,Low,Second highest waterfall in Sri Lanka,"waterfall,tallest,scenic,nature",
 137,Lipton Seat,Nature,Badulla,Badulla,4.8,200,800,6.7667,81,Low,Famous tea estate viewpoint,"tea,viewpoint,scenic,nature",
 138,Lipton Seat,Nature,Badulla,Badulla,4.7,200,800,6.7667,81,Low,Famous tea estate viewpoint,"tea,viewpoint,scenic,nature",
 139,Demodara Loop,Nature,Badulla,Badulla,4.6,0,500,6.8756,81.0472,Low,Unique railway loop engineering,"railway,loop,unique,engineering",
-140,Haputale,Nature,Badulla,Badulla,3.5,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+140,Haputale,Nature,Badulla,Badulla,3.5,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 141,Demodara Loop,Nature,Badulla,Badulla,4.7,0,500,6.8756,81.0472,Low,Unique railway loop engineering,"railway,loop,unique,engineering",
 142,Bogoda Wooden Bridge,Historical,Badulla,Badulla,4.9,100,400,7.05,81.0833,Low,Oldest wooden bridge in Sri Lanka,"bridge,wooden,ancient,historical",
 143,Dunhinda Falls,Nature,Badulla,Badulla,3.4,300,1000,7.05,81.0667,Low,Beautiful waterfall near Badulla town,"waterfall,scenic,nature,beautiful",
@@ -587,7 +587,7 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 146,Diyaluma Falls,Nature,Badulla,Badulla,4.5,200,800,6.7333,81.0167,Low,Second highest waterfall in Sri Lanka,"waterfall,tallest,scenic,nature",
 147,Bogoda Wooden Bridge,Historical,Badulla,Badulla,3.7,100,400,7.05,81.0833,Low,Oldest wooden bridge in Sri Lanka,"bridge,wooden,ancient,historical",
 148,Bogoda Wooden Bridge,Historical,Badulla,Badulla,3.9,100,400,7.05,81.0833,Low,Oldest wooden bridge in Sri Lanka,"bridge,wooden,ancient,historical",
-149,Haputale,Nature,Badulla,Badulla,4.4,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+149,Haputale,Nature,Badulla,Badulla,4.4,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 150,Bogoda Wooden Bridge,Historical,Badulla,Badulla,4.4,100,400,7.05,81.0833,Low,Oldest wooden bridge in Sri Lanka,"bridge,wooden,ancient,historical",
 151,Dunhinda Falls,Nature,Badulla,Badulla,3.9,300,1000,7.05,81.0667,Low,Beautiful waterfall near Badulla town,"waterfall,scenic,nature,beautiful",
 152,Diyaluma Falls,Nature,Badulla,Badulla,4.3,200,800,6.7333,81.0167,Low,Second highest waterfall in Sri Lanka,"waterfall,tallest,scenic,nature",
@@ -596,15 +596,15 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 155,Lipton Seat,Nature,Badulla,Badulla,3.8,200,800,6.7667,81,Low,Famous tea estate viewpoint,"tea,viewpoint,scenic,nature",
 156,Demodara Loop,Nature,Badulla,Badulla,3.9,0,500,6.8756,81.0472,Low,Unique railway loop engineering,"railway,loop,unique,engineering",
 157,Diyaluma Falls,Nature,Badulla,Badulla,4.1,200,800,6.7333,81.0167,Low,Second highest waterfall in Sri Lanka,"waterfall,tallest,scenic,nature",
-158,Haputale,Nature,Badulla,Badulla,3.5,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+158,Haputale,Nature,Badulla,Badulla,3.5,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 159,Nine Arches Bridge,Nature,Badulla,Badulla,3.3,0,500,6.879,81.059,Low,Iconic colonial railway bridge,"bridge,railway,colonial,scenic",
 160,Nine Arches Bridge,Nature,Badulla,Badulla,3.6,0,500,6.879,81.059,Low,Iconic colonial railway bridge,"bridge,railway,colonial,scenic",
 161,Bogoda Wooden Bridge,Historical,Badulla,Badulla,3.7,100,400,7.05,81.0833,Low,Oldest wooden bridge in Sri Lanka,"bridge,wooden,ancient,historical",
 162,Ella Rock,Adventure,Badulla,Badulla,3.9,200,1500,6.8667,81.0466,Low,Scenic hiking with valley views,"hiking,adventure,viewpoint,nature",
-163,Haputale,Nature,Badulla,Badulla,3.9,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+163,Haputale,Nature,Badulla,Badulla,3.9,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 164,Dunhinda Falls,Nature,Badulla,Badulla,3.9,300,1000,7.05,81.0667,Low,Beautiful waterfall near Badulla town,"waterfall,scenic,nature,beautiful",
-165,Haputale,Nature,Badulla,Badulla,4.6,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
-166,Haputale,Nature,Badulla,Badulla,3.5,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+165,Haputale,Nature,Badulla,Badulla,4.6,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
+166,Haputale,Nature,Badulla,Badulla,3.5,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 167,Ella Rock,Adventure,Badulla,Badulla,3.4,200,1500,6.8667,81.0466,Low,Scenic hiking with valley views,"hiking,adventure,viewpoint,nature",
 168,Lipton Seat,Nature,Badulla,Badulla,3.5,200,800,6.7667,81,Low,Famous tea estate viewpoint,"tea,viewpoint,scenic,nature",
 169,Nine Arches Bridge,Nature,Badulla,Badulla,3.7,0,500,6.879,81.059,Low,Iconic colonial railway bridge,"bridge,railway,colonial,scenic",
@@ -637,19 +637,19 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 196,Ella Rock,Adventure,Badulla,Badulla,3.7,200,1500,6.8667,81.0466,Low,Scenic hiking with valley views,"hiking,adventure,viewpoint,nature",
 197,Ravana Falls,Nature,Badulla,Badulla,3.6,0,500,6.8456,81.0465,Low,Beautiful 25-meter waterfall,"waterfall,scenic,nature,ravana",
 198,Ella Rock,Adventure,Badulla,Badulla,4,200,1500,6.8667,81.0466,Low,Scenic hiking with valley views,"hiking,adventure,viewpoint,nature",
-199,Haputale,Nature,Badulla,Badulla,3.7,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+199,Haputale,Nature,Badulla,Badulla,3.7,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 200,Diyaluma Falls,Nature,Badulla,Badulla,3.9,200,800,6.7333,81.0167,Low,Second highest waterfall in Sri Lanka,"waterfall,tallest,scenic,nature",
 201,Diyaluma Falls,Nature,Badulla,Badulla,4.5,200,800,6.7333,81.0167,Low,Second highest waterfall in Sri Lanka,"waterfall,tallest,scenic,nature",
 202,Bogoda Wooden Bridge,Historical,Badulla,Badulla,3.6,100,400,7.05,81.0833,Low,Oldest wooden bridge in Sri Lanka,"bridge,wooden,ancient,historical",
 203,Ella Rock,Adventure,Badulla,Badulla,4.1,200,1500,6.8667,81.0466,Low,Scenic hiking with valley views,"hiking,adventure,viewpoint,nature",
 204,Ella Rock,Adventure,Badulla,Badulla,4.8,200,1500,6.8667,81.0466,Low,Scenic hiking with valley views,"hiking,adventure,viewpoint,nature",
 205,Ravana Falls,Nature,Badulla,Badulla,5,0,500,6.8456,81.0465,Low,Beautiful 25-meter waterfall,"waterfall,scenic,nature,ravana",
-206,Haputale,Nature,Badulla,Badulla,4.1,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+206,Haputale,Nature,Badulla,Badulla,4.1,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 207,Diyaluma Falls,Nature,Badulla,Badulla,5,200,800,6.7333,81.0167,Low,Second highest waterfall in Sri Lanka,"waterfall,tallest,scenic,nature",
 208,Lipton Seat,Nature,Badulla,Badulla,4.9,200,800,6.7667,81,Low,Famous tea estate viewpoint,"tea,viewpoint,scenic,nature",
 209,Nine Arches Bridge,Nature,Badulla,Badulla,4.1,0,500,6.879,81.059,Low,Iconic colonial railway bridge,"bridge,railway,colonial,scenic",
 210,Lipton Seat,Nature,Badulla,Badulla,3.9,200,800,6.7667,81,Low,Famous tea estate viewpoint,"tea,viewpoint,scenic,nature",
-211,Haputale,Nature,Badulla,Badulla,4.1,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",
+211,Haputale,Nature,Badulla,Badulla,4.1,200,800,6.7667,80.9667,Low,Scenic hill town with mountain views,"hills,scenic,tea,nature",images/haputale.jpg
 212,Dunhinda Falls,Nature,Badulla,Badulla,4.3,300,1000,7.05,81.0667,Low,Beautiful waterfall near Badulla town,"waterfall,scenic,nature,beautiful",
 213,Demodara Loop,Nature,Badulla,Badulla,3.2,0,500,6.8756,81.0472,Low,Unique railway loop engineering,"railway,loop,unique,engineering",
 214,Nine Arches Bridge,Nature,Badulla,Badulla,4.3,0,500,6.879,81.059,Low,Iconic colonial railway bridge,"bridge,railway,colonial,scenic",
@@ -879,226 +879,226 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 218,Batticaloa Lagoon,Nature,Batticaloa,Batticaloa,4.3,200,800,7.7167,81.7,Low,Singing fish lagoon - unique natural phenomenon,"lagoon,singfish,unique,nature",
 219,Kalkudah Beach,Beach,Batticaloa,Batticaloa,3.7,300,1500,7.95,81.5333,Low,Pristine beach with turquoise water,"beach,pristine,turquoise,scenic",
 220,Kallady Bridge,Nature,Batticaloa,Batticaloa,4.3,0,300,7.7,81.7,Low,Scenic bridge over Batticaloa lagoon,"bridge,lagoon,scenic,nature",
-1,Gangaramaya Temple,Religious,Colombo,Colombo,3.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-2,Gangaramaya Temple,Religious,Colombo,Colombo,4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-3,Gangaramaya Temple,Religious,Colombo,Colombo,5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-4,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-5,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-6,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-7,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-8,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-9,Gangaramaya Temple,Religious,Colombo,Colombo,3.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-10,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-11,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-12,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-13,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-14,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-15,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-16,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-17,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-18,Gangaramaya Temple,Religious,Colombo,Colombo,3.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-19,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-20,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-21,Gangaramaya Temple,Religious,Colombo,Colombo,4.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-22,Gangaramaya Temple,Religious,Colombo,Colombo,4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-23,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-24,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-25,Gangaramaya Temple,Religious,Colombo,Colombo,3.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-26,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-27,Gangaramaya Temple,Religious,Colombo,Colombo,3.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-28,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-29,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-30,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-31,Gangaramaya Temple,Religious,Colombo,Colombo,3.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-32,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-33,Gangaramaya Temple,Religious,Colombo,Colombo,4.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-34,Gangaramaya Temple,Religious,Colombo,Colombo,4.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-35,Gangaramaya Temple,Religious,Colombo,Colombo,3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-36,Gangaramaya Temple,Religious,Colombo,Colombo,4.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-37,Gangaramaya Temple,Religious,Colombo,Colombo,4.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-38,Gangaramaya Temple,Religious,Colombo,Colombo,3.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-39,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-40,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-41,Gangaramaya Temple,Religious,Colombo,Colombo,3.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-42,Gangaramaya Temple,Religious,Colombo,Colombo,4.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-43,Gangaramaya Temple,Religious,Colombo,Colombo,3.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-44,Gangaramaya Temple,Religious,Colombo,Colombo,3.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-45,Gangaramaya Temple,Religious,Colombo,Colombo,3.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-46,Gangaramaya Temple,Religious,Colombo,Colombo,4.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-47,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-48,Gangaramaya Temple,Religious,Colombo,Colombo,3.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-49,Gangaramaya Temple,Religious,Colombo,Colombo,5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-50,Gangaramaya Temple,Religious,Colombo,Colombo,4.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-51,Gangaramaya Temple,Religious,Colombo,Colombo,4.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-52,Gangaramaya Temple,Religious,Colombo,Colombo,4.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-53,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-54,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-55,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-56,Gangaramaya Temple,Religious,Colombo,Colombo,4.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-57,Gangaramaya Temple,Religious,Colombo,Colombo,3.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-58,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-59,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-60,Gangaramaya Temple,Religious,Colombo,Colombo,4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-61,Gangaramaya Temple,Religious,Colombo,Colombo,4.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-62,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-63,Gangaramaya Temple,Religious,Colombo,Colombo,4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-64,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-65,Gangaramaya Temple,Religious,Colombo,Colombo,3.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-66,Gangaramaya Temple,Religious,Colombo,Colombo,4.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-67,Gangaramaya Temple,Religious,Colombo,Colombo,4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-68,Gangaramaya Temple,Religious,Colombo,Colombo,4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-69,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-70,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-71,Gangaramaya Temple,Religious,Colombo,Colombo,3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-72,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-73,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-74,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-75,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-76,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-77,Gangaramaya Temple,Religious,Colombo,Colombo,3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-78,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-79,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-80,Gangaramaya Temple,Religious,Colombo,Colombo,3.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-81,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-82,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-83,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-84,Gangaramaya Temple,Religious,Colombo,Colombo,4.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-85,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-86,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-87,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-88,Gangaramaya Temple,Religious,Colombo,Colombo,4.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-89,Gangaramaya Temple,Religious,Colombo,Colombo,3.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-90,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-91,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-92,Gangaramaya Temple,Religious,Colombo,Colombo,4.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-93,Gangaramaya Temple,Religious,Colombo,Colombo,4.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-94,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-95,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-96,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-97,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-98,Gangaramaya Temple,Religious,Colombo,Colombo,3.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-99,Gangaramaya Temple,Religious,Colombo,Colombo,3.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-100,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-101,Gangaramaya Temple,Religious,Colombo,Colombo,4.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-102,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-103,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-104,Gangaramaya Temple,Religious,Colombo,Colombo,4.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-105,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-106,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-107,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-108,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-109,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-110,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-111,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-112,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-113,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-114,Gangaramaya Temple,Religious,Colombo,Colombo,4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-115,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-116,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-117,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-118,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-119,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-120,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-121,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-122,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-123,Gangaramaya Temple,Religious,Colombo,Colombo,3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-124,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-125,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-126,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-127,Gangaramaya Temple,Religious,Colombo,Colombo,3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-128,Gangaramaya Temple,Religious,Colombo,Colombo,4.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-129,Gangaramaya Temple,Religious,Colombo,Colombo,3.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-130,Gangaramaya Temple,Religious,Colombo,Colombo,3.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-131,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-132,Gangaramaya Temple,Religious,Colombo,Colombo,3.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-133,Gangaramaya Temple,Religious,Colombo,Colombo,3.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-134,Gangaramaya Temple,Religious,Colombo,Colombo,4.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-135,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-136,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-137,Gangaramaya Temple,Religious,Colombo,Colombo,3.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-138,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-139,Gangaramaya Temple,Religious,Colombo,Colombo,3.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-140,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-141,Gangaramaya Temple,Religious,Colombo,Colombo,3.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-142,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-143,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-144,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-145,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-146,Gangaramaya Temple,Religious,Colombo,Colombo,4.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-147,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-148,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-149,Gangaramaya Temple,Religious,Colombo,Colombo,4.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-150,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-151,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-152,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-153,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-154,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-155,Gangaramaya Temple,Religious,Colombo,Colombo,3.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-156,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-157,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-158,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-159,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-160,Gangaramaya Temple,Religious,Colombo,Colombo,3.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-161,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-162,Gangaramaya Temple,Religious,Colombo,Colombo,4.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-163,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-164,Gangaramaya Temple,Religious,Colombo,Colombo,4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-165,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-166,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-167,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-168,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-169,Gangaramaya Temple,Religious,Colombo,Colombo,3.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-170,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-171,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-172,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-173,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-174,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-175,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-176,Gangaramaya Temple,Religious,Colombo,Colombo,3.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-177,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-178,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-179,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-180,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-181,Gangaramaya Temple,Religious,Colombo,Colombo,3.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-182,Gangaramaya Temple,Religious,Colombo,Colombo,3.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-183,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-184,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-185,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-186,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-187,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-188,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-189,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-190,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-191,Gangaramaya Temple,Religious,Colombo,Colombo,3.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-192,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-193,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-194,Gangaramaya Temple,Religious,Colombo,Colombo,5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-195,Gangaramaya Temple,Religious,Colombo,Colombo,4.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-196,Gangaramaya Temple,Religious,Colombo,Colombo,4.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-197,Gangaramaya Temple,Religious,Colombo,Colombo,3.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-198,Gangaramaya Temple,Religious,Colombo,Colombo,3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-199,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-200,Gangaramaya Temple,Religious,Colombo,Colombo,4.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-201,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-202,Gangaramaya Temple,Religious,Colombo,Colombo,4.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-203,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-204,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-205,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-206,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-207,Gangaramaya Temple,Religious,Colombo,Colombo,4.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-208,Gangaramaya Temple,Religious,Colombo,Colombo,3.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-209,Gangaramaya Temple,Religious,Colombo,Colombo,3.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-210,Gangaramaya Temple,Religious,Colombo,Colombo,4.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-211,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-212,Gangaramaya Temple,Religious,Colombo,Colombo,4.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-213,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-214,Gangaramaya Temple,Religious,Colombo,Colombo,4.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-215,Gangaramaya Temple,Religious,Colombo,Colombo,4.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-216,Gangaramaya Temple,Religious,Colombo,Colombo,4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-217,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-218,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-219,Gangaramaya Temple,Religious,Colombo,Colombo,4.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
-220,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",
+1,Gangaramaya Temple,Religious,Colombo,Colombo,3.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+2,Gangaramaya Temple,Religious,Colombo,Colombo,4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+3,Gangaramaya Temple,Religious,Colombo,Colombo,5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+4,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+5,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+6,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+7,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+8,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+9,Gangaramaya Temple,Religious,Colombo,Colombo,3.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+10,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+11,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+12,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+13,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+14,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+15,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+16,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+17,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+18,Gangaramaya Temple,Religious,Colombo,Colombo,3.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+19,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+20,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+21,Gangaramaya Temple,Religious,Colombo,Colombo,4.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+22,Gangaramaya Temple,Religious,Colombo,Colombo,4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+23,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+24,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+25,Gangaramaya Temple,Religious,Colombo,Colombo,3.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+26,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+27,Gangaramaya Temple,Religious,Colombo,Colombo,3.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+28,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+29,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+30,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+31,Gangaramaya Temple,Religious,Colombo,Colombo,3.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+32,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+33,Gangaramaya Temple,Religious,Colombo,Colombo,4.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+34,Gangaramaya Temple,Religious,Colombo,Colombo,4.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+35,Gangaramaya Temple,Religious,Colombo,Colombo,3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+36,Gangaramaya Temple,Religious,Colombo,Colombo,4.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+37,Gangaramaya Temple,Religious,Colombo,Colombo,4.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+38,Gangaramaya Temple,Religious,Colombo,Colombo,3.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+39,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+40,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+41,Gangaramaya Temple,Religious,Colombo,Colombo,3.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+42,Gangaramaya Temple,Religious,Colombo,Colombo,4.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+43,Gangaramaya Temple,Religious,Colombo,Colombo,3.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+44,Gangaramaya Temple,Religious,Colombo,Colombo,3.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+45,Gangaramaya Temple,Religious,Colombo,Colombo,3.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+46,Gangaramaya Temple,Religious,Colombo,Colombo,4.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+47,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+48,Gangaramaya Temple,Religious,Colombo,Colombo,3.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+49,Gangaramaya Temple,Religious,Colombo,Colombo,5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+50,Gangaramaya Temple,Religious,Colombo,Colombo,4.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+51,Gangaramaya Temple,Religious,Colombo,Colombo,4.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+52,Gangaramaya Temple,Religious,Colombo,Colombo,4.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+53,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+54,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+55,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+56,Gangaramaya Temple,Religious,Colombo,Colombo,4.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+57,Gangaramaya Temple,Religious,Colombo,Colombo,3.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+58,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+59,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+60,Gangaramaya Temple,Religious,Colombo,Colombo,4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+61,Gangaramaya Temple,Religious,Colombo,Colombo,4.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+62,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+63,Gangaramaya Temple,Religious,Colombo,Colombo,4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+64,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+65,Gangaramaya Temple,Religious,Colombo,Colombo,3.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+66,Gangaramaya Temple,Religious,Colombo,Colombo,4.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+67,Gangaramaya Temple,Religious,Colombo,Colombo,4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+68,Gangaramaya Temple,Religious,Colombo,Colombo,4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+69,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+70,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+71,Gangaramaya Temple,Religious,Colombo,Colombo,3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+72,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+73,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+74,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+75,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+76,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+77,Gangaramaya Temple,Religious,Colombo,Colombo,3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+78,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+79,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+80,Gangaramaya Temple,Religious,Colombo,Colombo,3.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+81,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+82,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+83,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+84,Gangaramaya Temple,Religious,Colombo,Colombo,4.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+85,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+86,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+87,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+88,Gangaramaya Temple,Religious,Colombo,Colombo,4.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+89,Gangaramaya Temple,Religious,Colombo,Colombo,3.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+90,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+91,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+92,Gangaramaya Temple,Religious,Colombo,Colombo,4.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+93,Gangaramaya Temple,Religious,Colombo,Colombo,4.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+94,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+95,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+96,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+97,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+98,Gangaramaya Temple,Religious,Colombo,Colombo,3.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+99,Gangaramaya Temple,Religious,Colombo,Colombo,3.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+100,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+101,Gangaramaya Temple,Religious,Colombo,Colombo,4.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+102,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+103,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+104,Gangaramaya Temple,Religious,Colombo,Colombo,4.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+105,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+106,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+107,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+108,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+109,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+110,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+111,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+112,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+113,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+114,Gangaramaya Temple,Religious,Colombo,Colombo,4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+115,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+116,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+117,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+118,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+119,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+120,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+121,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+122,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+123,Gangaramaya Temple,Religious,Colombo,Colombo,3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+124,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+125,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+126,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+127,Gangaramaya Temple,Religious,Colombo,Colombo,3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+128,Gangaramaya Temple,Religious,Colombo,Colombo,4.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+129,Gangaramaya Temple,Religious,Colombo,Colombo,3.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+130,Gangaramaya Temple,Religious,Colombo,Colombo,3.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+131,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+132,Gangaramaya Temple,Religious,Colombo,Colombo,3.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+133,Gangaramaya Temple,Religious,Colombo,Colombo,3.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+134,Gangaramaya Temple,Religious,Colombo,Colombo,4.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+135,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+136,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+137,Gangaramaya Temple,Religious,Colombo,Colombo,3.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+138,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+139,Gangaramaya Temple,Religious,Colombo,Colombo,3.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+140,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+141,Gangaramaya Temple,Religious,Colombo,Colombo,3.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+142,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+143,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+144,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+145,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+146,Gangaramaya Temple,Religious,Colombo,Colombo,4.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+147,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+148,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+149,Gangaramaya Temple,Religious,Colombo,Colombo,4.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+150,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+151,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+152,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+153,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+154,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+155,Gangaramaya Temple,Religious,Colombo,Colombo,3.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+156,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+157,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+158,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+159,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+160,Gangaramaya Temple,Religious,Colombo,Colombo,3.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+161,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+162,Gangaramaya Temple,Religious,Colombo,Colombo,4.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+163,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+164,Gangaramaya Temple,Religious,Colombo,Colombo,4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+165,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+166,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+167,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+168,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+169,Gangaramaya Temple,Religious,Colombo,Colombo,3.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+170,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+171,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+172,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+173,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+174,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+175,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+176,Gangaramaya Temple,Religious,Colombo,Colombo,3.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+177,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+178,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+179,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+180,Gangaramaya Temple,Religious,Colombo,Colombo,4.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+181,Gangaramaya Temple,Religious,Colombo,Colombo,3.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+182,Gangaramaya Temple,Religious,Colombo,Colombo,3.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+183,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+184,Gangaramaya Temple,Religious,Colombo,Colombo,3.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+185,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+186,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+187,Gangaramaya Temple,Religious,Colombo,Colombo,4.5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+188,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+189,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+190,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+191,Gangaramaya Temple,Religious,Colombo,Colombo,3.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+192,Gangaramaya Temple,Religious,Colombo,Colombo,4.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+193,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+194,Gangaramaya Temple,Religious,Colombo,Colombo,5,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+195,Gangaramaya Temple,Religious,Colombo,Colombo,4.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+196,Gangaramaya Temple,Religious,Colombo,Colombo,4.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+197,Gangaramaya Temple,Religious,Colombo,Colombo,3.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+198,Gangaramaya Temple,Religious,Colombo,Colombo,3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+199,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+200,Gangaramaya Temple,Religious,Colombo,Colombo,4.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+201,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+202,Gangaramaya Temple,Religious,Colombo,Colombo,4.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+203,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+204,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+205,Gangaramaya Temple,Religious,Colombo,Colombo,3.9,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+206,Gangaramaya Temple,Religious,Colombo,Colombo,4.1,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+207,Gangaramaya Temple,Religious,Colombo,Colombo,4.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+208,Gangaramaya Temple,Religious,Colombo,Colombo,3.6,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+209,Gangaramaya Temple,Religious,Colombo,Colombo,3.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+210,Gangaramaya Temple,Religious,Colombo,Colombo,4.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+211,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+212,Gangaramaya Temple,Religious,Colombo,Colombo,4.3,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+213,Gangaramaya Temple,Religious,Colombo,Colombo,3.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+214,Gangaramaya Temple,Religious,Colombo,Colombo,4.7,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+215,Gangaramaya Temple,Religious,Colombo,Colombo,4.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+216,Gangaramaya Temple,Religious,Colombo,Colombo,4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+217,Gangaramaya Temple,Religious,Colombo,Colombo,3.8,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+218,Gangaramaya Temple,Religious,Colombo,Colombo,3.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+219,Gangaramaya Temple,Religious,Colombo,Colombo,4.2,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
+220,Gangaramaya Temple,Religious,Colombo,Colombo,4.4,0,500,6.9154,79.856,Low,Eclectic Buddhist temple,"temple,buddhist,religious",images/gangaramaya_temple.jpg
 1,Galle Fort,Historical,Galle,Galle,4.1,0,1000,6.0296,80.217,Low,UNESCO World Heritage Dutch colonial fort,"UNESCO,fort,colonial,historical",
 2,Unawatuna Beach,Beach,Galle,Galle,4.6,300,1500,6.009,80.249,Low,Sheltered bay with coral reefs,"beach,coral,snorkeling,relaxation",
 3,Hikkaduwa Beach,Beach,Galle,Galle,4.8,400,1800,6.1391,80.1027,Low,Vibrant beach with coral sanctuary,"beach,coral,surf,turtle",
@@ -2641,7 +2641,7 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 220,Pinnawala Elephant Orphanage,Wildlife,Kegalle,Kegalle,4.4,2000,4000,7.3003,80.3842,Medium,Home to largest captive elephant herd,"elephant,orphanage,wildlife,family",
 1,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,4.1,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
 2,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,4.5,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
-3,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.6,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+3,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.6,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 4,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,3.9,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 5,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,3.7,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 6,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,3.8,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
@@ -2650,15 +2650,15 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 9,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,3.7,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 10,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,3.4,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
 11,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,3.8,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
-12,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.7,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
-13,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.7,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+12,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.7,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
+13,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.7,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 14,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,3.8,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 15,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,3.7,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 16,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,3.2,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
-17,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.4,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
-18,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.1,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+17,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.4,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
+18,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.1,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 19,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,3.9,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
-20,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.9,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+20,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.9,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 21,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,3.2,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 22,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,3.4,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 23,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,4.4,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
@@ -2666,23 +2666,23 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 25,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,4.4,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 26,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,3.7,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
 27,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,4.9,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
-28,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.2,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+28,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.2,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 29,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,4.4,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
-30,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+30,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 31,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,3.7,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
-32,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.1,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+32,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.1,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 33,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,3.8,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
 34,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,4.4,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 35,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,4.2,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
-36,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.8,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+36,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.8,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 37,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,3.6,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
 38,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,3.9,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
 39,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,4.2,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
-40,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.9,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+40,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.9,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 41,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,4.4,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 42,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,3.9,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 43,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,4.3,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
-44,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+44,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 45,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,3.7,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 46,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,4.3,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
 47,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,4.6,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
@@ -2707,28 +2707,28 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 66,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,4.5,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
 67,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,3.9,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 68,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,4.7,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
-69,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.5,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+69,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.5,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 70,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,4,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 71,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,3.5,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
 72,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,4.4,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
 73,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,3.5,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
-74,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.8,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+74,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.8,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 75,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,3.3,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
 76,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,3.8,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
 77,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,4.4,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
 78,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,3.8,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
-79,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.1,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+79,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.1,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 80,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,3.1,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 81,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,3.8,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 82,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,4.9,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 83,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,4.7,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
 84,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,3.8,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 85,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,4.9,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
-86,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.5,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+86,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.5,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 87,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,4.1,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 88,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,4.6,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 89,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,4,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
-90,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.9,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+90,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.9,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 91,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,3.8,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
 92,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,4.4,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 93,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,4.8,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
@@ -2737,14 +2737,14 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 96,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,3.2,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
 97,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,3.3,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 98,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,3.4,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
-99,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.8,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+99,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.8,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 100,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,3.9,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
-101,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.5,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+101,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.5,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 102,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,3.6,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 103,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,3.5,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 104,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,3.9,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
 105,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,3.1,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
-106,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.4,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+106,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.4,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 107,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,4.6,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
 108,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,4.5,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
 109,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,3.4,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
@@ -2752,28 +2752,28 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 111,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,3.3,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
 112,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,4.1,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
 113,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,3.9,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
-114,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.5,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+114,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.5,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 115,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,4.2,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
 116,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,4.6,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
 117,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,4.9,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
 118,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,4.2,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
-119,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.2,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+119,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.2,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 120,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,3.8,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 121,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,3.2,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
 122,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,3.2,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
-123,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.7,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+123,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.7,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 124,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,4.6,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 125,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,4.6,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
-126,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.1,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
-127,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.1,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
-128,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+126,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.1,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
+127,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.1,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
+128,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 129,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,4.6,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 130,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,3.9,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
-131,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.3,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+131,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.3,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 132,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,4.4,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 133,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,3.4,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 134,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,4.9,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
-135,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.2,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+135,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.2,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 136,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,4.5,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 137,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,3.9,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 138,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,3.5,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
@@ -2784,10 +2784,10 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 143,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,3.7,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 144,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,4.7,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 145,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,4,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
-146,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.6,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
-147,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.6,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+146,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.6,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
+147,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.6,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 148,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,4.4,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
-149,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.1,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+149,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.1,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 150,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,4.9,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 151,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,3.5,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
 152,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,4,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
@@ -2801,7 +2801,7 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 160,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,5,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 161,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,3.7,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 162,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,3.5,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
-163,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.5,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+163,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.5,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 164,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,3.6,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
 165,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,4.9,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 166,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,3.4,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
@@ -2809,7 +2809,7 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 168,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,5,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 169,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,4.2,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 170,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,4.7,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
-171,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.5,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+171,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.5,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 172,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,3.6,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
 173,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,3.3,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 174,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,4.9,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
@@ -2818,7 +2818,7 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 177,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,3.2,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 178,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,4.1,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
 179,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,4,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
-180,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.4,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+180,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,3.4,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 181,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,3.5,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
 182,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,3.2,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 183,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,3.8,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
@@ -2832,17 +2832,17 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 191,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,3.8,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 192,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,3.6,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 193,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,5,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
-194,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.1,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+194,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.1,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 195,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,4.2,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
 196,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,4.9,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
 197,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,4.3,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
-198,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.3,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+198,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.3,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 199,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,3.5,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
 200,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,3.2,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 201,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,3.8,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
 202,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,3.9,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 203,Kilinochchi Water Tower,Historical,Kilinochchi,Kilinochchi,3.5,0,300,9.3833,80.4,Low,Iconic water tower damaged in war - symbol of resilience,"tower,war,historical,landmark",
-204,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.4,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+204,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.4,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 205,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,3.1,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 206,Giant Water Tank,Nature,Kilinochchi,Kilinochchi,4.8,0,500,9.35,80.3833,Low,Large ancient irrigation tank with scenic views,"tank,nature,scenic,ancient",
 207,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,4.3,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
@@ -2854,8 +2854,8 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 213,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,4.5,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 214,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,4.8,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 215,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,3.2,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
-216,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.4,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
-217,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",
+216,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4.4,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
+217,Iranamadu Tank,Nature,Kilinochchi,Kilinochchi,4,0,500,9.3167,80.35,Low,Large irrigation reservoir with bird watching,"tank,birds,nature,scenic",images/iranamadu_tank.jpg
 218,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,3.9,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
 219,Poovarasankulam,Nature,Kilinochchi,Kilinochchi,3.1,0,400,9.4167,80.3833,Low,Ancient tank with diverse bird species,"tank,birds,nature,peaceful",
 220,Kilinochchi Town Center,Cultural,Kilinochchi,Kilinochchi,4.5,100,400,9.3897,80.4006,Low,War-rebuilt town showing resilience and reconstruction,"culture,town,historical,resilience",
@@ -4185,19 +4185,19 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 4,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4.8,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 5,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.9,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
 6,Polonnaruwa Museum,Historical,Polonnaruwa,Polonnaruwa,4.1,300,800,7.9403,81.0188,Low,Excellent museum with ancient artifacts,"museum,artifacts,historical,culture",
-7,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,4.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+7,Lankathilaka Temple,Religious,Kandy,Kandy,4.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 8,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,4.1,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 9,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.7,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
 10,Polonnaruwa Museum,Historical,Polonnaruwa,Polonnaruwa,3.3,300,800,7.9403,81.0188,Low,Excellent museum with ancient artifacts,"museum,artifacts,historical,culture",
 11,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.5,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
-12,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,4.6,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+12,Lankathilaka Temple,Religious,Kandy,Kandy,4.6,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 13,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,4.3,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 14,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.4,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 15,Polonnaruwa Museum,Historical,Polonnaruwa,Polonnaruwa,3.4,300,800,7.9403,81.0188,Low,Excellent museum with ancient artifacts,"museum,artifacts,historical,culture",
 16,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.8,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 17,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.3,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
 18,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,4.9,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",
-19,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,4.7,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+19,Lankathilaka Temple,Religious,Kandy,Kandy,4.7,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 20,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,3.4,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",
 21,Polonnaruwa Museum,Historical,Polonnaruwa,Polonnaruwa,4.8,300,800,7.9403,81.0188,Low,Excellent museum with ancient artifacts,"museum,artifacts,historical,culture",
 22,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4.3,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
@@ -4211,10 +4211,10 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 30,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.7,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
 31,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,4.4,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
 32,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,3.8,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",
-33,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,4.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
-34,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,4,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
-35,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,3.7,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
-36,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,3.2,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+33,Lankathilaka Temple,Religious,Kandy,Kandy,4.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+34,Lankathilaka Temple,Religious,Kandy,Kandy,4,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+35,Lankathilaka Temple,Religious,Kandy,Kandy,3.7,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+36,Lankathilaka Temple,Religious,Kandy,Kandy,3.2,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 37,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,4.6,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 38,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,3.3,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 39,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,4.6,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
@@ -4225,9 +4225,9 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 44,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.5,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 45,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.7,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
 46,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,4.4,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
-47,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,4.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+47,Lankathilaka Temple,Religious,Kandy,Kandy,4.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 48,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.2,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
-49,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,3.3,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+49,Lankathilaka Temple,Religious,Kandy,Kandy,3.3,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 50,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.7,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
 51,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,3.8,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 52,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.3,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
@@ -4243,18 +4243,18 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 62,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.6,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
 63,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,4,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 64,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.2,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
-65,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,3.4,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
-66,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,3.7,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+65,Lankathilaka Temple,Religious,Kandy,Kandy,3.4,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+66,Lankathilaka Temple,Religious,Kandy,Kandy,3.7,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 67,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,3.1,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 68,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,3.9,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 69,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4.7,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 70,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,3.3,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",
 71,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.2,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
 72,Polonnaruwa Museum,Historical,Polonnaruwa,Polonnaruwa,4.6,300,800,7.9403,81.0188,Low,Excellent museum with ancient artifacts,"museum,artifacts,historical,culture",
-73,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,4.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+73,Lankathilaka Temple,Religious,Kandy,Kandy,4.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 74,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4.1,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
-75,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,4.6,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
-76,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,4.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+75,Lankathilaka Temple,Religious,Kandy,Kandy,4.6,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+76,Lankathilaka Temple,Religious,Kandy,Kandy,4.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 77,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,4.1,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 78,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 79,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.8,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
@@ -4263,15 +4263,15 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 82,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,3.3,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 83,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.9,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 84,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,3.3,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
-85,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,3.2,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
-86,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,3.4,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+85,Lankathilaka Temple,Religious,Kandy,Kandy,3.2,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+86,Lankathilaka Temple,Religious,Kandy,Kandy,3.4,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 87,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.7,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 88,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.6,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
 89,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.2,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
-90,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,4.1,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+90,Lankathilaka Temple,Religious,Kandy,Kandy,4.1,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 91,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,4,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
 92,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,4.6,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",
-93,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,3.2,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+93,Lankathilaka Temple,Religious,Kandy,Kandy,3.2,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 94,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.3,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 95,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,4.8,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
 96,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,4.6,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
@@ -4280,7 +4280,7 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 99,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,4.1,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 100,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,3.1,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 101,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.8,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
-102,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,3.1,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+102,Lankathilaka Temple,Religious,Kandy,Kandy,3.1,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 103,Polonnaruwa Museum,Historical,Polonnaruwa,Polonnaruwa,4.4,300,800,7.9403,81.0188,Low,Excellent museum with ancient artifacts,"museum,artifacts,historical,culture",
 104,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,4.5,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",
 105,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.8,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
@@ -4291,13 +4291,13 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 110,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,3.3,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 111,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,4.5,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 112,Polonnaruwa Museum,Historical,Polonnaruwa,Polonnaruwa,3.5,300,800,7.9403,81.0188,Low,Excellent museum with ancient artifacts,"museum,artifacts,historical,culture",
-113,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,4.2,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+113,Lankathilaka Temple,Religious,Kandy,Kandy,4.2,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 114,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.4,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
 115,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4.8,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
-116,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,4.5,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+116,Lankathilaka Temple,Religious,Kandy,Kandy,4.5,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 117,Polonnaruwa Museum,Historical,Polonnaruwa,Polonnaruwa,4.6,300,800,7.9403,81.0188,Low,Excellent museum with ancient artifacts,"museum,artifacts,historical,culture",
 118,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.1,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
-119,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,3.3,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+119,Lankathilaka Temple,Religious,Kandy,Kandy,3.3,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 120,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,3.3,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",
 121,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4.7,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 122,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,3.1,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
@@ -4311,7 +4311,7 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 130,Polonnaruwa Museum,Historical,Polonnaruwa,Polonnaruwa,3.7,300,800,7.9403,81.0188,Low,Excellent museum with ancient artifacts,"museum,artifacts,historical,culture",
 131,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.5,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
 132,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.6,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
-133,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,3.1,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+133,Lankathilaka Temple,Religious,Kandy,Kandy,3.1,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 134,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4.7,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 135,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4.4,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 136,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.3,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
@@ -4321,10 +4321,10 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 140,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,3.4,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",
 141,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.4,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
 142,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.8,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
-143,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,4.7,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+143,Lankathilaka Temple,Religious,Kandy,Kandy,4.7,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 144,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,3.5,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 145,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,3.6,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
-146,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,4.2,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+146,Lankathilaka Temple,Religious,Kandy,Kandy,4.2,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 147,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,4,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",
 148,Polonnaruwa Museum,Historical,Polonnaruwa,Polonnaruwa,4.1,300,800,7.9403,81.0188,Low,Excellent museum with ancient artifacts,"museum,artifacts,historical,culture",
 149,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.6,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
@@ -4334,11 +4334,11 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 153,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.3,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
 154,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.4,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
 155,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4.8,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
-156,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,4.3,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+156,Lankathilaka Temple,Religious,Kandy,Kandy,4.3,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 157,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.4,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 158,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,5,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 159,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.8,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
-160,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,3.8,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+160,Lankathilaka Temple,Religious,Kandy,Kandy,3.8,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 161,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,4.2,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",
 162,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,3.7,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 163,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4.4,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
@@ -4357,8 +4357,8 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 176,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.9,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
 177,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.9,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
 178,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
-179,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,4.1,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
-180,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,3.1,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+179,Lankathilaka Temple,Religious,Kandy,Kandy,4.1,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+180,Lankathilaka Temple,Religious,Kandy,Kandy,3.1,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 181,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.3,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 182,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,3.7,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 183,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,3.3,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
@@ -4370,8 +4370,8 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 189,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.2,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 190,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,4,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 191,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.3,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
-192,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,4.3,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
-193,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,3.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+192,Lankathilaka Temple,Religious,Kandy,Kandy,4.3,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+193,Lankathilaka Temple,Religious,Kandy,Kandy,3.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 194,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,3.8,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 195,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,4.1,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",
 196,Polonnaruwa Museum,Historical,Polonnaruwa,Polonnaruwa,4.9,300,800,7.9403,81.0188,Low,Excellent museum with ancient artifacts,"museum,artifacts,historical,culture",
@@ -4388,7 +4388,7 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 207,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.7,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 208,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,3.7,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 209,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,3.3,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
-210,Lankathilaka Temple,Religious,Polonnaruwa,Polonnaruwa,3,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",
+210,Lankathilaka Temple,Religious,Kandy,Kandy,3,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
 211,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4.5,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 212,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.4,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 213,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,4.2,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",

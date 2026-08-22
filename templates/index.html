@@ -57,11 +57,14 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/recommend">Hotels</a>
+                        <a class="nav-link" href="/hotels">Hotels</a>
+                    // <a class="nav-link" href="/recommend">Hotels</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/recommend">Restaurants</a>
+                        //<a class="nav-link" href="/recommend">Restaurants</a>
+
+                        <a class="nav-link" href="/restaurants">Restaurants</a>
                     </li>
 
                     <li class="nav-item">
@@ -409,9 +412,17 @@
 
                     <li><a href="#">Destinations</a></li>
 
-                    <li><a href="#">Hotels</a></li>
+                  //  <li><a href="#">Hotels</a></li>
 
-                    <li><a href="#">Restaurants</a></li>
+                   // <li><a href="#">Restaurants</a></li>
+                         <li>
+                          <a href="{{ url_for('hotel_page') }}">Hotels</a>
+                        </li>
+
+                          <li>
+                          <a href="{{ url_for('restaurant_page') }}">Restaurants</a>
+                           </li>
+                   
 
                     <li><a href="#">Contact</a></li>
 
