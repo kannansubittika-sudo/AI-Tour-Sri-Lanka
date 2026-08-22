@@ -1,0 +1,449 @@
+/* Google Font */
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* Navigation Bar */
+
+.navbar{
+
+    padding:15px 0;
+
+}
+
+.navbar-brand{
+
+    font-size:28px;
+
+    font-weight:700;
+
+}
+
+.nav-link{
+
+    font-size:16px;
+
+    font-weight:500;
+
+    margin-left:15px;
+
+    transition:0.3s;
+
+}
+
+.nav-link:hover{
+
+    color:#0d6efd !important;
+
+}
+
+.btn{
+
+    border-radius:30px;
+
+    padding:8px 20px;
+
+}
+
+
+/* Hero Section */
+
+.hero{
+
+    background:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url("../images/hero.jpg") no-repeat center center;
+
+    background-size: cover;
+
+    width:100%;
+
+    min-height:90vh;
+
+    display:flex;
+
+    align-items:center;
+
+    color:white;
+
+}
+
+.hero h1{
+
+    font-size:65px;
+
+    font-weight:700;
+
+}
+
+.hero p{
+
+    font-size:22px;
+
+    margin:25px 0;
+
+    line-height:38px;
+
+    max-width:650px;
+
+}
+.hero-card{
+
+    background: rgba(255,255,255,0.15);
+
+    backdrop-filter: blur(10px);
+
+    padding:40px;
+
+    border-radius:20px;
+
+    color:white;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+
+}
+
+.hero-card h3{
+
+    font-weight:bold;
+
+    margin-bottom:20px;
+
+}
+
+.hero-card p{
+
+    font-size:18px;
+
+}
+
+.destinations{
+    background:#f8f9fa;
+}
+
+.destination-card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    transition:0.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.destination-card:hover{
+    transform:translateY(-8px);
+}
+
+.destination-card img{
+    height:250px;
+    object-fit:cover;
+}
+
+.destination-card h5{
+    font-weight:bold;
+}
+
+.destination-card p{
+    color:#666;
+}
+.destinations{
+    background:#f8f9fa;
+}
+
+.destination-card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    transition:0.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.destination-card:hover{
+    transform:translateY(-8px);
+}
+
+.destination-card img{
+    height:250px;
+    object-fit:cover;
+}
+
+.destination-card h5{
+    font-weight:bold;
+}
+
+.destination-card p{
+    color:#666;
+}
+
+/* Why Choose Us */
+
+.why-us{
+    background:white;
+}
+
+.feature-card{
+    background:#fff;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+    height:100%;
+}
+
+.feature-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 12px 30px rgba(0,0,0,0.15);
+}
+
+.feature-icon{
+    font-size:50px;
+    color:#0d6efd;
+    margin-bottom:20px;
+}
+
+.feature-card h5{
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.feature-card p{
+    color:#666;
+}
+
+/* Statistics */
+
+.statistics{
+
+    background:#0d6efd;
+
+    color:white;
+
+}
+
+.counter{
+
+    font-size:50px;
+
+    font-weight:700;
+
+}
+
+.statistics p{
+
+    font-size:18px;
+
+    margin-top:10px;
+
+}
+/* Footer */
+
+.footer{
+
+    background:#1c1c1c;
+
+    color:white;
+
+    padding:60px 0 20px;
+
+}
+
+.footer h4,
+.footer h5{
+
+    margin-bottom:20px;
+
+    font-weight:600;
+
+}
+
+.footer p{
+
+    color:#dcdcdc;
+
+}
+
+.footer ul{
+
+    padding:0;
+
+}
+
+.footer ul li{
+
+    margin-bottom:10px;
+
+}
+
+.footer ul li a{
+
+    color:#dcdcdc;
+
+    text-decoration:none;
+
+    transition:0.3s;
+
+}
+
+.footer ul li a:hover{
+
+    color:#0d6efd;
+
+}
+
+.social-icons a{
+
+    color:white;
+
+    font-size:24px;
+
+    margin-right:15px;
+
+    transition:0.3s;
+
+}
+
+.social-icons a:hover{
+
+    color:#0d6efd;
+
+}
+
+/* ===========================
+   Planner Page
+=========================== */
+
+.planner-section{
+    min-height:100vh;
+    padding:70px 0;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url("../images/planner-bg.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+.planner-title{
+    text-align:center;
+    margin-bottom:35px;
+}
+
+.planner-title h1{
+    color:#ffffff;
+    font-size:50px;
+    font-weight:700;
+}
+
+.planner-title p{
+    color:#f1f1f1;
+    font-size:18px;
+}
+
+.planner-card{
+
+    max-width:1100px;
+    margin:auto;
+
+    background:rgba(255,255,255,0.92);
+    backdrop-filter:blur(10px);
+
+    border-radius:20px;
+
+    padding:45px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.35);
+
+}
+
+.form-label{
+    font-weight:600;
+    color:#222;
+}
+
+.form-control,
+.form-select{
+
+    height:52px;
+
+    border-radius:12px;
+
+    border:1px solid #d6d6d6;
+
+}
+
+.form-control:focus,
+.form-select:focus{
+
+    border-color:#0d6efd;
+
+    box-shadow:0 0 10px rgba(13,110,253,.25);
+
+}
+
+.btn-plan{
+
+    background:#0d6efd;
+
+    color:white;
+
+    border:none;
+
+    border-radius:35px;
+
+    padding:14px 45px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn-plan:hover{
+
+    background:#0b5ed7;
+
+    transform:translateY(-3px);
+
+}
+
+@media(max-width:768px){
+
+    .planner-card{
+
+        padding:25px;
+
+    }
+
+    .planner-title h1{
+
+        font-size:36px;
+
+    }
+
+    .btn-plan{
+
+        width:100%;
+
+    }
+
+}
+.planner-card{
+    transition:0.4s;
+}
+
+.planner-card:hover{
+    transform:translateY(-8px);
+}
+::placeholder{
+    color:#999;
+}
+.container{
+    max-width:1100px;
+}

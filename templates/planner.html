@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Trip Planner | AI Tour Sri Lanka</title>
+
+
+
+    <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+<!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Planner CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/planner.css') }}">
+
+
+</head>
+
+<body>
+
+<section class="planner-section">
+
+    <div class="container">
+
+        <div class="planner-title">
+
+            <h1>🌴 AI Trip Planner</h1>
+
+            <p>
+                Plan your perfect Sri Lanka journey with Artificial Intelligence.
+                Enter your travel preferences and receive personalized recommendations.
+            </p>
+
+        </div>
+
+        <div class="planner-card">
+
+            <form action="/recommend" method="POST">
+
+                <div class="row">
+
+                    <!-- Full Name -->
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">
+                            <i class="bi bi-person-fill"></i>
+                            Full Name
+                        </label>
+
+                        <input type="text"
+                               class="form-control"
+                               name="name"
+                               placeholder="Enter your full name"
+                               required>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">
+                            <i class="bi bi-envelope-fill"></i>
+                            Email Address
+                        </label>
+
+                        <input type="email"
+                               class="form-control"
+                               name="email"
+                               placeholder="Enter your email"
+                               required>
+                    </div>
+
+                    <!-- Preferred District -->
+<div class="col-md-6 mb-3">
+    <label class="form-label">
+        <i class="bi bi-geo-alt-fill"></i>
+        Preferred District
+    </label>
+
+    <select class="form-select" name="district" required>
+
+        <option value="">Select District</option>
+
+        <option value="Ampara">Ampara</option>
+        <option value="Anuradhapura">Anuradhapura</option>
+        <option value="Badulla">Badulla</option>
+        <option value="Batticaloa">Batticaloa</option>
+        <option value="Colombo">Colombo</option>
+        <option value="Galle">Galle</option>
+        <option value="Gampaha">Gampaha</option>
+        <option value="Hambantota">Hambantota</option>
+        <option value="Jaffna">Jaffna</option>
+        <option value="Kalutara">Kalutara</option>
+        <option value="Kandy">Kandy</option>
+        <option value="Kegalle">Kegalle</option>
+        <option value="Kilinochchi">Kilinochchi</option>
+        <option value="Kurunegala">Kurunegala</option>
+        <option value="Mannar">Mannar</option>
+        <option value="Matale">Matale</option>
+        <option value="Matara">Matara</option>
+        <option value="Monaragala">Monaragala</option>
+        <option value="Mullaitivu">Mullaitivu</option>
+        <option value="Nuwara Eliya">Nuwara Eliya</option>
+        <option value="Polonnaruwa">Polonnaruwa</option>
+        <option value="Puttalam">Puttalam</option>
+        <option value="Ratnapura">Ratnapura</option>
+        <option value="Trincomalee">Trincomalee</option>
+
+    </select>
+</div>
+
+                    <!-- Budget -->
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">
+                            <i class="bi bi-cash-stack"></i>
+                            Budget (LKR)
+                        </label>
+
+                        <input type="number"
+                               class="form-control"
+                               name="budget"
+                               placeholder="50000"
+                               required>
+                    </div>
+
+                    <!-- Travel Start Date -->
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">
+                            <i class="bi bi-calendar-event-fill"></i>
+                            Travel Start Date
+                        </label>
+
+                        <input type="date"
+                               class="form-control"
+                               name="start_date"
+                               required>
+                    </div>
+
+                    <!-- Number of Days -->
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">
+                            <i class="bi bi-calendar-week-fill"></i>
+                            Number of Days
+                        </label>
+
+                        <input type="number"
+                               class="form-control"
+                               name="days"
+                               placeholder="3"
+                               required>
+                    </div>
+
+                    <!-- Travel Interest -->
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">
+                            <i class="bi bi-heart-fill"></i>
+                            Travel Interest
+                        </label>
+
+                        <select class="form-select"
+                                name="interest"
+                                required>
+
+                            <option value="">Select Your Interest</option>
+                            <option value="Beach">Beach</option>
+                            <option value="Nature">Nature</option>
+                            <option value="Adventure">Adventure</option>
+                            <option value="Historical">Historical</option>
+                            <option value="Wildlife">Wildlife</option>
+
+                        </select>
+
+                    </div>
+
+                    <!-- Number of Travelers -->
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">
+                            <i class="bi bi-people-fill"></i>
+                            Number of Travelers
+                        </label>
+
+                        <input type="number"
+                               class="form-control"
+                               name="travelers"
+                               placeholder="2"
+                               required>
+                    </div>
+
+                    <!-- Budget Level -->
+<div class="col-md-6 mb-3">
+    <label class="form-label">
+        <i class="bi bi-wallet2"></i>
+        Budget Level
+    </label>
+
+    <select class="form-select" name="budget_level" required>
+        <option value="">Select Budget Level</option>
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+    </select>
+</div>
+
+<!-- Minimum Rating -->
+<div class="col-md-6 mb-3">
+    <label class="form-label">
+        <i class="bi bi-star-fill"></i>
+        Minimum Rating
+    </label>
+
+    <select class="form-select" name="rating" required>
+        <option value="">Select Rating</option>
+        <option value="3">3+</option>
+        <option value="4">4+</option>
+        <option value="5">5</option>
+    </select>
+</div>
+
+                    <!-- Hotel Preference -->
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+                            <i class="bi bi-building-fill"></i>
+                            Hotel Preference
+                        </label>
+
+                        <select class="form-select"
+                                name="hotel_type"
+                                required>
+
+                            <option value="">Select Hotel Type</option>
+                            <option value="Budget">Budget Hotel</option>
+                            <option value="3 Star">3 Star</option>
+                            <option value="4 Star">4 Star</option>
+                            <option value="5 Star">5 Star</option>
+
+                        </select>
+
+                    </div>
+
+                    <!-- Transport -->
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+                            <i class="bi bi-car-front-fill"></i>
+                            Transport Preference
+                        </label>
+
+                        <select class="form-select"
+                                name="transport"
+                                required>
+
+                            <option value="">Select Transport</option>
+                            <option value="Bus">Bus</option>
+                            <option value="Train">Train</option>
+                            <option value="Private Vehicle">Private Vehicle</option>
+                            <option value="Self Drive">Self Drive</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <div class="text-center mt-4">
+
+                    <button type="submit" class="btn-plan">
+
+                        <i class="bi bi-stars"></i>
+
+                        Generate AI Travel Plan
+
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

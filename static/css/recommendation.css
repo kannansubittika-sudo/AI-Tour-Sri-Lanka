@@ -1,0 +1,82 @@
+/* Google Font */
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f5f7fb;
+}
+
+/* Navbar */
+.navbar{
+    padding:15px 0;
+}
+
+/* Hero */
+.hero-section{
+    padding:60px 0;
+}
+
+/* Destination Image */
+.destination-image{
+    height:450px;
+    object-fit:cover;
+    border-radius:20px 20px 0 0;
+}
+
+/* Main Card */
+.card{
+    border:none;
+    border-radius:20px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+/* Section Titles */
+h3{
+    font-weight:700;
+    color:#0d6efd;
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+/* Hotel & Restaurant Cards */
+.card-body h5{
+    font-weight:600;
+}
+
+/* Nearby Places */
+.list-group-item{
+    padding:18px;
+    font-size:17px;
+}
+
+/* Buttons */
+.btn{
+    border-radius:30px;
+    padding:12px 30px;
+    font-weight:600;
+}
+
+/* Footer Space */
+.mb-5{
+    margin-bottom:3rem!important;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+.destination-image{
+    height:250px;
+}
+
+.hero-section{
+    padding:30px 0;
+}
+
+h1{
+    font-size:30px;
+}
+
+}

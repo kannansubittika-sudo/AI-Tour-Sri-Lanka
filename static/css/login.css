@@ -1,0 +1,77 @@
+/* Google Font */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Background */
+.login-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:
+        linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+        url("../images/login-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Glass Card */
+.login-card {
+    width: 420px;
+    padding: 40px;
+    background: rgba(255,255,255,0.88);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,.3);
+}
+
+/* Title */
+.login-card h2 {
+    color: #0d6efd;
+    font-weight: 700;
+}
+
+/* Labels */
+.form-label {
+    font-weight: 600;
+}
+
+/* Inputs */
+.form-control {
+    height: 50px;
+    border-radius: 10px;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 8px rgba(13,110,253,.25);
+}
+
+/* Login Button */
+.btn-primary {
+    height: 50px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+
+    .login-card {
+        width: 90%;
+        padding: 25px;
+    }
+
+}
+.btn-primary:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+a:hover{
+    color:#0b5ed7;
+}

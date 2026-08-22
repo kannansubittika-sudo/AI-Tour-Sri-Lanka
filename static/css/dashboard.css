@@ -1,0 +1,71 @@
+/* Google Font */
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg,#e3f2fd,#ffffff);
+    min-height:100vh;
+}
+
+/* Navbar */
+.navbar{
+    box-shadow:0 4px 15px rgba(0,0,0,.1);
+}
+
+.navbar-brand{
+    font-size:24px;
+    font-weight:700;
+}
+
+/* Welcome */
+h1{
+    font-weight:700;
+    color:#0d6efd;
+}
+
+p{
+    color:#666;
+}
+
+/* Cards */
+.card{
+    border:none;
+    border-radius:20px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+.card-body{
+    padding:35px;
+}
+
+.card i{
+    font-size:60px;
+}
+
+.card h4{
+    margin-top:15px;
+    font-weight:600;
+}
+
+/* Buttons */
+.btn{
+    border-radius:30px;
+    padding:10px 25px;
+    font-weight:600;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    h1{
+        font-size:32px;
+    }
+
+    .card{
+        margin-bottom:20px;
+    }
+
+}
