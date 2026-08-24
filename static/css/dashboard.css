@@ -1,71 +1,550 @@
-/* Google Font */
-body{
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg,#e3f2fd,#ffffff);
-    min-height:100vh;
+/* =========================================================
+   AI Tour Sri Lanka — Dashboard
+   Same brand system as recommendation.css / planner.css:
+   lagoon teal, spice gold, clay terracotta, sand.
+   Icon "colors" are tonal variations of this one palette,
+   not unrelated bootstrap hues — keeps the page cohesive.
+   ========================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --lagoon-deep: #0b4f4a;
+    --lagoon-mid: #12726a;
+    --lagoon-soft: #e6f0ee;
+    --spice-gold: #e8a33d;
+    --spice-soft: #fbf0dc;
+    --clay: #c4553a;
+    --clay-soft: #f8e6e0;
+    --moss: #6b7f4a;
+    --moss-soft: #eef1e2;
+    --sand: #faf3e7;
+    --sand-dark: #f0e4cf;
+    --ink: #1c2b28;
+    --ink-soft: #5b6b67;
+    --white: #ffffff;
+
+    --font-display: 'Fraunces', 'Georgia', serif;
+    --font-body: 'Poppins', sans-serif;
 }
 
-/* Navbar */
-.navbar{
-    box-shadow:0 4px 15px rgba(0,0,0,.1);
+/* =========================================
+   GLOBAL
+========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.navbar-brand{
-    font-size:24px;
-    font-weight:700;
+body {
+    font-family: var(--font-body);
+    background: var(--sand);
+    color: var(--ink);
+    min-height: 100vh;
 }
 
-/* Welcome */
-h1{
-    font-weight:700;
-    color:#0d6efd;
+/* =========================================
+   NAVBAR
+========================================= */
+
+.navbar {
+    background: linear-gradient(120deg, var(--lagoon-deep), var(--lagoon-mid));
+    padding: 16px 0;
+    box-shadow: 0 4px 15px rgba(11, 79, 74, 0.18);
 }
 
-p{
-    color:#666;
+.navbar-brand {
+    color: var(--white) !important;
+    font-family: var(--font-display);
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
 }
 
-/* Cards */
-.card{
-    border:none;
-    border-radius:20px;
-    transition:.3s;
+.logout-btn {
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    color: var(--white);
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 0.92rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: 0.25s ease;
 }
 
-.card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 15px 35px rgba(0,0,0,.15);
+.logout-btn:hover {
+    background: var(--spice-gold);
+    border-color: var(--spice-gold);
+    color: var(--ink);
+    transform: translateY(-2px);
 }
 
-.card-body{
-    padding:35px;
+/* =========================================
+   WELCOME SECTION
+========================================= */
+
+.welcome-section {
+    text-align: center;
+    padding: 55px 20px 35px;
 }
 
-.card i{
-    font-size:60px;
+.welcome-section h1 {
+    font-family: var(--font-display);
+    font-size: 44px;
+    font-weight: 700;
+    color: var(--lagoon-deep);
+    margin-bottom: 12px;
 }
 
-.card h4{
-    margin-top:15px;
-    font-weight:600;
+.welcome-section p {
+    max-width: 720px;
+    margin: auto;
+    color: var(--ink-soft);
+    font-size: 17px;
+    line-height: 1.7;
 }
 
-/* Buttons */
-.btn{
-    border-radius:30px;
-    padding:10px 25px;
-    font-weight:600;
+/* =========================================
+   HERO SECTION
+========================================= */
+
+.dashboard-hero {
+    width: 100%;
+    height: 480px;
+    background-image:
+        linear-gradient(
+            120deg,
+            rgba(11, 79, 74, 0.82),
+            rgba(11, 79, 74, 0.45)
+        ),
+        url("/static/images/sri-lanka.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 32px 32px;
+    overflow: hidden;
 }
 
-/* Responsive */
-@media(max-width:768px){
+.hero-overlay {
+    width: 100%;
+}
 
-    h1{
-        font-size:32px;
+.hero-content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    color: var(--white);
+}
+
+.hero-badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.16);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 22px;
+}
+
+.hero-content h2 {
+    font-family: var(--font-display);
+    color: var(--white);
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 1.15;
+    max-width: 750px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 19px;
+    max-width: 700px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--spice-gold);
+    color: var(--ink);
+    padding: 13px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.hero-btn:hover {
+    background: var(--white);
+    color: var(--lagoon-deep);
+    transform: translateY(-3px);
+}
+
+/* =========================================
+   QUICK ACCESS SECTION
+========================================= */
+
+.quick-section {
+    padding: 80px 0;
+    background: var(--sand);
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title span {
+    color: var(--clay);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+}
+
+.section-title h2 {
+    font-family: var(--font-display);
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--lagoon-deep);
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    color: var(--ink-soft);
+    font-size: 16px;
+}
+
+/* =========================================
+   DASHBOARD CARDS
+========================================= */
+
+.dashboard-card {
+    background: var(--white);
+    border-radius: 20px;
+    padding: 38px 30px;
+    text-align: center;
+    min-height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--sand-dark);
+    box-shadow: 0 10px 30px rgba(28, 43, 40, 0.06);
+    transition: all 0.3s ease;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(11, 79, 74, 0.14);
+    border-color: rgba(11, 79, 74, 0.12);
+}
+
+/* =========================================
+   ICON BOX — tonal variations of the brand palette
+========================================= */
+
+.icon-box {
+    width: 76px;
+    height: 76px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+
+.icon-box i {
+    font-size: 34px;
+}
+
+.icon-box.blue {
+    background: var(--lagoon-soft);
+    color: var(--lagoon-deep);
+}
+
+.icon-box.green {
+    background: var(--moss-soft);
+    color: var(--moss);
+}
+
+.icon-box.purple {
+    background: var(--spice-soft);
+    color: var(--spice-gold);
+}
+
+.icon-box.orange {
+    background: var(--clay-soft);
+    color: var(--clay);
+}
+
+.icon-box.pink {
+    background: var(--lagoon-soft);
+    color: var(--lagoon-mid);
+}
+
+.icon-box.red {
+    background: var(--spice-soft);
+    color: var(--clay);
+}
+
+/* =========================================
+   CARD TEXT
+========================================= */
+
+.dashboard-card h3 {
+    font-family: var(--font-display);
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 12px;
+}
+
+.dashboard-card p {
+    color: var(--ink-soft);
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 300px;
+    min-height: 50px;
+    margin-bottom: 20px;
+}
+
+/* =========================================
+   CARD BUTTONS — same lagoon/gold family, no unrelated hues
+========================================= */
+
+.card-btn {
+    border: none;
+    text-decoration: none;
+    padding: 11px 26px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--white);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    color: var(--white);
+    transform: translateY(-2px);
+}
+
+.blue-btn,
+.pink-btn {
+    background: var(--lagoon-deep);
+}
+
+.blue-btn:hover,
+.pink-btn:hover {
+    background: var(--lagoon-mid);
+}
+
+.green-btn {
+    background: var(--moss);
+}
+
+.green-btn:hover {
+    background: #58693c;
+}
+
+.purple-btn,
+.orange-btn,
+.red-btn {
+    background: var(--clay);
+}
+
+.purple-btn:hover,
+.orange-btn:hover,
+.red-btn:hover {
+    background: #a9432c;
+}
+
+/* "Coming Soon" profile button reads as disabled, not a live action */
+.pink-btn {
+    background: var(--sand-dark);
+    color: var(--ink-soft);
+    cursor: default;
+}
+
+.pink-btn:hover {
+    background: var(--sand-dark);
+    color: var(--ink-soft);
+    transform: none;
+}
+
+/* =========================================
+   FOOTER
+========================================= */
+
+footer {
+    background: var(--lagoon-deep);
+    color: var(--white);
+    padding: 60px 0 20px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1.5fr;
+    gap: 50px;
+    padding-bottom: 40px;
+}
+
+.footer-content h3 {
+    font-family: var(--font-display);
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+
+.footer-content h4 {
+    font-size: 17px;
+    margin-bottom: 18px;
+    color: var(--spice-gold);
+}
+
+.footer-content p {
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.7;
+}
+
+.footer-content a {
+    display: block;
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: 0.25s;
+}
+
+.footer-content a:hover {
+    color: var(--spice-gold);
+    padding-left: 4px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 992px) {
+    .welcome-section h1 {
+        font-size: 36px;
     }
 
-    .card{
-        margin-bottom:20px;
+    .hero-content h2 {
+        font-size: 44px;
     }
 
+    .footer-content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 19px;
+    }
+
+    .welcome-section {
+        padding: 40px 20px 30px;
+    }
+
+    .welcome-section h1 {
+        font-size: 30px;
+    }
+
+    .welcome-section p {
+        font-size: 15px;
+    }
+
+    .dashboard-hero {
+        height: 430px;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .hero-content {
+        padding: 30px 25px;
+    }
+
+    .hero-content h2 {
+        font-size: 34px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .quick-section {
+        padding: 60px 0;
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+    }
+
+    .dashboard-card {
+        min-height: 300px;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logout-btn {
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+
+    .welcome-section h1 {
+        font-size: 25px;
+    }
+
+    .hero-content h2 {
+        font-size: 28px;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+    }
+}
+
+/* =========================================
+   ACCESSIBILITY
+========================================= */
+
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid var(--spice-gold);
+    outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition: none !important;
+    }
 }

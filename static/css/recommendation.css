@@ -1,82 +1,371 @@
-/* Google Font */
-body{
-    font-family:'Poppins',sans-serif;
-    background:#f5f7fb;
+/* =========================================================
+   AI Tour Sri Lanka — Recommendation Page
+   Palette: lagoon teal, spice gold, clay terracotta, sand
+   ========================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --lagoon-deep: #0b4f4a;
+    --lagoon-mid: #12726a;
+    --spice-gold: #e8a33d;
+    --clay: #c4553a;
+    --sand: #faf3e7;
+    --sand-dark: #f0e4cf;
+    --ink: #1c2b28;
+    --ink-soft: #5b6b67;
+    --white: #ffffff;
+
+    --font-display: 'Fraunces', 'Georgia', serif;
+    --font-body: 'Poppins', sans-serif;
+
+    --radius-lg: 22px;
+    --radius-md: 16px;
+    --shadow-soft: 0 10px 30px rgba(11, 79, 74, 0.10);
+    --shadow-card: 0 6px 18px rgba(28, 43, 40, 0.08);
 }
 
-/* Navbar */
-.navbar{
-    padding:15px 0;
+/* ---------- Base ---------- */
+
+* {
+    box-sizing: border-box;
 }
 
-/* Hero */
-.hero-section{
-    padding:60px 0;
+body {
+    background-color: var(--sand);
+    color: var(--ink);
+    font-family: var(--font-body);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
 }
 
-/* Destination Image */
-.destination-image{
-    height:450px;
-    object-fit:cover;
-    border-radius:20px 20px 0 0;
+h1, h2, h3, h4, h5 {
+    font-family: var(--font-display);
+    color: var(--ink);
 }
 
-/* Main Card */
-.card{
-    border:none;
-    border-radius:20px;
-    transition:.3s;
+a {
+    text-decoration: none;
 }
 
-.card:hover{
-    transform:translateY(-5px);
-    box-shadow:0 15px 35px rgba(0,0,0,.15);
+::selection {
+    background: var(--spice-gold);
+    color: var(--ink);
 }
 
-/* Section Titles */
-h3{
-    font-weight:700;
-    color:#0d6efd;
-    margin-top:30px;
-    margin-bottom:20px;
+/* ---------- Navbar ---------- */
+
+.navbar.bg-primary {
+    background: linear-gradient(120deg, var(--lagoon-deep), var(--lagoon-mid)) !important;
+    box-shadow: 0 2px 14px rgba(11, 79, 74, 0.25);
+    padding-top: 0.85rem;
+    padding-bottom: 0.85rem;
 }
 
-/* Hotel & Restaurant Cards */
-.card-body h5{
-    font-weight:600;
+.navbar-brand {
+    font-family: var(--font-display);
+    font-size: 1.35rem;
+    letter-spacing: 0.2px;
 }
 
-/* Nearby Places */
-.list-group-item{
-    padding:18px;
-    font-size:17px;
+.navbar .ms-auto {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
 }
 
-/* Buttons */
-.btn{
-    border-radius:30px;
-    padding:12px 30px;
-    font-weight:600;
+.navbar .nav-link {
+    color: rgba(255, 255, 255, 0.85) !important;
+    font-weight: 500;
+    font-size: 0.95rem;
+    position: relative;
+    padding-bottom: 2px;
+    transition: color 0.2s ease;
 }
 
-/* Footer Space */
-.mb-5{
-    margin-bottom:3rem!important;
+.navbar .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background: var(--spice-gold);
+    transition: width 0.2s ease;
 }
 
-/* Responsive */
-@media(max-width:768px){
-
-.destination-image{
-    height:250px;
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: var(--white) !important;
 }
 
-.hero-section{
-    padding:30px 0;
+.navbar .nav-link:hover::after,
+.navbar .nav-link.active::after {
+    width: 100%;
 }
 
-h1{
-    font-size:30px;
+.navbar .btn-light {
+    background: var(--spice-gold);
+    border: none;
+    color: var(--ink);
+    font-weight: 600;
+    border-radius: 999px;
+    padding: 0.4rem 1.1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.navbar .btn-light:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(232, 163, 61, 0.45);
+}
+
+/* ---------- Hero section ---------- */
+
+.hero-section {
+    background:
+        radial-gradient(circle at 15% 10%, rgba(232, 163, 61, 0.10), transparent 40%),
+        radial-gradient(circle at 85% 0%, rgba(11, 79, 74, 0.08), transparent 45%),
+        var(--sand);
+    padding-top: 3.5rem !important;
+    padding-bottom: 2rem !important;
+}
+
+.hero-section h1.text-primary {
+    color: var(--lagoon-deep) !important;
+    font-size: 2.6rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    position: relative;
+    display: inline-block;
+}
+
+.hero-section h1.text-primary::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background: var(--spice-gold);
+    border-radius: 4px;
+    margin: 0.9rem auto 0;
+}
+
+.hero-section > .container > .text-center p.text-muted {
+    font-family: var(--font-body);
+    font-size: 1.05rem;
+    color: var(--ink-soft) !important;
+}
+
+/* ---------- Section headings ---------- */
+
+h3.mb-3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--lagoon-deep);
+    padding-left: 0.9rem;
+    border-left: 4px solid var(--spice-gold);
+    margin-top: 1rem;
+}
+
+/* ---------- Destination card ---------- */
+
+.card {
+    border-radius: var(--radius-lg) !important;
+}
+
+.card.shadow-lg {
+    box-shadow: var(--shadow-soft) !important;
+    overflow: hidden;
+    border: 1px solid rgba(11, 79, 74, 0.06) !important;
+}
+
+.destination-image {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+}
+
+.card.shadow-lg .card-body {
+    padding: 2rem 2.25rem 2.25rem;
+}
+
+.card.shadow-lg h2.text-success {
+    color: var(--lagoon-deep) !important;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+}
+
+.card.shadow-lg p.text-muted {
+    color: var(--ink-soft) !important;
+    font-size: 1.02rem;
+}
+
+.card.shadow-lg .row.text-center {
+    border-top: 1px dashed var(--sand-dark);
+    padding-top: 1.5rem;
+}
+
+.card.shadow-lg .row.text-center h5 {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--ink-soft);
+    margin-bottom: 0.25rem;
+}
+
+.card.shadow-lg .row.text-center p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--clay);
+    margin-bottom: 0;
+}
+
+/* ---------- Hotel & restaurant cards ---------- */
+
+.row > .col-md-4 .card.shadow-sm {
+    border: none !important;
+    border-radius: var(--radius-md) !important;
+    box-shadow: var(--shadow-card) !important;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    border-top: 3px solid var(--lagoon-mid) !important;
+}
+
+.row > .col-md-4 .card.shadow-sm:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 28px rgba(28, 43, 40, 0.14) !important;
+}
+
+.row > .col-md-4 .card.shadow-sm .card-body h5.fw-bold {
+    color: var(--lagoon-deep);
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    margin-bottom: 0.75rem;
+}
+
+.row > .col-md-4 .card.shadow-sm .card-body p {
+    font-size: 0.92rem;
+    color: var(--ink-soft);
+    margin-bottom: 0.4rem;
+}
+
+.row > .col-md-4 .card.shadow-sm .card-body p strong {
+    color: var(--ink);
+    font-weight: 600;
+}
+
+/* ---------- Alerts (no data states) ---------- */
+
+.alert-warning {
+    background: var(--sand-dark);
+    border: 1px dashed var(--spice-gold);
+    color: var(--ink);
+    border-radius: var(--radius-md);
+    font-size: 0.95rem;
+}
+
+/* ---------- Nearby attractions list ---------- */
+
+.list-group {
+    border-radius: var(--radius-md) !important;
+    overflow: hidden;
+    box-shadow: var(--shadow-card) !important;
+}
+
+.list-group-item {
+    border-color: var(--sand-dark) !important;
+    padding: 1rem 1.4rem;
+    background: var(--white);
+    transition: background 0.2s ease;
+}
+
+.list-group-item:hover {
+    background: var(--sand);
+}
+
+.list-group-item strong {
+    color: var(--lagoon-deep);
+    font-family: var(--font-display);
+    font-size: 1.02rem;
+}
+
+.list-group-item small.text-muted {
+    color: var(--ink-soft) !important;
+}
+
+/* ---------- Google Maps card ---------- */
+
+.card.shadow-sm.border-0.rounded-4 iframe {
+    display: block;
+}
+
+/* ---------- Buttons ---------- */
+
+.btn-primary {
+    background: var(--lagoon-deep);
+    border-color: var(--lagoon-deep);
+    border-radius: 999px;
+    font-weight: 600;
+    padding: 0.7rem 1.9rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.btn-primary:hover {
+    background: var(--lagoon-mid);
+    border-color: var(--lagoon-mid);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 22px rgba(11, 79, 74, 0.30);
+}
+
+.btn-success {
+    background: var(--clay);
+    border-color: var(--clay);
+    border-radius: 999px;
+    font-weight: 600;
+    padding: 0.7rem 1.9rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.btn-success:hover {
+    background: #a9432c;
+    border-color: #a9432c;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 22px rgba(196, 85, 58, 0.30);
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 767.98px) {
+    .hero-section h1.text-primary {
+        font-size: 2rem;
+    }
+
+    .destination-image {
+        height: 220px;
+    }
+
+    .card.shadow-lg .card-body {
+        padding: 1.5rem;
+    }
+
+    .card.shadow-lg .row.text-center .col-md-3 {
+        margin-bottom: 1rem;
+    }
+
+    .navbar .ms-auto {
+        gap: 1rem;
+    }
+}
+
+/* ---------- Accessibility ---------- */
+
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid var(--spice-gold);
+    outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition: none !important;
+    }
 }

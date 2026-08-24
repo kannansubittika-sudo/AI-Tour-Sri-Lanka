@@ -255,10 +255,10 @@ def recommend():
         "Panama Beach": "panama_beach.jpg",
         "Sinharaja Forest": "sinharaja_forest.jpg",
         "Thiruketheeswaram Temple": "thiruketheeswaram_temple.jpg",
-        "Lankathilaka_temple": "lankathilaka_temple.jpg",
+        "Lankathilaka_temple": "lankathilaka_temple.jpeg",
         "Iranamadu Tank": "iranamadu_tank.jpg",
-       "Haputale": "haputale.jpeg",
-       "Gangaramaya Temple": "gangaramaya_temple.jpeg"
+        "Haputale": "haputale.jpeg",
+        "Gangaramaya Temple": "gangaramaya_temple.jpeg"
     }
 
     image_name = image_map.get(predicted_place, "default.jpg")
@@ -278,7 +278,7 @@ def recommend():
         .to_dict("records")
     )
    
-        # -----------------------------------
+    # -----------------------------------
     # Hotels
     # -----------------------------------
 

@@ -1,449 +1,1050 @@
-/* Google Font */
+/* =====================================================
+   GLOBAL
+===================================================== */
 
-body{
+* {
+    box-sizing: border-box;
+}
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
     font-family: 'Poppins', sans-serif;
-
+    color: #172033;
+    background: #ffffff;
 }
 
-/* Navigation Bar */
-
-.navbar{
-
-    padding:15px 0;
-
-}
-
-.navbar-brand{
-
-    font-size:28px;
-
-    font-weight:700;
-
-}
-
-.nav-link{
-
-    font-size:16px;
-
-    font-weight:500;
-
-    margin-left:15px;
-
-    transition:0.3s;
-
-}
-
-.nav-link:hover{
-
-    color:#0d6efd !important;
-
-}
-
-.btn{
-
-    border-radius:30px;
-
-    padding:8px 20px;
-
+.container {
+    max-width: 1200px;
 }
 
 
-/* Hero Section */
+/* =====================================================
+   NAVIGATION BAR
+===================================================== */
 
-.hero{
+.navbar {
+    padding: 12px 0;
+    background: #ffffff !important;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
 
+.navbar-brand {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1670f7 !important;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 12px;
+    color: #263238 !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #1670f7 !important;
+}
+
+
+/* =====================================================
+   LOGIN / SIGNUP BUTTONS
+===================================================== */
+
+.nav-auth-btn {
+    padding: 6px 13px !important;
+    font-size: 13px !important;
+    font-weight: 600;
+    border-radius: 7px !important;
+    margin-left: 8px !important;
+}
+
+.nav-auth-btn.btn-outline-primary {
+    color: #1670f7;
+    border: 1px solid #1670f7;
+}
+
+.nav-auth-btn.btn-outline-primary:hover {
+    background: #1670f7;
+    color: #ffffff;
+}
+
+.nav-auth-btn.btn-primary {
+    background: #1670f7;
+    border: 1px solid #1670f7;
+}
+
+
+/* =====================================================
+   HERO SECTION
+===================================================== */
+
+.hero {
     background:
-    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    url("../images/hero.jpg") no-repeat center center;
+        linear-gradient(
+            rgba(0, 40, 100, 0.55),
+            rgba(0, 30, 80, 0.55)
+        ),
+        url("../images/hero.jpg") no-repeat center center;
 
     background-size: cover;
+    width: 100%;
+    min-height: 650px;
 
-    width:100%;
+    display: flex;
+    align-items: center;
 
-    min-height:90vh;
+    color: #ffffff;
 
-    display:flex;
-
-    align-items:center;
-
-    color:white;
-
+    padding: 80px 0;
 }
 
-.hero h1{
 
-    font-size:65px;
+/* Hero left content */
 
-    font-weight:700;
+.hero-badge {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-bottom: 18px;
 
+    border-radius: 30px;
+
+    background: rgba(255, 255, 255, 0.18);
+
+    font-size: 14px;
+    font-weight: 600;
+
+    backdrop-filter: blur(5px);
 }
 
-.hero p{
+.hero h1 {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 1.1;
 
-    font-size:22px;
-
-    margin:25px 0;
-
-    line-height:38px;
-
-    max-width:650px;
-
-}
-.hero-card{
-
-    background: rgba(255,255,255,0.15);
-
-    backdrop-filter: blur(10px);
-
-    padding:40px;
-
-    border-radius:20px;
-
-    color:white;
-
-    box-shadow:0 10px 25px rgba(0,0,0,0.3);
-
+    margin-bottom: 22px;
 }
 
-.hero-card h3{
-
-    font-weight:bold;
-
-    margin-bottom:20px;
-
+.hero h1 span {
+    color: #ffc107;
 }
 
-.hero-card p{
+.hero p {
+    font-size: 18px;
+    line-height: 1.7;
 
-    font-size:18px;
+    max-width: 600px;
 
+    margin-bottom: 30px;
 }
 
-.destinations{
-    background:#f8f9fa;
+
+/* =====================================================
+   HERO BUTTONS
+===================================================== */
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
 }
 
-.destination-card{
-    border:none;
-    border-radius:15px;
-    overflow:hidden;
-    transition:0.3s;
-    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+.hero-buttons .btn {
+    padding: 11px 23px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
 }
 
-.destination-card:hover{
-    transform:translateY(-8px);
+.hero-buttons .btn-primary {
+    background: #1670f7;
+    border-color: #1670f7;
 }
 
-.destination-card img{
-    height:250px;
-    object-fit:cover;
+.hero-buttons .btn-outline-light {
+    border-width: 1px;
 }
 
-.destination-card h5{
-    font-weight:bold;
+
+/* =====================================================
+   SMART TRAVEL PLANNER CARD
+===================================================== */
+
+.hero-card {
+    width: 100%;
+    max-width: 430px;
+
+    margin-left: auto;
+    margin-right: 0;
+
+    padding: 38px 35px;
+
+    background: rgba(255, 255, 255, 0.96);
+
+    border-radius: 24px;
+
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, 0.22);
+
+    color: #222;
+
+    text-align: center;
+
+    transform: none;
 }
 
-.destination-card p{
-    color:#666;
-}
-.destinations{
-    background:#f8f9fa;
-}
+.hero-card h3 {
+    font-size: 25px;
+    font-weight: 700;
 
-.destination-card{
-    border:none;
-    border-radius:15px;
-    overflow:hidden;
-    transition:0.3s;
-    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    margin-bottom: 14px;
 }
 
-.destination-card:hover{
-    transform:translateY(-8px);
+.hero-card p {
+    color: #333;
+
+    font-size: 15px;
+
+    line-height: 1.7;
+
+    margin-bottom: 28px;
 }
 
-.destination-card img{
-    height:250px;
-    object-fit:cover;
+
+/* =====================================================
+   HERO ICON
+===================================================== */
+
+.hero-icon {
+    width: 72px;
+    height: 72px;
+
+    margin: 0 auto 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #1670f7;
+
+    color: white;
+
+    font-size: 30px;
+
+    box-shadow: 0 8px 20px rgba(22, 112, 247, 0.25);
 }
 
-.destination-card h5{
-    font-weight:bold;
+
+/* =====================================================
+   HERO FEATURES
+===================================================== */
+
+.hero-features {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 14px;
 }
 
-.destination-card p{
-    color:#666;
+.hero-features div {
+    padding: 15px 10px;
+
+    border-radius: 12px;
+
+    background: #f6f8fc;
+
+    font-size: 14px;
+
+    color: #333;
+
+    transition: 0.3s;
 }
 
-/* Why Choose Us */
+.hero-features div:hover {
+    background: #eef4ff;
 
-.why-us{
-    background:white;
+    transform: translateY(-3px);
 }
 
-.feature-card{
-    background:#fff;
-    padding:35px;
-    border-radius:20px;
-    box-shadow:0 5px 20px rgba(0,0,0,0.08);
-    transition:0.3s;
-    height:100%;
+.hero-features i {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 22px;
+
+    color: #1670f7;
 }
 
-.feature-card:hover{
-    transform:translateY(-10px);
-    box-shadow:0 12px 30px rgba(0,0,0,0.15);
+
+/* =====================================================
+   DESTINATIONS
+===================================================== */
+
+.destinations {
+    padding: 70px 0;
+
+    background: #f8f9fa;
 }
 
-.feature-icon{
-    font-size:50px;
-    color:#0d6efd;
-    margin-bottom:20px;
+.destination-card {
+    border: none;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    transition: 0.3s;
+
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
 }
 
-.feature-card h5{
-    font-weight:600;
-    margin-bottom:15px;
+.destination-card:hover {
+    transform: translateY(-8px);
+
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
 }
 
-.feature-card p{
-    color:#666;
+.destination-card img {
+    height: 250px;
+
+    width: 100%;
+
+    object-fit: cover;
 }
 
-/* Statistics */
-
-.statistics{
-
-    background:#0d6efd;
-
-    color:white;
-
+.destination-card h5 {
+    font-weight: 700;
 }
 
-.counter{
-
-    font-size:50px;
-
-    font-weight:700;
-
+.destination-card p {
+    color: #666;
 }
 
-.statistics p{
 
-    font-size:18px;
+/* =====================================================
+   WHY CHOOSE US / FEATURES
+===================================================== */
 
-    margin-top:10px;
+.features-section {
+    padding: 75px 5%;
 
+    background: #ffffff;
+
+    text-align: center;
 }
-/* Footer */
 
-.footer{
+.section-subtitle {
+    color: #1670f7;
 
-    background:#1c1c1c;
+    font-size: 14px;
 
-    color:white;
+    font-weight: 700;
 
-    padding:60px 0 20px;
+    margin-bottom: 8px;
 
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+}
+
+.section-title {
+    font-size: 36px;
+
+    font-weight: 700;
+
+    color: #172033;
+
+    margin-bottom: 45px;
+}
+
+.section-title::after {
+    content: "";
+
+    display: block;
+
+    width: 70px;
+
+    height: 4px;
+
+    background: #1670f7;
+
+    margin: 14px auto 0;
+
+    border-radius: 5px;
+}
+
+
+/* =====================================================
+   FEATURE CARDS
+===================================================== */
+
+.features-section .card {
+    border: none;
+
+    border-radius: 18px;
+
+    padding: 25px 20px;
+
+    min-height: 250px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+
+    transition: 0.3s;
+}
+
+.features-section .card:hover {
+    transform: translateY(-7px);
+
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.11);
+}
+
+.features-section .card i {
+    font-size: 42px;
+
+    color: #1670f7;
+
+    margin-bottom: 18px;
+}
+
+.features-section .card h4 {
+    font-size: 21px;
+
+    font-weight: 700;
+
+    margin-bottom: 12px;
+}
+
+.features-section .card p {
+    color: #666;
+
+    font-size: 15px;
+
+    line-height: 1.7;
+}
+
+
+/* =====================================================
+   STATISTICS SECTION
+===================================================== */
+
+.stats-section {
+    background: #1670f7;
+
+    color: #ffffff;
+
+    padding: 55px 0;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-item h2 {
+    font-size: 48px;
+
+    font-weight: 700;
+
+    margin-bottom: 5px;
+}
+
+.stat-item p {
+    font-size: 17px;
+
+    margin: 0;
+
+    opacity: 0.95;
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.footer {
+    background: #171717;
+
+    color: #ffffff;
+
+    padding: 55px 0 25px;
 }
 
 .footer h4,
-.footer h5{
+.footer h5 {
+    margin-bottom: 18px;
 
-    margin-bottom:20px;
-
-    font-weight:600;
-
+    font-weight: 600;
 }
 
-.footer p{
+.footer p {
+    color: #d5d5d5;
 
-    color:#dcdcdc;
-
+    line-height: 1.7;
 }
 
-.footer ul{
+.footer ul {
+    padding: 0;
 
-    padding:0;
-
+    list-style: none;
 }
 
-.footer ul li{
-
-    margin-bottom:10px;
-
+.footer ul li {
+    margin-bottom: 10px;
 }
 
-.footer ul li a{
+.footer ul li a {
+    color: #d5d5d5;
 
-    color:#dcdcdc;
+    text-decoration: none;
 
-    text-decoration:none;
-
-    transition:0.3s;
-
+    transition: 0.3s;
 }
 
-.footer ul li a:hover{
-
-    color:#0d6efd;
-
+.footer ul li a:hover {
+    color: #1670f7;
 }
 
-.social-icons a{
+.social-icons a {
+    color: white;
 
-    color:white;
+    font-size: 22px;
 
-    font-size:24px;
+    margin-right: 13px;
 
-    margin-right:15px;
-
-    transition:0.3s;
-
+    transition: 0.3s;
 }
 
-.social-icons a:hover{
-
-    color:#0d6efd;
-
+.social-icons a:hover {
+    color: #1670f7;
 }
 
-/* ===========================
-   Planner Page
-=========================== */
 
-.planner-section{
-    min-height:100vh;
-    padding:70px 0;
+/* =====================================================
+   PLANNER PAGE
+===================================================== */
+
+.planner-section {
+    min-height: 100vh;
+
+    padding: 70px 0;
 
     background:
-    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    url("../images/planner-bg.jpg");
+        linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)
+        ),
+        url("../images/planner-bg.jpg");
 
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
 }
 
-.planner-title{
-    text-align:center;
-    margin-bottom:35px;
+.planner-title {
+    text-align: center;
+
+    margin-bottom: 35px;
 }
 
-.planner-title h1{
-    color:#ffffff;
-    font-size:50px;
-    font-weight:700;
+.planner-title h1 {
+    color: #ffffff;
+
+    font-size: 50px;
+
+    font-weight: 700;
 }
 
-.planner-title p{
-    color:#f1f1f1;
-    font-size:18px;
+.planner-title p {
+    color: #f1f1f1;
+
+    font-size: 18px;
 }
 
-.planner-card{
+.planner-card {
+    max-width: 1100px;
 
-    max-width:1100px;
-    margin:auto;
+    margin: auto;
 
-    background:rgba(255,255,255,0.92);
-    backdrop-filter:blur(10px);
+    background: rgba(255, 255, 255, 0.94);
 
-    border-radius:20px;
+    backdrop-filter: blur(10px);
 
-    padding:45px;
+    border-radius: 20px;
 
-    box-shadow:0 15px 35px rgba(0,0,0,.35);
+    padding: 45px;
 
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+
+    transition: 0.3s;
 }
 
-.form-label{
-    font-weight:600;
-    color:#222;
+.planner-card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* =====================================================
+   FORM
+===================================================== */
+
+.form-label {
+    font-weight: 600;
+
+    color: #222;
 }
 
 .form-control,
-.form-select{
+.form-select {
+    height: 52px;
 
-    height:52px;
+    border-radius: 12px;
 
-    border-radius:12px;
-
-    border:1px solid #d6d6d6;
-
+    border: 1px solid #d6d6d6;
 }
 
 .form-control:focus,
-.form-select:focus{
+.form-select:focus {
+    border-color: #0d6efd;
 
-    border-color:#0d6efd;
-
-    box-shadow:0 0 10px rgba(13,110,253,.25);
-
+    box-shadow: 0 0 10px rgba(13, 110, 253, 0.25);
 }
 
-.btn-plan{
+.btn-plan {
+    background: #0d6efd;
 
-    background:#0d6efd;
+    color: white;
 
-    color:white;
+    border: none;
 
-    border:none;
+    border-radius: 35px;
 
-    border-radius:35px;
+    padding: 14px 45px;
 
-    padding:14px 45px;
+    font-size: 18px;
 
-    font-size:18px;
+    font-weight: 600;
 
-    font-weight:600;
-
-    transition:.3s;
-
+    transition: 0.3s;
 }
 
-.btn-plan:hover{
+.btn-plan:hover {
+    background: #0b5ed7;
 
-    background:#0b5ed7;
-
-    transform:translateY(-3px);
-
+    transform: translateY(-3px);
 }
 
-@media(max-width:768px){
 
-    .planner-card{
+/* =====================================================
+   PLACEHOLDER
+===================================================== */
 
-        padding:25px;
+::placeholder {
+    color: #999;
+}
 
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media (max-width: 992px) {
+
+    .hero h1 {
+        font-size: 48px;
     }
 
-    .planner-title h1{
-
-        font-size:36px;
-
+    .hero-card {
+        max-width: 390px;
     }
 
-    .btn-plan{
+    .navbar-brand {
+        font-size: 24px;
+    }
+}
 
-        width:100%;
 
+@media (max-width: 768px) {
+
+    .navbar {
+        padding: 10px 15px;
+    }
+
+    .nav-link {
+        margin-left: 0;
+
+        padding: 8px 0;
+    }
+
+    .nav-auth-btn {
+        display: inline-block;
+
+        margin: 5px 5px 5px 0 !important;
+    }
+
+
+    /* Hero */
+
+    .hero {
+        min-height: auto;
+
+        padding: 70px 20px;
+
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero p {
+        margin-left: auto;
+
+        margin-right: auto;
+
+        font-size: 16px;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-card {
+        margin: 45px auto 0;
+
+        max-width: 420px;
+
+        padding: 30px 25px;
+    }
+
+
+    /* Features */
+
+    .features-section {
+        padding: 55px 20px;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+
+    /* Planner */
+
+    .planner-card {
+        padding: 25px;
+    }
+
+    .planner-title h1 {
+        font-size: 36px;
+    }
+
+    .btn-plan {
+        width: 100%;
+    }
+
+
+    /* Stats */
+
+    .stat-item {
+        margin-bottom: 30px;
+    }
+
+    .stat-item h2 {
+        font-size: 38px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .hero-card {
+        padding: 25px 18px;
+    }
+
+    .hero-features {
+        gap: 10px;
+    }
+
+    .hero-features div {
+        padding: 12px 5px;
+        font-size: 12px;
+    }
+
+    .section-title {
+        font-size: 27px;
+    }
+}
+
+/* =========================
+   WHY CHOOSE US
+========================= */
+
+.why-us {
+    background: #f8f9fc;
+}
+
+.feature-card {
+    height: 100%;
+    padding: 35px 25px;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+.feature-icon {
+    font-size: 48px;
+    color: #0d6efd;
+    margin-bottom: 18px;
+}
+
+.feature-card h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.feature-card p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+/* =========================
+   STATISTICS
+========================= */
+
+.statistics {
+    padding: 45px 0;
+    background: #0d6efd;
+}
+
+.stat-box {
+    padding: 10px;
+}
+
+.stat-box h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.stat-box p {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+    background: #181818;
+    color: white;
+    padding: 45px 0 15px;
+}
+
+.footer h4,
+.footer h5 {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer p {
+    color: #d5d5d5;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    margin-bottom: 8px;
+}
+
+.footer ul li a {
+    color: #d5d5d5;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer ul li a:hover {
+    color: #0d6efd;
+}
+
+.footer .social-icons {
+    margin-top: 15px;
+}
+
+.footer .social-icons a {
+    color: white;
+    font-size: 20px;
+    margin-right: 14px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    margin-top: 25px;
+    padding-top: 18px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .feature-card {
+        margin-bottom: 10px;
+    }
+
+    .statistics {
+        padding: 35px 0;
+    }
+
+    .stat-box h2 {
+        font-size: 30px;
+    }
+
+    .stat-box p {
+        font-size: 14px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer .social-icons {
+        justify-content: center;
     }
 
 }
-.planner-card{
-    transition:0.4s;
+
+/* =========================
+   COMPACT STATISTICS SECTION
+========================= */
+
+.stats-section {
+    padding: 45px 0 !important;
 }
 
-.planner-card:hover{
-    transform:translateY(-8px);
+.stats-section h2 {
+    font-size: 42px !important;
+    margin-bottom: 5px !important;
 }
-::placeholder{
-    color:#999;
+
+.stats-section p {
+    font-size: 16px !important;
+    margin-bottom: 0 !important;
 }
-.container{
-    max-width:1100px;
+
+
+/* =========================
+   COMPACT FOOTER
+========================= */
+
+.footer {
+    padding: 38px 0 15px !important;
+}
+
+.footer h4,
+.footer h5 {
+    font-size: 22px;
+    margin-bottom: 14px !important;
+}
+
+.footer p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.footer ul li {
+    margin-bottom: 6px !important;
+}
+
+.footer ul li a {
+    font-size: 15px;
+}
+
+.social-icons a {
+    font-size: 20px !important;
+    margin-right: 12px !important;
+}
+
+
+/* Footer bottom copyright */
+
+.footer hr {
+    margin: 25px 0 18px !important;
+}
+
+.footer .copyright {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+
+/* =========================
+   FOOTER CONTAINER
+========================= */
+
+.footer .container {
+    max-width: 1100px;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+    .stats-section {
+        padding: 30px 0 !important;
+    }
+
+    .stats-section h2 {
+        font-size: 32px !important;
+    }
+
+    .footer {
+        padding: 30px 20px 15px !important;
+    }
+
 }

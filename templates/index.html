@@ -58,11 +58,11 @@
 
                     <li class="nav-item">
                         <a class="nav-link" href="/hotels">Hotels</a>
-                    // <a class="nav-link" href="/recommend">Hotels</a>
+                    
                     </li>
 
                     <li class="nav-item">
-                        //<a class="nav-link" href="/recommend">Restaurants</a>
+                        
 
                         <a class="nav-link" href="/restaurants">Restaurants</a>
                     </li>
@@ -77,11 +77,11 @@
 
                 </ul>
 
-                <a href="/login" class="btn btn-outline-primary me-2">
+                <a href="/login" class="btn btn-outline-primary nav-auth-btn me-2">
     <i class="bi bi-box-arrow-in-right"></i> Login
 </a>
 
-                <a href="/signup" class="btn btn-primary">
+<a href="/signup" class="btn btn-primary nav-auth-btn">
     <i class="bi bi-person-plus-fill"></i> Sign Up
 </a>
                 
@@ -90,55 +90,79 @@
 
     </nav>
 
+
     <!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <div class="row align-items-center">
 
-    <section class="hero">
+            <!-- Left Side -->
+            <div class="col-lg-6">
 
-        <div class="container">
+                <span class="hero-badge">
+                    <i class="bi bi-stars"></i> AI-Powered Travel Planning
+                </span>
 
-            <div class="row align-items-center">
+                <h1>
+                    Discover <span>Sri Lanka</span> with AI
+                </h1>
 
-                <!-- Left Side -->
+                <p>
+                    Plan your perfect Sri Lankan journey with intelligent
+                    recommendations based on your budget, interests and
+                    travel preferences.
+                </p>
 
-                <div class="col-lg-6">
-
-                    <h1>Discover Sri Lanka with AI</h1>
-
-                    <p>
-                        Plan your perfect trip with intelligent recommendations
-                        based on your budget, interests and travel preferences.
-                    </p>
-
-                    <a href="/planner" class="btn btn-primary btn-lg me-3">
-    <i class="bi bi-stars"></i> Plan My Trip
-</a>
-
+                <div class="hero-buttons">
+                    <a href="/planner" class="btn btn-primary btn-lg">
+                        <i class="bi bi-stars"></i> Plan My Trip
+                    </a>
 
                     <a href="#destinations" class="btn btn-outline-light btn-lg">
-    Explore Places
-</a>
-
+                        Explore Places
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
                 </div>
 
-                <!-- Right Side -->
+            </div>
 
-                <div class="col-lg-6 text-center">
+            <!-- Right Side -->
+            <div class="col-lg-6 text-center">
 
-                    <div class="hero-card">
+                <div class="hero-card">
 
-                        <h3>🌴 AI Smart Travel Planner</h3>
+                    <div class="hero-icon">
+                        <i class="bi bi-airplane"></i>
+                    </div>
 
-                        <p>
-                            Create personalized travel plans for Sri Lanka
-                            using Artificial Intelligence.
-                        </p>
+                    <h3>Smart Travel Planner</h3>
 
-                        <hr>
+                    <p>
+                        Create a personalized travel experience
+                        with AI-powered recommendations.
+                    </p>
 
-                        <p>✔ Tourist Attractions</p>
-                        <p>✔ Hotels</p>
-                        <p>✔ Restaurants</p>
-                        <p>✔ Budget Planning</p>
+                    <div class="hero-features">
+
+                        <div>
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <span>Tourist Attractions</span>
+                        </div>
+
+                        <div>
+                            <i class="bi bi-building"></i>
+                            <span>Hotels</span>
+                        </div>
+
+                        <div>
+                            <i class="bi bi-cup-hot-fill"></i>
+                            <span>Restaurants</span>
+                        </div>
+
+                        <div>
+                            <i class="bi bi-wallet2"></i>
+                            <span>Budget Planning</span>
+                        </div>
 
                     </div>
 
@@ -147,9 +171,8 @@
             </div>
 
         </div>
-
-    </section>
-
+    </div>
+</section>
     <!-- Popular Destinations -->
 
     <section id="destinations" class="destinations py-5">
@@ -250,7 +273,6 @@
 </section>
 
 <!-- Why Choose Us -->
-
 <section id="about" class="why-us py-5">
 
     <div class="container">
@@ -267,8 +289,10 @@
 
         </div>
 
+
         <div class="row g-4">
 
+            <!-- Feature 1 -->
             <div class="col-md-3">
 
                 <div class="feature-card text-center">
@@ -285,6 +309,8 @@
 
             </div>
 
+
+            <!-- Feature 2 -->
             <div class="col-md-3">
 
                 <div class="feature-card text-center">
@@ -301,6 +327,8 @@
 
             </div>
 
+
+            <!-- Feature 3 -->
             <div class="col-md-3">
 
                 <div class="feature-card text-center">
@@ -317,6 +345,8 @@
 
             </div>
 
+
+            <!-- Feature 4 -->
             <div class="col-md-3">
 
                 <div class="feature-card text-center">
@@ -336,51 +366,53 @@
         </div>
 
     </div>
-    <!-- Statistics Section -->
 
-<section class="statistics py-5">
+</section>
+
+
+<!-- Statistics Section -->
+<section class="statistics">
 
     <div class="container">
 
         <div class="row text-center">
 
-            <div class="col-md-3 col-6 mb-4">
-
-                <h2 class="counter">100+</h2>
-
-                <p>Tourist Destinations</p>
-
+            <div class="col-md-3 col-6">
+                <div class="stat-box">
+                    <h2>100+</h2>
+                    <p>Tourist Destinations</p>
+                </div>
             </div>
 
-            <div class="col-md-3 col-6 mb-4">
-
-                <h2 class="counter">500+</h2>
-
-                <p>Hotels</p>
-
+            <div class="col-md-3 col-6">
+                <div class="stat-box">
+                    <h2>500+</h2>
+                    <p>Hotels</p>
+                </div>
             </div>
 
-            <div class="col-md-3 col-6 mb-4">
-
-                <h2 class="counter">300+</h2>
-
-                <p>Restaurants</p>
-
+            <div class="col-md-3 col-6">
+                <div class="stat-box">
+                    <h2>300+</h2>
+                    <p>Restaurants</p>
+                </div>
             </div>
 
-            <div class="col-md-3 col-6 mb-4">
-
-                <h2 class="counter">10K+</h2>
-
-                <p>Happy Travelers</p>
-
+            <div class="col-md-3 col-6">
+                <div class="stat-box">
+                    <h2>10K+</h2>
+                    <p>Happy Travelers</p>
+                </div>
             </div>
 
         </div>
 
     </div>
-    <!-- Footer -->
 
+</section>
+
+
+<!-- Footer -->
 <footer id="contact" class="footer">
 
     <div class="container">
@@ -388,69 +420,94 @@
         <div class="row">
 
             <!-- Company -->
-
             <div class="col-lg-4 mb-4">
 
                 <h4>AI Tour Sri Lanka</h4>
 
                 <p>
-                    Discover the beauty of Sri Lanka with AI-powered travel recommendations.
-                    Plan smarter, travel better.
+                    Discover the beauty of Sri Lanka with AI-powered
+                    travel recommendations. Plan smarter, travel better.
                 </p>
 
             </div>
 
-            <!-- Quick Links -->
 
+            <!-- Quick Links -->
             <div class="col-lg-4 mb-4">
 
                 <h5>Quick Links</h5>
 
-                <ul class="list-unstyled">
+                <ul>
 
-                    <li><a href="#">Home</a></li>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
 
-                    <li><a href="#">Destinations</a></li>
+                    <li>
+                        <a href="#destinations">Destinations</a>
+                    </li>
 
-                  //  <li><a href="#">Hotels</a></li>
+                    <li>
+                        <a href="{{ url_for('hotel_page') }}">
+                            Hotels
+                        </a>
+                    </li>
 
-                   // <li><a href="#">Restaurants</a></li>
-                         <li>
-                          <a href="{{ url_for('hotel_page') }}">Hotels</a>
-                        </li>
+                    <li>
+                        <a href="{{ url_for('restaurant_page') }}">
+                            Restaurants
+                        </a>
+                    </li>
 
-                          <li>
-                          <a href="{{ url_for('restaurant_page') }}">Restaurants</a>
-                           </li>
-                   
-
-                    <li><a href="#">Contact</a></li>
+                    <li>
+                        <a href="#contact">
+                            Contact
+                        </a>
+                    </li>
 
                 </ul>
 
             </div>
 
-            <!-- Contact -->
 
+            <!-- Contact -->
             <div class="col-lg-4 mb-4">
 
                 <h5>Contact Us</h5>
 
-                <p><i class="bi bi-envelope-fill"></i> support@aitoursrilanka.com</p>
+                <p>
+                    <i class="bi bi-envelope-fill"></i>
+                    support@aitoursrilanka.com
+                </p>
 
-                <p><i class="bi bi-telephone-fill"></i> +94 77 123 4567</p>
+                <p>
+                    <i class="bi bi-telephone-fill"></i>
+                    +94 77 123 4567
+                </p>
 
-                <p><i class="bi bi-geo-alt-fill"></i> Colombo, Sri Lanka</p>
+                <p>
+                    <i class="bi bi-geo-alt-fill"></i>
+                    Colombo, Sri Lanka
+                </p>
+
 
                 <div class="social-icons">
 
-                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#">
+                        <i class="bi bi-facebook"></i>
+                    </a>
 
-                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#">
+                        <i class="bi bi-instagram"></i>
+                    </a>
 
-                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#">
+                        <i class="bi bi-twitter-x"></i>
+                    </a>
 
-                    <a href="#"><i class="bi bi-youtube"></i></a>
+                    <a href="#">
+                        <i class="bi bi-youtube"></i>
+                    </a>
 
                 </div>
 
@@ -458,12 +515,13 @@
 
         </div>
 
-        <hr>
 
-        <div class="text-center">
+        <div class="footer-bottom">
 
             <p>
-                © 2026 AI Tour Sri Lanka | Final Year Project | All Rights Reserved
+                © 2026 AI Tour Sri Lanka |
+                Final Year Project |
+                All Rights Reserved
             </p>
 
         </div>
@@ -471,9 +529,6 @@
     </div>
 
 </footer>
-
-
-</section>
 
 <!-- Bootstrap JS -->
 

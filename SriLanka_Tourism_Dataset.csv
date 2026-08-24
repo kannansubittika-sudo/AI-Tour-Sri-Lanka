@@ -2204,13 +2204,13 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 3,Royal Botanic Gardens Peradeniya,Nature,Kandy,Kandy,4.2,500,1500,7.2681,80.595,Low,Most beautiful botanical garden in Asia,"garden,botanical,flowers,nature",
 4,Pinnawala Elephant Orphanage,Wildlife,Kandy,Kandy,4.1,2000,4000,7.3003,80.3842,Medium,Largest captive elephant herd,"elephant,orphanage,wildlife,family",
 5,Ambuluwawa Tower,Nature,Kandy,Kandy,3.8,200,700,7.17,80.57,Low,Unique spiral tower with 360 views,"tower,viewpoint,360,nature",images/ambuluwawa_tower.jpg
-6,Lankathilaka Temple,Religious,Kandy,Kandy,5,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpg
+6,Lankathilaka Temple,Religious,Kandy,Kandy,5,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpeg
 7,Gadaladeniya Temple,Religious,Kandy,Kandy,4.9,200,700,7.2833,80.5333,Low,14th century rock temple,"temple,ancient,rock,religious",
 8,Udawattekele Sanctuary,Wildlife,Kandy,Kandy,4.7,300,900,7.2936,80.6413,Low,Forest sanctuary in city center,"forest,birds,wildlife,nature",
 9,Bahirawakanda Buddha Statue,Religious,Kandy,Kandy,3.5,0,400,7.3,80.63,Low,Giant white Buddha overlooking Kandy,"buddha,giant,viewpoint,religious",
 10,Knuckles Mountain Range,Adventure,Kandy,Kandy,4,1500,5000,7.45,80.7833,Medium,UNESCO biosphere with trekking trails,"trekking,UNESCO,wildlife,adventure",
 11,Temple of Sacred Tooth Relic,Religious,Kandy,Kandy,4.9,1500,3000,7.2936,80.6413,Medium,Most sacred Buddhist temple in Sri Lanka,"temple,buddhist,sacred,UNESCO,religious",
-12,Lankathilaka Temple,Religious,Kandy,Kandy,4.4,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpg
+12,Lankathilaka Temple,Religious,Kandy,Kandy,4.4,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpeg
 13,Pinnawala Elephant Orphanage,Wildlife,Kandy,Kandy,4.2,2000,4000,7.3003,80.3842,Medium,Largest captive elephant herd,"elephant,orphanage,wildlife,family",
 14,Gadaladeniya Temple,Religious,Kandy,Kandy,4.5,200,700,7.2833,80.5333,Low,14th century rock temple,"temple,ancient,rock,religious",
 15,Kandy Lake,Nature,Kandy,Kandy,3.7,0,400,7.2906,80.6337,Low,Scenic artificial lake in city center,"lake,scenic,walking,nature",
@@ -2230,16 +2230,16 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 29,Royal Botanic Gardens Peradeniya,Nature,Kandy,Kandy,4.5,500,1500,7.2681,80.595,Low,Most beautiful botanical garden in Asia,"garden,botanical,flowers,nature",
 30,Kandy Lake,Nature,Kandy,Kandy,3.2,0,400,7.2906,80.6337,Low,Scenic artificial lake in city center,"lake,scenic,walking,nature",
 31,Temple of Sacred Tooth Relic,Religious,Kandy,Kandy,3.3,1500,3000,7.2936,80.6413,Medium,Most sacred Buddhist temple in Sri Lanka,"temple,buddhist,sacred,UNESCO,religious",
-32,Lankathilaka Temple,Religious,Kandy,Kandy,4.8,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpg
+32,Lankathilaka Temple,Religious,Kandy,Kandy,4.8,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpeg
 33,Ambuluwawa Tower,Nature,Kandy,Kandy,3.4,200,700,7.17,80.57,Low,Unique spiral tower with 360 views,"tower,viewpoint,360,nature",images/ambuluwawa_tower.jpg
 34,Ambuluwawa Tower,Nature,Kandy,Kandy,4.3,200,700,7.17,80.57,Low,Unique spiral tower with 360 views,"tower,viewpoint,360,nature",images/ambuluwawa_tower.jpg
 35,Kandy Lake,Nature,Kandy,Kandy,4.3,0,400,7.2906,80.6337,Low,Scenic artificial lake in city center,"lake,scenic,walking,nature",
 36,Bahirawakanda Buddha Statue,Religious,Kandy,Kandy,4.3,0,400,7.3,80.63,Low,Giant white Buddha overlooking Kandy,"buddha,giant,viewpoint,religious",
 37,Udawattekele Sanctuary,Wildlife,Kandy,Kandy,3.2,300,900,7.2936,80.6413,Low,Forest sanctuary in city center,"forest,birds,wildlife,nature",
-38,Lankathilaka Temple,Religious,Kandy,Kandy,4.7,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpg
+38,Lankathilaka Temple,Religious,Kandy,Kandy,4.7,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpeg
 39,Knuckles Mountain Range,Adventure,Kandy,Kandy,4.5,1500,5000,7.45,80.7833,Medium,UNESCO biosphere with trekking trails,"trekking,UNESCO,wildlife,adventure",
 40,Knuckles Mountain Range,Adventure,Kandy,Kandy,3.1,1500,5000,7.45,80.7833,Medium,UNESCO biosphere with trekking trails,"trekking,UNESCO,wildlife,adventure",
-41,Lankathilaka Temple,Religious,Kandy,Kandy,3.8,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpg
+41,Lankathilaka Temple,Religious,Kandy,Kandy,3.8,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpeg
 42,Gadaladeniya Temple,Religious,Kandy,Kandy,4.3,200,700,7.2833,80.5333,Low,14th century rock temple,"temple,ancient,rock,religious",
 43,Bahirawakanda Buddha Statue,Religious,Kandy,Kandy,4.9,0,400,7.3,80.63,Low,Giant white Buddha overlooking Kandy,"buddha,giant,viewpoint,religious",
 44,Gadaladeniya Temple,Religious,Kandy,Kandy,4.6,200,700,7.2833,80.5333,Low,14th century rock temple,"temple,ancient,rock,religious",
@@ -2253,12 +2253,12 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 52,Temple of Sacred Tooth Relic,Religious,Kandy,Kandy,3.6,1500,3000,7.2936,80.6413,Medium,Most sacred Buddhist temple in Sri Lanka,"temple,buddhist,sacred,UNESCO,religious",
 53,Knuckles Mountain Range,Adventure,Kandy,Kandy,4.1,1500,5000,7.45,80.7833,Medium,UNESCO biosphere with trekking trails,"trekking,UNESCO,wildlife,adventure",
 54,Gadaladeniya Temple,Religious,Kandy,Kandy,5,200,700,7.2833,80.5333,Low,14th century rock temple,"temple,ancient,rock,religious",
-55,Lankathilaka Temple,Religious,Kandy,Kandy,4.5,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpg
+55,Lankathilaka Temple,Religious,Kandy,Kandy,4.5,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpeg
 56,Royal Botanic Gardens Peradeniya,Nature,Kandy,Kandy,4,500,1500,7.2681,80.595,Low,Most beautiful botanical garden in Asia,"garden,botanical,flowers,nature",
 57,Knuckles Mountain Range,Adventure,Kandy,Kandy,4.2,1500,5000,7.45,80.7833,Medium,UNESCO biosphere with trekking trails,"trekking,UNESCO,wildlife,adventure",
 58,Kandy Lake,Nature,Kandy,Kandy,3.8,0,400,7.2906,80.6337,Low,Scenic artificial lake in city center,"lake,scenic,walking,nature",
 59,Bahirawakanda Buddha Statue,Religious,Kandy,Kandy,4.7,0,400,7.3,80.63,Low,Giant white Buddha overlooking Kandy,"buddha,giant,viewpoint,religious",
-60,Lankathilaka Temple,Religious,Kandy,Kandy,3.3,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpg
+60,Lankathilaka Temple,Religious,Kandy,Kandy,3.3,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpeg
 61,Ambuluwawa Tower,Nature,Kandy,Kandy,4.7,200,700,7.17,80.57,Low,Unique spiral tower with 360 views,"tower,viewpoint,360,nature",images/ambuluwawa_tower.jpg
 62,Udawattekele Sanctuary,Wildlife,Kandy,Kandy,4.4,300,900,7.2936,80.6413,Low,Forest sanctuary in city center,"forest,birds,wildlife,nature",
 63,Royal Botanic Gardens Peradeniya,Nature,Kandy,Kandy,4.2,500,1500,7.2681,80.595,Low,Most beautiful botanical garden in Asia,"garden,botanical,flowers,nature",
@@ -2269,7 +2269,7 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 68,Knuckles Mountain Range,Adventure,Kandy,Kandy,4,1500,5000,7.45,80.7833,Medium,UNESCO biosphere with trekking trails,"trekking,UNESCO,wildlife,adventure",
 69,Pinnawala Elephant Orphanage,Wildlife,Kandy,Kandy,4,2000,4000,7.3003,80.3842,Medium,Largest captive elephant herd,"elephant,orphanage,wildlife,family",
 70,Gadaladeniya Temple,Religious,Kandy,Kandy,3.1,200,700,7.2833,80.5333,Low,14th century rock temple,"temple,ancient,rock,religious",
-71,Lankathilaka Temple,Religious,Kandy,Kandy,3.3,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpg
+71,Lankathilaka Temple,Religious,Kandy,Kandy,3.3,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpeg
 72,Pinnawala Elephant Orphanage,Wildlife,Kandy,Kandy,4.7,2000,4000,7.3003,80.3842,Medium,Largest captive elephant herd,"elephant,orphanage,wildlife,family",
 73,Pinnawala Elephant Orphanage,Wildlife,Kandy,Kandy,4.4,2000,4000,7.3003,80.3842,Medium,Largest captive elephant herd,"elephant,orphanage,wildlife,family",
 74,Temple of Sacred Tooth Relic,Religious,Kandy,Kandy,4.8,1500,3000,7.2936,80.6413,Medium,Most sacred Buddhist temple in Sri Lanka,"temple,buddhist,sacred,UNESCO,religious",
@@ -2278,7 +2278,7 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 77,Royal Botanic Gardens Peradeniya,Nature,Kandy,Kandy,5,500,1500,7.2681,80.595,Low,Most beautiful botanical garden in Asia,"garden,botanical,flowers,nature",
 78,Bahirawakanda Buddha Statue,Religious,Kandy,Kandy,3.8,0,400,7.3,80.63,Low,Giant white Buddha overlooking Kandy,"buddha,giant,viewpoint,religious",
 79,Gadaladeniya Temple,Religious,Kandy,Kandy,4.4,200,700,7.2833,80.5333,Low,14th century rock temple,"temple,ancient,rock,religious",
-80,Lankathilaka Temple,Religious,Kandy,Kandy,4.5,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpg
+80,Lankathilaka Temple,Religious,Kandy,Kandy,4.5,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpeg
 81,Gadaladeniya Temple,Religious,Kandy,Kandy,3.1,200,700,7.2833,80.5333,Low,14th century rock temple,"temple,ancient,rock,religious",
 82,Ambuluwawa Tower,Nature,Kandy,Kandy,3.6,200,700,7.17,80.57,Low,Unique spiral tower with 360 views,"tower,viewpoint,360,nature",images/ambuluwawa_tower.jpg
 83,Pinnawala Elephant Orphanage,Wildlife,Kandy,Kandy,4.4,2000,4000,7.3003,80.3842,Medium,Largest captive elephant herd,"elephant,orphanage,wildlife,family",
@@ -2332,13 +2332,13 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 131,Kandy Lake,Nature,Kandy,Kandy,3.4,0,400,7.2906,80.6337,Low,Scenic artificial lake in city center,"lake,scenic,walking,nature",
 132,Knuckles Mountain Range,Adventure,Kandy,Kandy,4.4,1500,5000,7.45,80.7833,Medium,UNESCO biosphere with trekking trails,"trekking,UNESCO,wildlife,adventure",
 133,Temple of Sacred Tooth Relic,Religious,Kandy,Kandy,4.1,1500,3000,7.2936,80.6413,Medium,Most sacred Buddhist temple in Sri Lanka,"temple,buddhist,sacred,UNESCO,religious",
-134,Lankathilaka Temple,Religious,Kandy,Kandy,3.2,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpg
+134,Lankathilaka Temple,Religious,Kandy,Kandy,3.2,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpeg
 135,Royal Botanic Gardens Peradeniya,Nature,Kandy,Kandy,4.2,500,1500,7.2681,80.595,Low,Most beautiful botanical garden in Asia,"garden,botanical,flowers,nature",
 136,Royal Botanic Gardens Peradeniya,Nature,Kandy,Kandy,3.2,500,1500,7.2681,80.595,Low,Most beautiful botanical garden in Asia,"garden,botanical,flowers,nature",
 137,Ambuluwawa Tower,Nature,Kandy,Kandy,4.7,200,700,7.17,80.57,Low,Unique spiral tower with 360 views,"tower,viewpoint,360,nature",images/ambuluwawa_tower.jpg
 138,Temple of Sacred Tooth Relic,Religious,Kandy,Kandy,3.2,1500,3000,7.2936,80.6413,Medium,Most sacred Buddhist temple in Sri Lanka,"temple,buddhist,sacred,UNESCO,religious",
 139,Kandy Lake,Nature,Kandy,Kandy,4,0,400,7.2906,80.6337,Low,Scenic artificial lake in city center,"lake,scenic,walking,nature",
-140,Lankathilaka Temple,Religious,Kandy,Kandy,4.9,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpg
+140,Lankathilaka Temple,Religious,Kandy,Kandy,4.9,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpeg
 141,Royal Botanic Gardens Peradeniya,Nature,Kandy,Kandy,3.8,500,1500,7.2681,80.595,Low,Most beautiful botanical garden in Asia,"garden,botanical,flowers,nature",
 142,Temple of Sacred Tooth Relic,Religious,Kandy,Kandy,3.5,1500,3000,7.2936,80.6413,Medium,Most sacred Buddhist temple in Sri Lanka,"temple,buddhist,sacred,UNESCO,religious",
 143,Temple of Sacred Tooth Relic,Religious,Kandy,Kandy,4.9,1500,3000,7.2936,80.6413,Medium,Most sacred Buddhist temple in Sri Lanka,"temple,buddhist,sacred,UNESCO,religious",
@@ -2347,7 +2347,7 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 146,Udawattekele Sanctuary,Wildlife,Kandy,Kandy,3.3,300,900,7.2936,80.6413,Low,Forest sanctuary in city center,"forest,birds,wildlife,nature",
 147,Udawattekele Sanctuary,Wildlife,Kandy,Kandy,4.4,300,900,7.2936,80.6413,Low,Forest sanctuary in city center,"forest,birds,wildlife,nature",
 148,Bahirawakanda Buddha Statue,Religious,Kandy,Kandy,4.8,0,400,7.3,80.63,Low,Giant white Buddha overlooking Kandy,"buddha,giant,viewpoint,religious",
-149,Lankathilaka Temple,Religious,Kandy,Kandy,4.2,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpg
+149,Lankathilaka Temple,Religious,Kandy,Kandy,4.2,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpeg
 150,Bahirawakanda Buddha Statue,Religious,Kandy,Kandy,3.4,0,400,7.3,80.63,Low,Giant white Buddha overlooking Kandy,"buddha,giant,viewpoint,religious",
 151,Kandy Lake,Nature,Kandy,Kandy,4.3,0,400,7.2906,80.6337,Low,Scenic artificial lake in city center,"lake,scenic,walking,nature",
 152,Temple of Sacred Tooth Relic,Religious,Kandy,Kandy,3.5,1500,3000,7.2936,80.6413,Medium,Most sacred Buddhist temple in Sri Lanka,"temple,buddhist,sacred,UNESCO,religious",
@@ -2368,14 +2368,14 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 167,Knuckles Mountain Range,Adventure,Kandy,Kandy,4.3,1500,5000,7.45,80.7833,Medium,UNESCO biosphere with trekking trails,"trekking,UNESCO,wildlife,adventure",
 168,Bahirawakanda Buddha Statue,Religious,Kandy,Kandy,4.2,0,400,7.3,80.63,Low,Giant white Buddha overlooking Kandy,"buddha,giant,viewpoint,religious",
 169,Gadaladeniya Temple,Religious,Kandy,Kandy,4.6,200,700,7.2833,80.5333,Low,14th century rock temple,"temple,ancient,rock,religious",
-170,Lankathilaka Temple,Religious,Kandy,Kandy,5,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpg
+170,Lankathilaka Temple,Religious,Kandy,Kandy,5,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpeg
 171,Gadaladeniya Temple,Religious,Kandy,Kandy,3.8,200,700,7.2833,80.5333,Low,14th century rock temple,"temple,ancient,rock,religious",
 172,Knuckles Mountain Range,Adventure,Kandy,Kandy,3.5,1500,5000,7.45,80.7833,Medium,UNESCO biosphere with trekking trails,"trekking,UNESCO,wildlife,adventure",
 173,Ambuluwawa Tower,Nature,Kandy,Kandy,3.2,200,700,7.17,80.57,Low,Unique spiral tower with 360 views,"tower,viewpoint,360,nature",images/ambuluwawa_tower.jpg
 174,Kandy Lake,Nature,Kandy,Kandy,4.4,0,400,7.2906,80.6337,Low,Scenic artificial lake in city center,"lake,scenic,walking,nature",
 175,Gadaladeniya Temple,Religious,Kandy,Kandy,3.1,200,700,7.2833,80.5333,Low,14th century rock temple,"temple,ancient,rock,religious",
 176,Kandy Lake,Nature,Kandy,Kandy,3.7,0,400,7.2906,80.6337,Low,Scenic artificial lake in city center,"lake,scenic,walking,nature",
-177,Lankathilaka Temple,Religious,Kandy,Kandy,4.6,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpg
+177,Lankathilaka Temple,Religious,Kandy,Kandy,4.6,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpeg
 178,Royal Botanic Gardens Peradeniya,Nature,Kandy,Kandy,4.7,500,1500,7.2681,80.595,Low,Most beautiful botanical garden in Asia,"garden,botanical,flowers,nature",
 179,Pinnawala Elephant Orphanage,Wildlife,Kandy,Kandy,3.5,2000,4000,7.3003,80.3842,Medium,Largest captive elephant herd,"elephant,orphanage,wildlife,family",
 180,Kandy Lake,Nature,Kandy,Kandy,3.8,0,400,7.2906,80.6337,Low,Scenic artificial lake in city center,"lake,scenic,walking,nature",
@@ -2384,7 +2384,7 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 183,Kandy Lake,Nature,Kandy,Kandy,3.4,0,400,7.2906,80.6337,Low,Scenic artificial lake in city center,"lake,scenic,walking,nature",
 184,Ambuluwawa Tower,Nature,Kandy,Kandy,4.2,200,700,7.17,80.57,Low,Unique spiral tower with 360 views,"tower,viewpoint,360,nature",images/ambuluwawa_tower.jpg
 185,Udawattekele Sanctuary,Wildlife,Kandy,Kandy,3.2,300,900,7.2936,80.6413,Low,Forest sanctuary in city center,"forest,birds,wildlife,nature",
-186,Lankathilaka Temple,Religious,Kandy,Kandy,4.4,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpg
+186,Lankathilaka Temple,Religious,Kandy,Kandy,4.4,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpeg
 187,Ambuluwawa Tower,Nature,Kandy,Kandy,4.1,200,700,7.17,80.57,Low,Unique spiral tower with 360 views,"tower,viewpoint,360,nature",images/ambuluwawa_tower.jpg
 188,Knuckles Mountain Range,Adventure,Kandy,Kandy,3.2,1500,5000,7.45,80.7833,Medium,UNESCO biosphere with trekking trails,"trekking,UNESCO,wildlife,adventure",
 189,Temple of Sacred Tooth Relic,Religious,Kandy,Kandy,3.3,1500,3000,7.2936,80.6413,Medium,Most sacred Buddhist temple in Sri Lanka,"temple,buddhist,sacred,UNESCO,religious",
@@ -2396,11 +2396,11 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 195,Royal Botanic Gardens Peradeniya,Nature,Kandy,Kandy,3.3,500,1500,7.2681,80.595,Low,Most beautiful botanical garden in Asia,"garden,botanical,flowers,nature",
 196,Knuckles Mountain Range,Adventure,Kandy,Kandy,4.5,1500,5000,7.45,80.7833,Medium,UNESCO biosphere with trekking trails,"trekking,UNESCO,wildlife,adventure",
 197,Temple of Sacred Tooth Relic,Religious,Kandy,Kandy,4.8,1500,3000,7.2936,80.6413,Medium,Most sacred Buddhist temple in Sri Lanka,"temple,buddhist,sacred,UNESCO,religious",
-198,Lankathilaka Temple,Religious,Kandy,Kandy,4.4,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpg
+198,Lankathilaka Temple,Religious,Kandy,Kandy,4.4,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpeg
 199,Pinnawala Elephant Orphanage,Wildlife,Kandy,Kandy,4.4,2000,4000,7.3003,80.3842,Medium,Largest captive elephant herd,"elephant,orphanage,wildlife,family",
 200,Gadaladeniya Temple,Religious,Kandy,Kandy,4.4,200,700,7.2833,80.5333,Low,14th century rock temple,"temple,ancient,rock,religious",
 201,Royal Botanic Gardens Peradeniya,Nature,Kandy,Kandy,3.9,500,1500,7.2681,80.595,Low,Most beautiful botanical garden in Asia,"garden,botanical,flowers,nature",
-202,Lankathilaka Temple,Religious,Kandy,Kandy,4.6,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpg
+202,Lankathilaka Temple,Religious,Kandy,Kandy,4.6,300,900,7.2667,80.55,Low,Beautiful ancient temple near Kandy,"temple,ancient,buddhist,religious",images/lankathilaka_temple.jpeg
 203,Bahirawakanda Buddha Statue,Religious,Kandy,Kandy,3.6,0,400,7.3,80.63,Low,Giant white Buddha overlooking Kandy,"buddha,giant,viewpoint,religious",
 204,Gadaladeniya Temple,Religious,Kandy,Kandy,4,200,700,7.2833,80.5333,Low,14th century rock temple,"temple,ancient,rock,religious",
 205,Pinnawala Elephant Orphanage,Wildlife,Kandy,Kandy,3.6,2000,4000,7.3003,80.3842,Medium,Largest captive elephant herd,"elephant,orphanage,wildlife,family",
@@ -4185,19 +4185,19 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 4,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4.8,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 5,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.9,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
 6,Polonnaruwa Museum,Historical,Polonnaruwa,Polonnaruwa,4.1,300,800,7.9403,81.0188,Low,Excellent museum with ancient artifacts,"museum,artifacts,historical,culture",
-7,Lankathilaka Temple,Religious,Kandy,Kandy,4.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+7,Lankathilaka Temple,Religious,Kandy,Kandy,4.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 8,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,4.1,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 9,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.7,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
 10,Polonnaruwa Museum,Historical,Polonnaruwa,Polonnaruwa,3.3,300,800,7.9403,81.0188,Low,Excellent museum with ancient artifacts,"museum,artifacts,historical,culture",
 11,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.5,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
-12,Lankathilaka Temple,Religious,Kandy,Kandy,4.6,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+12,Lankathilaka Temple,Religious,Kandy,Kandy,4.6,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 13,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,4.3,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 14,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.4,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 15,Polonnaruwa Museum,Historical,Polonnaruwa,Polonnaruwa,3.4,300,800,7.9403,81.0188,Low,Excellent museum with ancient artifacts,"museum,artifacts,historical,culture",
 16,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.8,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 17,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.3,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
 18,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,4.9,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",
-19,Lankathilaka Temple,Religious,Kandy,Kandy,4.7,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+19,Lankathilaka Temple,Religious,Kandy,Kandy,4.7,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 20,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,3.4,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",
 21,Polonnaruwa Museum,Historical,Polonnaruwa,Polonnaruwa,4.8,300,800,7.9403,81.0188,Low,Excellent museum with ancient artifacts,"museum,artifacts,historical,culture",
 22,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4.3,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
@@ -4211,10 +4211,10 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 30,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.7,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
 31,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,4.4,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
 32,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,3.8,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",
-33,Lankathilaka Temple,Religious,Kandy,Kandy,4.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
-34,Lankathilaka Temple,Religious,Kandy,Kandy,4,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
-35,Lankathilaka Temple,Religious,Kandy,Kandy,3.7,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
-36,Lankathilaka Temple,Religious,Kandy,Kandy,3.2,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+33,Lankathilaka Temple,Religious,Kandy,Kandy,4.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
+34,Lankathilaka Temple,Religious,Kandy,Kandy,4,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
+35,Lankathilaka Temple,Religious,Kandy,Kandy,3.7,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
+36,Lankathilaka Temple,Religious,Kandy,Kandy,3.2,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 37,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,4.6,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 38,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,3.3,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 39,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,4.6,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
@@ -4225,9 +4225,9 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 44,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.5,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 45,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.7,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
 46,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,4.4,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
-47,Lankathilaka Temple,Religious,Kandy,Kandy,4.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+47,Lankathilaka Temple,Religious,Kandy,Kandy,4.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 48,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.2,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
-49,Lankathilaka Temple,Religious,Kandy,Kandy,3.3,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+49,Lankathilaka Temple,Religious,Kandy,Kandy,3.3,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 50,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.7,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
 51,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,3.8,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 52,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.3,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
@@ -4243,18 +4243,18 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 62,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.6,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
 63,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,4,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 64,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.2,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
-65,Lankathilaka Temple,Religious,Kandy,Kandy,3.4,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
-66,Lankathilaka Temple,Religious,Kandy,Kandy,3.7,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+65,Lankathilaka Temple,Religious,Kandy,Kandy,3.4,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
+66,Lankathilaka Temple,Religious,Kandy,Kandy,3.7,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 67,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,3.1,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 68,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,3.9,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 69,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4.7,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 70,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,3.3,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",
 71,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.2,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
 72,Polonnaruwa Museum,Historical,Polonnaruwa,Polonnaruwa,4.6,300,800,7.9403,81.0188,Low,Excellent museum with ancient artifacts,"museum,artifacts,historical,culture",
-73,Lankathilaka Temple,Religious,Kandy,Kandy,4.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+73,Lankathilaka Temple,Religious,Kandy,Kandy,4.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 74,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4.1,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
-75,Lankathilaka Temple,Religious,Kandy,Kandy,4.6,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
-76,Lankathilaka Temple,Religious,Kandy,Kandy,4.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+75,Lankathilaka Temple,Religious,Kandy,Kandy,4.6,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
+76,Lankathilaka Temple,Religious,Kandy,Kandy,4.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 77,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,4.1,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 78,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 79,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.8,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
@@ -4263,15 +4263,15 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 82,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,3.3,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 83,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.9,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 84,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,3.3,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
-85,Lankathilaka Temple,Religious,Kandy,Kandy,3.2,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
-86,Lankathilaka Temple,Religious,Kandy,Kandy,3.4,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+85,Lankathilaka Temple,Religious,Kandy,Kandy,3.2,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
+86,Lankathilaka Temple,Religious,Kandy,Kandy,3.4,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 87,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.7,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 88,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.6,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
 89,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.2,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
-90,Lankathilaka Temple,Religious,Kandy,Kandy,4.1,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+90,Lankathilaka Temple,Religious,Kandy,Kandy,4.1,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 91,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,4,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
 92,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,4.6,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",
-93,Lankathilaka Temple,Religious,Kandy,Kandy,3.2,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+93,Lankathilaka Temple,Religious,Kandy,Kandy,3.2,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 94,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.3,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 95,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,4.8,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
 96,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,4.6,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
@@ -4280,7 +4280,7 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 99,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,4.1,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 100,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,3.1,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 101,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.8,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
-102,Lankathilaka Temple,Religious,Kandy,Kandy,3.1,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+102,Lankathilaka Temple,Religious,Kandy,Kandy,3.1,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 103,Polonnaruwa Museum,Historical,Polonnaruwa,Polonnaruwa,4.4,300,800,7.9403,81.0188,Low,Excellent museum with ancient artifacts,"museum,artifacts,historical,culture",
 104,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,4.5,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",
 105,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.8,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
@@ -4291,13 +4291,13 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 110,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,3.3,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 111,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,4.5,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 112,Polonnaruwa Museum,Historical,Polonnaruwa,Polonnaruwa,3.5,300,800,7.9403,81.0188,Low,Excellent museum with ancient artifacts,"museum,artifacts,historical,culture",
-113,Lankathilaka Temple,Religious,Kandy,Kandy,4.2,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+113,Lankathilaka Temple,Religious,Kandy,Kandy,4.2,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 114,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.4,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
 115,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4.8,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
-116,Lankathilaka Temple,Religious,Kandy,Kandy,4.5,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+116,Lankathilaka Temple,Religious,Kandy,Kandy,4.5,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 117,Polonnaruwa Museum,Historical,Polonnaruwa,Polonnaruwa,4.6,300,800,7.9403,81.0188,Low,Excellent museum with ancient artifacts,"museum,artifacts,historical,culture",
 118,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.1,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
-119,Lankathilaka Temple,Religious,Kandy,Kandy,3.3,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+119,Lankathilaka Temple,Religious,Kandy,Kandy,3.3,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 120,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,3.3,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",
 121,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4.7,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 122,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,3.1,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
@@ -4311,7 +4311,7 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 130,Polonnaruwa Museum,Historical,Polonnaruwa,Polonnaruwa,3.7,300,800,7.9403,81.0188,Low,Excellent museum with ancient artifacts,"museum,artifacts,historical,culture",
 131,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.5,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
 132,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.6,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
-133,Lankathilaka Temple,Religious,Kandy,Kandy,3.1,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+133,Lankathilaka Temple,Religious,Kandy,Kandy,3.1,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 134,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4.7,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 135,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4.4,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 136,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.3,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
@@ -4321,10 +4321,10 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 140,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,3.4,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",
 141,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.4,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
 142,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.8,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
-143,Lankathilaka Temple,Religious,Kandy,Kandy,4.7,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+143,Lankathilaka Temple,Religious,Kandy,Kandy,4.7,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 144,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,3.5,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 145,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,3.6,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
-146,Lankathilaka Temple,Religious,Kandy,Kandy,4.2,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+146,Lankathilaka Temple,Religious,Kandy,Kandy,4.2,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 147,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,4,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",
 148,Polonnaruwa Museum,Historical,Polonnaruwa,Polonnaruwa,4.1,300,800,7.9403,81.0188,Low,Excellent museum with ancient artifacts,"museum,artifacts,historical,culture",
 149,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.6,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
@@ -4334,11 +4334,11 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 153,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.3,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
 154,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.4,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
 155,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4.8,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
-156,Lankathilaka Temple,Religious,Kandy,Kandy,4.3,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+156,Lankathilaka Temple,Religious,Kandy,Kandy,4.3,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 157,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.4,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 158,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,5,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 159,Kaudulla National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.8,3000,8000,8.1667,80.9167,Medium,Another elephant gathering park near Minneriya,"elephant,wildlife,safari,nature",
-160,Lankathilaka Temple,Religious,Kandy,Kandy,3.8,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+160,Lankathilaka Temple,Religious,Kandy,Kandy,3.8,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 161,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,4.2,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",
 162,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,3.7,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 163,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4.4,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
@@ -4357,8 +4357,8 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 176,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.9,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
 177,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.9,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
 178,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
-179,Lankathilaka Temple,Religious,Kandy,Kandy,4.1,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
-180,Lankathilaka Temple,Religious,Kandy,Kandy,3.1,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+179,Lankathilaka Temple,Religious,Kandy,Kandy,4.1,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
+180,Lankathilaka Temple,Religious,Kandy,Kandy,3.1,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 181,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.3,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 182,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,3.7,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 183,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,3.3,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
@@ -4370,8 +4370,8 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 189,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,4.2,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 190,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,4,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 191,Gal Vihara,Religious,Polonnaruwa,Polonnaruwa,3.3,500,2000,7.9556,81.0019,Low,Magnificent rock-carved Buddha statues,"buddha,rock,carved,religious,UNESCO",
-192,Lankathilaka Temple,Religious,Kandy,Kandy,4.3,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
-193,Lankathilaka Temple,Religious,Kandy,Kandy,3.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+192,Lankathilaka Temple,Religious,Kandy,Kandy,4.3,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
+193,Lankathilaka Temple,Religious,Kandy,Kandy,3.9,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 194,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,3.8,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 195,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,4.1,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",
 196,Polonnaruwa Museum,Historical,Polonnaruwa,Polonnaruwa,4.9,300,800,7.9403,81.0188,Low,Excellent museum with ancient artifacts,"museum,artifacts,historical,culture",
@@ -4388,7 +4388,7 @@ place_id,place_name,category,location,district,rating,budget_min_LKR,budget_max_
 207,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.7,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 208,Medirigiriya Vatadage,Historical,Polonnaruwa,Polonnaruwa,3.7,300,1000,8.1167,80.9667,Low,Ancient circular relic house in remote location,"ruins,ancient,historical,remote",
 209,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,3.3,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
-210,Lankathilaka Temple,Religious,Kandy,Kandy,3,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpg
+210,Lankathilaka Temple,Religious,Kandy,Kandy,3,500,2000,7.9472,81.0014,Low,Impressive ruined image house of ancient Polonnaruwa,"temple,ruins,ancient,religious",images/lankathilaka_temple.jpeg
 211,Parakrama Samudra,Nature,Polonnaruwa,Polonnaruwa,4.5,0,500,7.9403,81.0019,Low,Ancient sea of Parakrama - massive irrigation tank,"tank,ancient,scenic,historical",
 212,Minneriya National Park,Wildlife,Polonnaruwa,Polonnaruwa,3.4,3000,8000,8.0328,80.8994,Medium,Famous elephant gathering - hundreds at once,"elephant,gathering,wildlife,safari",
 213,Polonnaruwa Ancient City,Historical,Polonnaruwa,Polonnaruwa,4.2,500,2000,7.9403,81.0188,Low,Medieval capital with well-preserved ruins - UNESCO,"ruins,UNESCO,ancient,historical",

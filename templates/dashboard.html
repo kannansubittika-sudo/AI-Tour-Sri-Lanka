@@ -2,206 +2,499 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
     <title>Dashboard | AI Tour Sri Lanka</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-          rel="stylesheet">
 
-    <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+        rel="stylesheet">
 
-    <link rel="stylesheet"
-          href="{{ url_for('static', filename='css/dashboard.css') }}">
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Dashboard CSS -->
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/dashboard.css') }}">
+
 </head>
+
 
 <body>
 
-<nav class="navbar navbar-dark bg-primary">
+
+<!-- =========================
+     NAVBAR
+========================= -->
+
+<nav class="navbar navbar-expand-lg">
+
     <div class="container">
 
-        <a class="navbar-brand fw-bold" href="/">
+        <a class="navbar-brand" href="/">
+
             🌴 AI Tour Sri Lanka
+
         </a>
 
-        <a href="/logout" class="btn btn-danger">
+
+        <a href="/logout"
+           class="logout-btn">
+
             <i class="bi bi-box-arrow-right"></i>
+
             Logout
+
         </a>
 
     </div>
+
 </nav>
 
 
-<div class="container mt-5">
 
-    <div class="text-center mb-5">
+<!-- =========================
+     WELCOME SECTION
+========================= -->
 
-        <h1>Welcome, {{ username }} 👋</h1>
+<section class="welcome-section">
 
-        <p>
-            Start planning your next adventure across Sri Lanka.
-        </p>
+    <h1>
+        Welcome, {{ username }} 👋
+    </h1>
 
-    </div>
+    <p>
+        Plan your perfect Sri Lankan journey with intelligent
+        recommendations based on your interests, budget and travel preferences.
+    </p>
 
-
-    <div class="row g-4">
-
-
-        <!-- Plan New Trip -->
-        <div class="col-md-4">
-
-            <div class="card shadow h-100">
-
-                <div class="card-body text-center">
-
-                    <i class="bi bi-map fs-1 text-primary"></i>
-
-                    <h4 class="mt-3">
-                        Plan New Trip
-                    </h4>
-
-                    <p>
-                        Create your personalized travel plan.
-                    </p>
-
-                    <a href="/planner"
-                       class="btn btn-primary mt-3">
-                        Open Planner
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
+</section>
 
 
-        <!-- AI Recommendation -->
-        <div class="col-md-4">
 
-            <div class="card shadow h-100">
+<!-- =========================
+     HERO SECTION
+========================= -->
 
-                <div class="card-body text-center">
+<section class="dashboard-hero">
 
-                    <i class="bi bi-stars fs-1 text-success"></i>
+    <div class="hero-overlay">
 
-                    <h4 class="mt-3">
-                        AI Recommendation
-                    </h4>
+        <div class="hero-content">
 
-                    <p>
-                        Get AI-powered destination recommendations.
-                    </p>
+            <span class="hero-badge">
 
-                    <!-- IMPORTANT: /recommend is POST only -->
-                    <a href="/planner"
-                       class="btn btn-success mt-3">
-                        Start
-                    </a>
+                🌴 AI-Powered Travel Planning
 
-                </div>
-
-            </div>
-
-        </div>
+            </span>
 
 
-        <!-- Hotels -->
-        <div class="col-md-4">
+            <h2>
 
-            <div class="card shadow h-100">
+                Explore the Beauty
+                <br>
+                of Sri Lanka
 
-                <div class="card-body text-center">
+            </h2>
 
-                    <i class="bi bi-building fs-1 text-primary"></i>
-
-                    <h4 class="mt-3">
-                        Hotels
-                    </h4>
-
-                    <p>
-                        Explore hotels across Sri Lanka.
-                    </p>
-
-                    <a href="/hotels"
-                       class="btn btn-primary mt-3">
-                        View Hotels
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- Restaurants -->
-<div class="col-md-4">
-
-    <div class="card shadow h-100">
-
-        <div class="card-body text-center">
-
-            <i class="bi bi-cup-hot fs-1 text-success"></i>
-
-            <h4 class="mt-3">
-                Restaurants
-            </h4>
 
             <p>
-                Explore restaurants across Sri Lanka.
+
+                Discover amazing destinations with
+                AI-powered travel recommendations.
+
             </p>
 
-            <a href="/restaurants"
-               class="btn btn-success mt-3">
-                View Restaurants
+
+            <a href="/planner"
+               class="hero-btn">
+
+                <i class="bi bi-map"></i>
+
+                Start Planning
+
             </a>
 
         </div>
 
     </div>
 
-</div>
+</section>
 
 
-        <!-- My Profile -->
-        <div class="col-md-4">
 
-            <div class="card shadow h-100">
+<!-- =========================
+     QUICK ACCESS
+========================= -->
 
-                <div class="card-body text-center">
+<section class="quick-section">
 
-                    <i class="bi bi-person-circle fs-1 text-warning"></i>
+    <div class="container">
 
-                    <h4 class="mt-3">
-                        My Profile
-                    </h4>
+        <div class="section-title">
+
+            <span>
+                QUICK ACCESS
+            </span>
+
+            <h2>
+                Plan Your Journey
+            </h2>
+
+            <p>
+                Everything you need for your Sri Lankan adventure.
+            </p>
+
+        </div>
+
+
+
+        <!-- Cards -->
+
+        <div class="row g-4">
+
+
+            <!-- PLAN NEW TRIP -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="dashboard-card">
+
+                    <div class="icon-box blue">
+
+                        <i class="bi bi-map"></i>
+
+                    </div>
+
+
+                    <h3>
+                        Plan New Trip
+                    </h3>
+
 
                     <p>
-                        Manage your profile information.
+                        Create your personalized travel plan
+                        based on your preferences.
                     </p>
 
-                    <button class="btn btn-warning mt-3">
+
+                    <a href="/planner"
+                       class="card-btn blue-btn">
+
+                        Open Planner
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- AI RECOMMENDATION -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="dashboard-card">
+
+                    <div class="icon-box green">
+
+                        <i class="bi bi-stars"></i>
+
+                    </div>
+
+
+                    <h3>
+                        AI Recommendation
+                    </h3>
+
+
+                    <p>
+                        Get AI-powered destination
+                        recommendations for your trip.
+                    </p>
+
+
+                   <a href="/recommend"
+   class="card-btn green-btn">
+
+    View Recommendation
+
+</a>
+                    
+
+                </div>
+
+            </div>
+
+
+
+            <!-- HOTELS -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="dashboard-card">
+
+                    <div class="icon-box purple">
+
+                        <i class="bi bi-building"></i>
+
+                    </div>
+
+
+                    <h3>
+                        Hotels
+                    </h3>
+
+
+                    <p>
+                        Explore hotels and accommodation
+                        options across Sri Lanka.
+                    </p>
+
+
+                    <a href="/hotels"
+                       class="card-btn purple-btn">
+
+                        View Hotels
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- RESTAURANTS -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="dashboard-card">
+
+                    <div class="icon-box orange">
+
+                        <i class="bi bi-cup-hot"></i>
+
+                    </div>
+
+
+                    <h3>
+                        Restaurants
+                    </h3>
+
+
+                    <p>
+                        Discover restaurants and places
+                        to enjoy Sri Lankan food.
+                    </p>
+
+
+                    <a href="/restaurants"
+                       class="card-btn orange-btn">
+
+                        View Restaurants
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PROFILE -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="dashboard-card">
+
+                    <div class="icon-box pink">
+
+                        <i class="bi bi-person-circle"></i>
+
+                    </div>
+
+
+                    <h3>
+                        My Profile
+                    </h3>
+
+
+                    <p>
+                        Manage your profile information
+                        and account settings.
+                    </p>
+
+
+                    <button class="card-btn pink-btn">
+
                         Coming Soon
+
                     </button>
 
                 </div>
 
             </div>
 
-        </div>
 
+
+            <!-- GOOGLE MAPS -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="dashboard-card">
+
+                    <div class="icon-box red">
+
+                        <i class="bi bi-geo-alt"></i>
+
+                    </div>
+
+
+                    <h3>
+                        Explore Map
+                    </h3>
+
+
+                    <p>
+                        View tourist destinations and
+                        explore locations on the map.
+                    </p>
+
+
+                    <a href="/planner"
+                       class="card-btn red-btn">
+
+                        Explore Map
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+        </div>
 
     </div>
 
-</div>
+</section>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js">
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+    <div class="container">
+
+        <div class="footer-content">
+
+            <div>
+
+                <h3>
+                    🌴 AI Tour Sri Lanka
+                </h3>
+
+                <p>
+                    Discover Sri Lanka with AI-powered
+                    travel recommendations.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Quick Links
+                </h4>
+
+                <a href="/">
+                    Home
+                </a>
+
+                <a href="/planner">
+                    Planner
+                </a>
+
+                <a href="/hotels">
+                    Hotels
+                </a>
+
+                <a href="/restaurants">
+                    Restaurants
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Contact Us
+                </h4>
+
+                <p>
+                    <i class="bi bi-envelope"></i>
+                    support@aitoursrilanka.com
+                </p>
+
+                <p>
+                    <i class="bi bi-telephone"></i>
+                    +94 77 123 4567
+                </p>
+
+                <p>
+                    <i class="bi bi-geo-alt"></i>
+                    Colombo, Sri Lanka
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            © 2026 AI Tour Sri Lanka |
+            Final Year Project |
+            All Rights Reserved
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+<!-- Bootstrap JS -->
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js">
 </script>
+
 
 </body>
 
