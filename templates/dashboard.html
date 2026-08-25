@@ -36,7 +36,6 @@
 
 </head>
 
-
 <body>
 
 
@@ -397,7 +396,51 @@
 
 </section>
 
+<section class="insights-section">
 
+    <h2>📊 My Travel Insights</h2>
+
+    <div class="insight-cards">
+
+        <div class="insight-card">
+            <h3>🔎 Total Searches</h3>
+            <p>{{ total_searches }}</p>
+        </div>
+
+        <div class="insight-card">
+            <h3>💰 Average Budget</h3>
+            <p>LKR {{ "{:,}".format(average_budget) }}</p>
+        </div>
+
+        <div class="insight-card">
+            <h3>📍 Most Searched District</h3>
+            <p>{{ most_searched_district }}</p>
+        </div>
+
+    </div>
+
+    <div class="analytics-charts">
+
+    <!-- Pie Chart -->
+    <div class="chart-card">
+        <h2>💗 My Travel Interests</h2>
+
+        <div class="pie-chart-container">
+            <canvas id="interestChart"></canvas>
+        </div>
+    </div>
+
+
+    <!-- District Bar Chart -->
+    <div class="chart-card">
+        <h2>📊 My Searched Districts</h2>
+
+        <div class="district-chart-container">
+            <canvas id="districtChart"></canvas>
+        </div>
+    </div>
+
+</div>
 
 <!-- =========================
      FOOTER
@@ -493,7 +536,100 @@
 <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js">
 </script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
+<script>
+    const interestData = {{ interest_counts | tojson }};
+
+    const labels = Object.keys(interestData);
+    const values = Object.values(interestData);
+
+    const ctx = document.getElementById("interestChart");
+
+    if (ctx && labels.length > 0) {
+
+        new Chart(ctx, {
+            type: "pie",
+
+            data: {
+                labels: labels,
+
+                datasets: [{
+                    data: values
+                }]
+            },
+
+            options: {
+                responsive: true,
+
+                plugins: {
+                    legend: {
+                        position: "bottom"
+                    }
+                }
+            }
+        });
+
+    }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    const districtData = {{ district_counts | tojson }};
+
+    const districtLabels = Object.keys(districtData);
+    const districtValues = Object.values(districtData);
+
+    const districtCtx = document.getElementById("districtChart");
+
+    new Chart(districtCtx, {
+        type: "bar",
+
+        data: {
+            labels: districtLabels,
+
+            datasets: [{
+                label: "Searches",
+                data: districtValues,
+
+                backgroundColor: "#0f6861",
+                borderRadius: 8,
+
+                barThickness: 22
+            }]
+        },
+
+        options: {
+            indexAxis: "y",
+
+            responsive: true,
+
+            maintainAspectRatio: false,
+
+            plugins: {
+                legend: {
+                    display: false
+                }
+            },
+
+            scales: {
+                x: {
+                    beginAtZero: true,
+                    ticks: {
+                        stepSize: 1
+                    }
+                },
+
+                y: {
+                    grid: {
+                        display: false
+                    }
+                }
+            }
+        }
+    });
+</script>
 
 </body>
 

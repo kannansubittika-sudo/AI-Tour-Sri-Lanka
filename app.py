@@ -119,7 +119,6 @@ def signup():
     return render_template("signup.html")
 
 
-# Dashboard Page
 @app.route("/dashboard")
 def dashboard():
 
@@ -127,10 +126,82 @@ def dashboard():
         flash("Please login first.", "warning")
         return redirect("/login")
 
+    user_id = session["user_id"]
+
+    cur = mysql.connection.cursor()
+
+    # Get user's travel history
+    cur.execute("""
+        SELECT district, interest, budget
+        FROM travel_planner
+        WHERE user_id = %s
+    """, (user_id,))
+
+    travel_data = cur.fetchall()
+    cur.close()
+
+    # -----------------------------
+    # Travel Analytics
+    # -----------------------------
+
+    total_searches = len(travel_data)
+
+    if total_searches > 0:
+
+        # District counts
+        district_counts = {}
+
+        # Interest counts
+        interest_counts = {}
+
+        total_budget = 0
+
+        for row in travel_data:
+
+            district = row[0]
+            interest = row[1]
+            budget = float(row[2])
+
+            # District
+            district_counts[district] = (
+                district_counts.get(district, 0) + 1
+            )
+
+            # Interest
+            interest_counts[interest] = (
+                interest_counts.get(interest, 0) + 1
+            )
+
+            total_budget += budget
+
+        # Average budget
+        average_budget = round(
+            total_budget / total_searches
+        )
+
+        # Most searched district
+        most_searched_district = max(
+            district_counts,
+            key=district_counts.get
+        )
+
+    else:
+
+        district_counts = {}
+        interest_counts = {}
+
+        average_budget = 0
+        most_searched_district = "No data yet"
+
     return render_template(
-        "dashboard.html",
-        username=session["user_name"]
-    )
+    "dashboard.html",
+    username=session["user_name"],
+    total_searches=total_searches,
+    average_budget=average_budget,
+    most_searched_district=most_searched_district,
+    interest_counts=interest_counts,
+    district_counts=district_counts
+)
 
 
 # logout 
@@ -158,7 +229,8 @@ def recommend():
     hotel_type = request.form["hotel_type"]
     transport = request.form["transport"]
     travel_date = request.form["start_date"]
-    duration = request.form["days"]
+    duration = int(request.form["days"])
+    #duration = request.form["days"]
 
     # Save planner details
     if "user_id" in session:
@@ -328,6 +400,51 @@ def recommend():
         .to_dict("records")
     )
 
+     # -------------------------------
+    # Multi-Day Itinerary
+    # -------------------------------
+
+    itinerary = []
+
+    for day in range(1, duration + 1):
+
+        if day == 1:
+
+            # Day 1 - Main recommended destination
+            itinerary.append({
+                "day": day,
+                "place": predicted_place,
+                "type": "Main Destination",
+                "description": description
+            })
+
+        else:
+
+            # Day 2 onwards - Nearby attractions
+            nearby_index = day - 2
+
+            if nearby_index < len(nearby_places):
+
+                nearby = nearby_places[nearby_index]
+
+                itinerary.append({
+                    "day": day,
+                    "place": nearby["place_name"],
+                    "type": "Nearby Attraction",
+                    "description": nearby.get("description", "")
+                })
+
+            else:
+
+                # No more nearby places
+                itinerary.append({
+                    "day": day,
+                    "place": "Free Day / Explore Nearby",
+                    "type": "Flexible",
+                    "description": "Explore other attractions around the destination."
+                })
+
+
     # -----------------------------------
     # Hotels
     # -----------------------------------
@@ -341,6 +458,7 @@ def recommend():
 
     # Try selected hotel type first
     if hotel_type != "Any":
+
         filtered_hotels = hotels[
             hotels["Type"].astype(str).str.strip().str.lower()
             == hotel_type.strip().lower()
@@ -353,6 +471,7 @@ def recommend():
 
     hotels = hotels.head(3).to_dict("records")
 
+
     # -----------------------------------
     # Restaurants
     # -----------------------------------
@@ -363,6 +482,11 @@ def recommend():
     ]
 
     restaurants = restaurants.head(3).to_dict("records")
+
+
+    # -----------------------------------
+    # Recommendation Page
+    # -----------------------------------
 
     return render_template(
         "recommendation.html",
@@ -381,12 +505,12 @@ def recommend():
         hotels=hotels,
         restaurants=restaurants,
         nearby_places=nearby_places,
+        itinerary=itinerary,
         latitude=latitude,
         longitude=longitude,
         match_score=match_score,
         image_name=image_name
     )
-
 @app.route("/restaurants")
 def restaurant_page():
 
