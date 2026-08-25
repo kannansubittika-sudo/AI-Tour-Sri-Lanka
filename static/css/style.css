@@ -1,4 +1,30 @@
 /* =====================================================
+   AI Tour Sri Lanka — Landing / Index Page
+   Brand system: lagoon teal, spice gold, clay terracotta,
+   sand — same palette as dashboard.css / planner.css /
+   recommendation.css, kept consistent across the whole site.
+===================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --lagoon-deep: #0b4f4a;
+    --lagoon-mid: #12726a;
+    --lagoon-soft: #e6f0ee;
+    --spice-gold: #e8a33d;
+    --clay: #c4553a;
+    --sand: #faf3e7;
+    --sand-dark: #f0e4cf;
+    --ink: #1c2b28;
+    --ink-soft: #5b6b67;
+    --white: #ffffff;
+
+    --font-display: 'Fraunces', 'Georgia', serif;
+    --font-body: 'Poppins', sans-serif;
+}
+
+
+/* =====================================================
    GLOBAL
 ===================================================== */
 
@@ -12,9 +38,9 @@ html {
 
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
-    color: #172033;
-    background: #ffffff;
+    font-family: var(--font-body);
+    color: var(--ink);
+    background: var(--white);
 }
 
 .container {
@@ -28,26 +54,28 @@ body {
 
 .navbar {
     padding: 12px 0;
-    background: #ffffff !important;
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    background: var(--white) !important;
+    box-shadow: 0 2px 12px rgba(11, 79, 74, 0.08);
 }
 
 .navbar-brand {
-    font-size: 28px;
+    font-family: var(--font-display);
+    font-size: 26px;
     font-weight: 700;
-    color: #1670f7 !important;
+    color: var(--lagoon-deep) !important;
 }
 
 .nav-link {
     font-size: 16px;
     font-weight: 500;
     margin-left: 12px;
-    color: #263238 !important;
+    color: var(--ink) !important;
     transition: 0.3s;
 }
 
-.nav-link:hover {
-    color: #1670f7 !important;
+.nav-link:hover,
+.nav-link.active {
+    color: var(--lagoon-deep) !important;
 }
 
 
@@ -56,26 +84,33 @@ body {
 ===================================================== */
 
 .nav-auth-btn {
-    padding: 6px 13px !important;
+    padding: 7px 16px !important;
     font-size: 13px !important;
     font-weight: 600;
-    border-radius: 7px !important;
+    border-radius: 999px !important;
     margin-left: 8px !important;
 }
 
 .nav-auth-btn.btn-outline-primary {
-    color: #1670f7;
-    border: 1px solid #1670f7;
+    color: var(--lagoon-deep);
+    border: 1px solid var(--lagoon-deep);
 }
 
 .nav-auth-btn.btn-outline-primary:hover {
-    background: #1670f7;
-    color: #ffffff;
+    background: var(--lagoon-deep);
+    color: var(--white);
 }
 
 .nav-auth-btn.btn-primary {
-    background: #1670f7;
-    border: 1px solid #1670f7;
+    background: var(--spice-gold);
+    border: 1px solid var(--spice-gold);
+    color: var(--ink);
+}
+
+.nav-auth-btn.btn-primary:hover {
+    background: #d4922f;
+    border-color: #d4922f;
+    color: var(--ink);
 }
 
 
@@ -86,8 +121,10 @@ body {
 .hero {
     background:
         linear-gradient(
-            rgba(0, 40, 100, 0.55),
-            rgba(0, 30, 80, 0.55)
+            100deg,
+            rgba(6, 36, 33, 0.62) 0%,
+            rgba(6, 36, 33, 0.30) 45%,
+            rgba(6, 36, 33, 0.15) 100%
         ),
         url("../images/hero.jpg") no-repeat center center;
 
@@ -98,22 +135,20 @@ body {
     display: flex;
     align-items: center;
 
-    color: #ffffff;
+    color: var(--white);
 
     padding: 80px 0;
 }
 
-
-/* Hero left content */
-
 .hero-badge {
     display: inline-block;
-    padding: 8px 16px;
+    padding: 8px 18px;
     margin-bottom: 18px;
 
     border-radius: 30px;
 
-    background: rgba(255, 255, 255, 0.18);
+    background: rgba(255, 255, 255, 0.16);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 
     font-size: 14px;
     font-weight: 600;
@@ -122,15 +157,16 @@ body {
 }
 
 .hero h1 {
-    font-size: 58px;
+    font-family: var(--font-display);
+    font-size: 54px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.15;
 
     margin-bottom: 22px;
 }
 
 .hero h1 span {
-    color: #ffc107;
+    color: var(--spice-gold);
 }
 
 .hero p {
@@ -140,6 +176,7 @@ body {
     max-width: 600px;
 
     margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.92);
 }
 
 
@@ -154,19 +191,26 @@ body {
 }
 
 .hero-buttons .btn {
-    padding: 11px 23px;
-    border-radius: 8px;
+    padding: 12px 26px;
+    border-radius: 999px;
     font-size: 15px;
     font-weight: 600;
 }
 
 .hero-buttons .btn-primary {
-    background: #1670f7;
-    border-color: #1670f7;
+    background: var(--spice-gold);
+    border-color: var(--spice-gold);
+    color: var(--ink);
 }
 
-.hero-buttons .btn-outline-light {
-    border-width: 1px;
+.hero-buttons .btn-primary:hover {
+    background: var(--white);
+    border-color: var(--white);
+    color: var(--lagoon-deep);
+}
+
+.hero-buttons .btn-outline-light:hover {
+    background: rgba(255, 255, 255, 0.15);
 }
 
 
@@ -183,41 +227,32 @@ body {
 
     padding: 38px 35px;
 
-    background: rgba(255, 255, 255, 0.96);
+    background: rgba(255, 255, 255, 0.97);
 
     border-radius: 24px;
 
-    box-shadow:
-        0 20px 50px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 20px 50px rgba(11, 79, 74, 0.28);
 
-    color: #222;
+    color: var(--ink);
 
     text-align: center;
-
-    transform: none;
 }
 
 .hero-card h3 {
-    font-size: 25px;
+    font-family: var(--font-display);
+    font-size: 24px;
     font-weight: 700;
 
     margin-bottom: 14px;
+    color: var(--lagoon-deep);
 }
 
 .hero-card p {
-    color: #333;
-
+    color: var(--ink-soft);
     font-size: 15px;
-
     line-height: 1.7;
-
     margin-bottom: 28px;
 }
-
-
-/* =====================================================
-   HERO ICON
-===================================================== */
 
 .hero-icon {
     width: 72px;
@@ -231,101 +266,114 @@ body {
 
     border-radius: 50%;
 
-    background: #1670f7;
-
-    color: white;
-
+    background: var(--lagoon-deep);
+    color: var(--white);
     font-size: 30px;
 
-    box-shadow: 0 8px 20px rgba(22, 112, 247, 0.25);
+    box-shadow: 0 8px 20px rgba(11, 79, 74, 0.3);
 }
-
-
-/* =====================================================
-   HERO FEATURES
-===================================================== */
 
 .hero-features {
     display: grid;
-
     grid-template-columns: 1fr 1fr;
-
     gap: 14px;
 }
 
 .hero-features div {
     padding: 15px 10px;
-
     border-radius: 12px;
-
-    background: #f6f8fc;
-
+    background: var(--sand);
     font-size: 14px;
-
-    color: #333;
-
+    color: var(--ink);
     transition: 0.3s;
 }
 
 .hero-features div:hover {
-    background: #eef4ff;
-
+    background: var(--lagoon-soft);
     transform: translateY(-3px);
 }
 
 .hero-features i {
     display: block;
-
     margin-bottom: 8px;
-
     font-size: 22px;
-
-    color: #1670f7;
+    color: var(--lagoon-deep);
 }
 
 
 /* =====================================================
-   DESTINATIONS
+   POPULAR DESTINATIONS
 ===================================================== */
 
 .destinations {
     padding: 70px 0;
-
-    background: #f8f9fa;
+    background: var(--sand);
 }
 
 .destination-card {
     border: none;
-
-    border-radius: 15px;
-
+    border-radius: 18px;
     overflow: hidden;
-
     transition: 0.3s;
-
-    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 18px rgba(11, 79, 74, 0.08);
 }
 
 .destination-card:hover {
     transform: translateY(-8px);
-
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 14px 28px rgba(11, 79, 74, 0.14);
 }
 
 .destination-card img {
     height: 250px;
-
     width: 100%;
-
     object-fit: cover;
 }
 
+.destination-card .card-body {
+    padding: 22px;
+}
+
 .destination-card h5 {
+    font-family: var(--font-display);
     font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 8px;
 }
 
 .destination-card p {
-    color: #666;
+    color: var(--ink-soft);
+    margin: 0;
+    font-size: 14.5px;
+}
+
+
+/* Section heading used by Destinations / Why Choose Us */
+.destinations h2.fw-bold,
+.why-us h2.fw-bold {
+    font-family: var(--font-display);
+    color: var(--lagoon-deep);
+    font-size: 34px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 14px;
+}
+
+.destinations h2.fw-bold::after,
+.why-us h2.fw-bold::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 4px;
+    background: var(--spice-gold);
+    border-radius: 5px;
+}
+
+.destinations p.text-muted,
+.why-us p.text-muted {
+    color: var(--ink-soft) !important;
 }
 
 
@@ -333,101 +381,44 @@ body {
    WHY CHOOSE US / FEATURES
 ===================================================== */
 
-.features-section {
-    padding: 75px 5%;
-
-    background: #ffffff;
-
-    text-align: center;
+.why-us {
+    padding: 75px 0;
+    background: var(--white);
 }
 
-.section-subtitle {
-    color: #1670f7;
-
-    font-size: 14px;
-
-    font-weight: 700;
-
-    margin-bottom: 8px;
-
-    text-transform: uppercase;
-
-    letter-spacing: 1px;
-}
-
-.section-title {
-    font-size: 36px;
-
-    font-weight: 700;
-
-    color: #172033;
-
-    margin-bottom: 45px;
-}
-
-.section-title::after {
-    content: "";
-
-    display: block;
-
-    width: 70px;
-
-    height: 4px;
-
-    background: #1670f7;
-
-    margin: 14px auto 0;
-
-    border-radius: 5px;
-}
-
-
-/* =====================================================
-   FEATURE CARDS
-===================================================== */
-
-.features-section .card {
-    border: none;
-
+.feature-card {
+    height: 100%;
+    padding: 34px 24px;
+    background: var(--sand);
     border-radius: 18px;
-
-    padding: 25px 20px;
-
-    min-height: 250px;
-
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
-
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
-.features-section .card:hover {
-    transform: translateY(-7px);
-
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.11);
+.feature-card:hover {
+    transform: translateY(-8px);
+    background: var(--white);
+    box-shadow: 0 14px 28px rgba(11, 79, 74, 0.12);
 }
 
-.features-section .card i {
+.feature-icon {
     font-size: 42px;
-
-    color: #1670f7;
-
+    color: var(--lagoon-deep);
     margin-bottom: 18px;
 }
 
-.features-section .card h4 {
-    font-size: 21px;
-
+.feature-card h5 {
+    font-family: var(--font-display);
+    font-size: 20px;
     font-weight: 700;
-
     margin-bottom: 12px;
+    color: var(--ink);
 }
 
-.features-section .card p {
-    color: #666;
-
+.feature-card p {
+    color: var(--ink-soft);
     font-size: 15px;
-
-    line-height: 1.7;
+    line-height: 1.65;
+    margin: 0;
 }
 
 
@@ -435,32 +426,28 @@ body {
    STATISTICS SECTION
 ===================================================== */
 
-.stats-section {
-    background: #1670f7;
-
-    color: #ffffff;
-
+.statistics {
     padding: 55px 0;
+    background: linear-gradient(120deg, var(--lagoon-deep), var(--lagoon-mid));
 }
 
-.stat-item {
+.stat-box {
+    padding: 10px;
     text-align: center;
 }
 
-.stat-item h2 {
-    font-size: 48px;
-
+.stat-box h2 {
+    font-family: var(--font-display);
+    color: var(--white);
+    font-size: 42px;
     font-weight: 700;
-
     margin-bottom: 5px;
 }
 
-.stat-item p {
-    font-size: 17px;
-
+.stat-box p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
     margin: 0;
-
-    opacity: 0.95;
 }
 
 
@@ -469,188 +456,72 @@ body {
 ===================================================== */
 
 .footer {
-    background: #171717;
-
-    color: #ffffff;
-
-    padding: 55px 0 25px;
+    background: var(--lagoon-deep);
+    color: var(--white);
+    padding: 55px 0 20px;
 }
 
 .footer h4,
 .footer h5 {
-    margin-bottom: 18px;
-
+    font-family: var(--font-display);
+    color: var(--spice-gold);
+    font-size: 20px;
     font-weight: 600;
+    margin-bottom: 16px;
 }
 
 .footer p {
-    color: #d5d5d5;
-
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 15px;
     line-height: 1.7;
 }
 
 .footer ul {
     padding: 0;
-
+    margin: 0;
     list-style: none;
 }
 
 .footer ul li {
-    margin-bottom: 10px;
+    margin-bottom: 9px;
 }
 
 .footer ul li a {
-    color: #d5d5d5;
-
+    color: rgba(255, 255, 255, 0.78);
     text-decoration: none;
-
-    transition: 0.3s;
+    font-size: 15px;
+    transition: 0.25s;
 }
 
 .footer ul li a:hover {
-    color: #1670f7;
+    color: var(--spice-gold);
+    padding-left: 3px;
 }
 
 .social-icons a {
-    color: white;
-
-    font-size: 22px;
-
+    color: var(--white);
+    font-size: 20px;
     margin-right: 13px;
-
-    transition: 0.3s;
+    transition: 0.25s;
+    display: inline-block;
 }
 
 .social-icons a:hover {
-    color: #1670f7;
+    color: var(--spice-gold);
+    transform: translateY(-2px);
 }
 
-
-/* =====================================================
-   PLANNER PAGE
-===================================================== */
-
-.planner-section {
-    min-height: 100vh;
-
-    padding: 70px 0;
-
-    background:
-        linear-gradient(
-            rgba(0, 0, 0, 0.45),
-            rgba(0, 0, 0, 0.45)
-        ),
-        url("../images/planner-bg.jpg");
-
-    background-size: cover;
-
-    background-position: center;
-
-    background-repeat: no-repeat;
-
-    background-attachment: fixed;
-}
-
-.planner-title {
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 30px;
+    padding-top: 20px;
     text-align: center;
-
-    margin-bottom: 35px;
 }
 
-.planner-title h1 {
-    color: #ffffff;
-
-    font-size: 50px;
-
-    font-weight: 700;
-}
-
-.planner-title p {
-    color: #f1f1f1;
-
-    font-size: 18px;
-}
-
-.planner-card {
-    max-width: 1100px;
-
-    margin: auto;
-
-    background: rgba(255, 255, 255, 0.94);
-
-    backdrop-filter: blur(10px);
-
-    border-radius: 20px;
-
-    padding: 45px;
-
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
-
-    transition: 0.3s;
-}
-
-.planner-card:hover {
-    transform: translateY(-5px);
-}
-
-
-/* =====================================================
-   FORM
-===================================================== */
-
-.form-label {
-    font-weight: 600;
-
-    color: #222;
-}
-
-.form-control,
-.form-select {
-    height: 52px;
-
-    border-radius: 12px;
-
-    border: 1px solid #d6d6d6;
-}
-
-.form-control:focus,
-.form-select:focus {
-    border-color: #0d6efd;
-
-    box-shadow: 0 0 10px rgba(13, 110, 253, 0.25);
-}
-
-.btn-plan {
-    background: #0d6efd;
-
-    color: white;
-
-    border: none;
-
-    border-radius: 35px;
-
-    padding: 14px 45px;
-
-    font-size: 18px;
-
-    font-weight: 600;
-
-    transition: 0.3s;
-}
-
-.btn-plan:hover {
-    background: #0b5ed7;
-
-    transform: translateY(-3px);
-}
-
-
-/* =====================================================
-   PLACEHOLDER
-===================================================== */
-
-::placeholder {
-    color: #999;
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.65);
 }
 
 
@@ -659,9 +530,8 @@ body {
 ===================================================== */
 
 @media (max-width: 992px) {
-
     .hero h1 {
-        font-size: 48px;
+        font-size: 44px;
     }
 
     .hero-card {
@@ -669,10 +539,9 @@ body {
     }
 
     .navbar-brand {
-        font-size: 24px;
+        font-size: 22px;
     }
 }
-
 
 @media (max-width: 768px) {
 
@@ -682,36 +551,27 @@ body {
 
     .nav-link {
         margin-left: 0;
-
         padding: 8px 0;
     }
 
     .nav-auth-btn {
         display: inline-block;
-
         margin: 5px 5px 5px 0 !important;
     }
 
-
-    /* Hero */
-
     .hero {
         min-height: auto;
-
         padding: 70px 20px;
-
         text-align: center;
     }
 
     .hero h1 {
-        font-size: 40px;
+        font-size: 36px;
     }
 
     .hero p {
         margin-left: auto;
-
         margin-right: auto;
-
         font-size: 16px;
     }
 
@@ -721,55 +581,50 @@ body {
 
     .hero-card {
         margin: 45px auto 0;
-
         max-width: 420px;
-
         padding: 30px 25px;
     }
 
-
-    /* Features */
-
-    .features-section {
-        padding: 55px 20px;
+    .destinations,
+    .why-us {
+        padding: 50px 0;
     }
 
-    .section-title {
-        font-size: 30px;
+    .destinations h2.fw-bold,
+    .why-us h2.fw-bold {
+        font-size: 28px;
     }
 
-
-    /* Planner */
-
-    .planner-card {
-        padding: 25px;
+    .feature-card {
+        margin-bottom: 10px;
     }
 
-    .planner-title h1 {
-        font-size: 36px;
+    .statistics {
+        padding: 35px 0;
     }
 
-    .btn-plan {
-        width: 100%;
+    .stat-box h2 {
+        font-size: 32px;
     }
 
-
-    /* Stats */
-
-    .stat-item {
-        margin-bottom: 30px;
+    .stat-box p {
+        font-size: 14px;
     }
 
-    .stat-item h2 {
-        font-size: 38px;
+    .footer {
+        text-align: center;
+        padding: 40px 0 15px;
+    }
+
+    .social-icons {
+        justify-content: center;
+        display: flex;
     }
 }
 
-
 @media (max-width: 480px) {
-
     .hero h1 {
-        font-size: 34px;
+        font-size: 30px;
     }
 
     .hero-card {
@@ -784,267 +639,21 @@ body {
         padding: 12px 5px;
         font-size: 12px;
     }
+}
 
-    .section-title {
-        font-size: 27px;
+
+/* =====================================================
+   ACCESSIBILITY
+===================================================== */
+
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid var(--spice-gold);
+    outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition: none !important;
     }
-}
-
-/* =========================
-   WHY CHOOSE US
-========================= */
-
-.why-us {
-    background: #f8f9fc;
-}
-
-.feature-card {
-    height: 100%;
-    padding: 35px 25px;
-    background: #ffffff;
-    border-radius: 18px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-    transition: 0.3s ease;
-}
-
-.feature-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
-}
-
-.feature-icon {
-    font-size: 48px;
-    color: #0d6efd;
-    margin-bottom: 18px;
-}
-
-.feature-card h5 {
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 12px;
-}
-
-.feature-card p {
-    color: #666;
-    font-size: 15px;
-    line-height: 1.6;
-    margin: 0;
-}
-
-
-/* =========================
-   STATISTICS
-========================= */
-
-.statistics {
-    padding: 45px 0;
-    background: #0d6efd;
-}
-
-.stat-box {
-    padding: 10px;
-}
-
-.stat-box h2 {
-    color: white;
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 5px;
-}
-
-.stat-box p {
-    color: white;
-    font-size: 16px;
-    margin: 0;
-}
-
-
-/* =========================
-   FOOTER
-========================= */
-
-.footer {
-    background: #181818;
-    color: white;
-    padding: 45px 0 15px;
-}
-
-.footer h4,
-.footer h5 {
-    color: white;
-    font-weight: 600;
-    margin-bottom: 15px;
-}
-
-.footer p {
-    color: #d5d5d5;
-    font-size: 15px;
-    line-height: 1.7;
-}
-
-.footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.footer ul li {
-    margin-bottom: 8px;
-}
-
-.footer ul li a {
-    color: #d5d5d5;
-    text-decoration: none;
-    font-size: 15px;
-}
-
-.footer ul li a:hover {
-    color: #0d6efd;
-}
-
-.footer .social-icons {
-    margin-top: 15px;
-}
-
-.footer .social-icons a {
-    color: white;
-    font-size: 20px;
-    margin-right: 14px;
-}
-
-.footer-bottom {
-    border-top: 1px solid #444;
-    margin-top: 25px;
-    padding-top: 18px;
-    text-align: center;
-}
-
-.footer-bottom p {
-    margin: 0;
-    font-size: 14px;
-}
-
-
-/* Mobile */
-
-@media (max-width: 768px) {
-
-    .feature-card {
-        margin-bottom: 10px;
-    }
-
-    .statistics {
-        padding: 35px 0;
-    }
-
-    .stat-box h2 {
-        font-size: 30px;
-    }
-
-    .stat-box p {
-        font-size: 14px;
-    }
-
-    .footer {
-        text-align: center;
-    }
-
-    .footer .social-icons {
-        justify-content: center;
-    }
-
-}
-
-/* =========================
-   COMPACT STATISTICS SECTION
-========================= */
-
-.stats-section {
-    padding: 45px 0 !important;
-}
-
-.stats-section h2 {
-    font-size: 42px !important;
-    margin-bottom: 5px !important;
-}
-
-.stats-section p {
-    font-size: 16px !important;
-    margin-bottom: 0 !important;
-}
-
-
-/* =========================
-   COMPACT FOOTER
-========================= */
-
-.footer {
-    padding: 38px 0 15px !important;
-}
-
-.footer h4,
-.footer h5 {
-    font-size: 22px;
-    margin-bottom: 14px !important;
-}
-
-.footer p {
-    font-size: 15px;
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
-
-.footer ul li {
-    margin-bottom: 6px !important;
-}
-
-.footer ul li a {
-    font-size: 15px;
-}
-
-.social-icons a {
-    font-size: 20px !important;
-    margin-right: 12px !important;
-}
-
-
-/* Footer bottom copyright */
-
-.footer hr {
-    margin: 25px 0 18px !important;
-}
-
-.footer .copyright {
-    font-size: 14px;
-    margin-bottom: 0;
-}
-
-
-/* =========================
-   FOOTER CONTAINER
-========================= */
-
-.footer .container {
-    max-width: 1100px;
-}
-
-
-/* =========================
-   MOBILE
-========================= */
-
-@media (max-width: 768px) {
-
-    .stats-section {
-        padding: 30px 0 !important;
-    }
-
-    .stats-section h2 {
-        font-size: 32px !important;
-    }
-
-    .footer {
-        padding: 30px 20px 15px !important;
-    }
-
 }

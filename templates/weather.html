@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Weather | AI Tour Sri Lanka</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/weather.css') }}">
+
+</head>
+
+
+<body>
+
+
+<div class="container py-5">
+
+
+    <!-- PAGE HEADER -->
+
+    <div class="text-center mb-5">
+
+        <h1>
+            🌤️ Sri Lanka Weather
+        </h1>
+
+        <p>
+            Check the weather before planning your journey.
+        </p>
+
+    </div>
+
+
+
+    <!-- WEATHER CARD -->
+
+    <div class="card shadow mx-auto weather-card">
+
+        <div class="card-body text-center p-5">
+
+
+            <i class="bi bi-cloud-sun weather-icon"></i>
+
+
+            <h2 class="mt-3">
+                Check Weather
+            </h2>
+
+
+            <p class="text-muted">
+                Select a destination to view the current weather.
+            </p>
+
+
+
+            <!-- CITY SELECT -->
+
+            <form method="POST"
+                  action="/weather"
+                  class="mt-4">
+
+
+                <div class="mb-3">
+
+                    <label for="city"
+                           class="form-label fw-semibold">
+
+                        Select Destination
+
+                    </label>
+
+
+                    <select name="city"
+        id="city"
+        class="form-select"
+        required>
+
+    <option value="">
+        -- Select District --
+    </option>
+
+    <option value="Ampara">Ampara</option>
+    <option value="Anuradhapura">Anuradhapura</option>
+    <option value="Badulla">Badulla</option>
+    <option value="Batticaloa">Batticaloa</option>
+    <option value="Colombo">Colombo</option>
+    <option value="Galle">Galle</option>
+    <option value="Gampaha">Gampaha</option>
+    <option value="Hambantota">Hambantota</option>
+    <option value="Jaffna">Jaffna</option>
+    <option value="Kalutara">Kalutara</option>
+    <option value="Kandy">Kandy</option>
+    <option value="Kegalle">Kegalle</option>
+    <option value="Kilinochchi">Kilinochchi</option>
+    <option value="Kurunegala">Kurunegala</option>
+    <option value="Mannar">Mannar</option>
+    <option value="Matale">Matale</option>
+    <option value="Matara">Matara</option>
+    <option value="Monaragala">Monaragala</option>
+    <option value="Mullaitivu">Mullaitivu</option>
+    <option value="Nuwara Eliya">Nuwara Eliya</option>
+    <option value="Polonnaruwa">Polonnaruwa</option>
+    <option value="Puttalam">Puttalam</option>
+    <option value="Ratnapura">Ratnapura</option>
+    <option value="Trincomalee">Trincomalee</option>
+    <option value="Vavuniya">Vavuniya</option>
+
+</select>
+
+                </div>
+
+
+
+                <button type="submit"
+                        class="btn btn-primary weather-btn">
+
+                    <i class="bi bi-cloud-sun"></i>
+
+                    Check Weather
+
+                </button>
+
+
+            </form>
+
+
+
+            <!-- WEATHER RESULT -->
+
+            {% if weather %}
+
+            <div class="weather-result mt-5">
+
+
+                <h3>
+                    {{ weather.city }}
+                </h3>
+
+
+                <div class="temperature">
+
+                    {{ weather.temperature }}°C
+
+                </div>
+
+
+                <p class="condition">
+
+                    {{ weather.condition }}
+
+                </p>
+
+
+
+                <div class="row mt-4">
+
+
+                    <div class="col-md-6">
+
+                        <div class="weather-detail">
+
+                            <i class="bi bi-droplet"></i>
+
+                            <strong>
+                                Humidity
+                            </strong>
+
+                            <span>
+                                {{ weather.humidity }}%
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-md-6">
+
+                        <div class="weather-detail">
+
+                            <i class="bi bi-wind"></i>
+
+                            <strong>
+                                Wind Speed
+                            </strong>
+
+                            <span>
+                                {{ weather.wind }} km/h
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            {% endif %}
+
+
+
+            <!-- BACK BUTTON -->
+
+            <a href="/dashboard"
+               class="btn btn-outline-secondary mt-4">
+
+                <i class="bi bi-arrow-left"></i>
+
+                Back to Dashboard
+
+            </a>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+
+</body>
+
+</html>

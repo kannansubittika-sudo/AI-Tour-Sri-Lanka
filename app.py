@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import requests
 import joblib
 hotels_df = pd.read_csv("Hotels_Dataset.csv")
 restaurants_df = pd.read_csv("Restaurants_Dataset.csv")
@@ -351,6 +352,117 @@ def hotel_page():
     hotels = hotels_df.to_dict("records")
     return render_template("hotels.html", hotels=hotels)
 
+@app.route("/weather", methods=["GET", "POST"])
+def weather():
+
+    weather_data = None
+
+    if request.method == "POST":
+
+        city = request.form.get("city")
+
+        try:
+
+            # Find district location
+            geo_url = "https://geocoding-api.open-meteo.com/v1/search"
+
+            geo_params = {
+                "name": city,
+                "count": 1,
+                "countryCode": "LK",
+                "language": "en",
+                "format": "json"
+            }
+
+            geo_response = requests.get(
+                geo_url,
+                params=geo_params,
+                timeout=10
+            )
+
+            geo_data = geo_response.json()
+
+            if geo_data.get("results"):
+
+                latitude = geo_data["results"][0]["latitude"]
+                longitude = geo_data["results"][0]["longitude"]
+
+                # Get current weather
+                weather_url = "https://api.open-meteo.com/v1/forecast"
+
+                weather_params = {
+                    "latitude": latitude,
+                    "longitude": longitude,
+                    "current": "temperature_2m,relative_humidity_2m,wind_speed_10m,weather_code",
+                    "timezone": "Asia/Colombo"
+                }
+
+                weather_response = requests.get(
+                    weather_url,
+                    params=weather_params,
+                    timeout=10
+                )
+
+                data = weather_response.json()
+
+                current = data["current"]
+
+                weather_code = current["weather_code"]
+
+                # Weather condition
+                if weather_code == 0:
+                    condition = "Clear Sky"
+                elif weather_code in [1, 2, 3]:
+                    condition = "Partly Cloudy"
+                elif weather_code in [45, 48]:
+                    condition = "Foggy"
+                elif weather_code in [51, 53, 55, 56, 57]:
+                    condition = "Drizzle"
+                elif weather_code in [61, 63, 65, 66, 67]:
+                    condition = "Rainy"
+                elif weather_code in [71, 73, 75, 77]:
+                    condition = "Snow"
+                elif weather_code in [80, 81, 82]:
+                    condition = "Rain Showers"
+                elif weather_code in [95, 96, 99]:
+                    condition = "Thunderstorm"
+                else:
+                    condition = "Unknown"
+
+                weather_data = {
+                    "city": city,
+                    "temperature": current["temperature_2m"],
+                    "humidity": current["relative_humidity_2m"],
+                    "wind": current["wind_speed_10m"],
+                    "condition": condition
+                }
+
+            else:
+
+                weather_data = {
+                    "city": city,
+                    "temperature": "N/A",
+                    "humidity": "N/A",
+                    "wind": "N/A",
+                    "condition": "Weather data not available"
+                }
+
+        except Exception as e:
+
+            print("Weather Error:", e)
+
+            weather_data = {
+                "city": city,
+                "temperature": "N/A",
+                "humidity": "N/A",
+                "wind": "N/A",
+                "condition": "Unable to get weather data"
+            }
+
+    return render_template(
+        "weather.html",
+        weather=weather_data
+    )
 
 if __name__ == "__main__":
     app.run(debug=True)
