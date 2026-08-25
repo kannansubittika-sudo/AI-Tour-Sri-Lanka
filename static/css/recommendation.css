@@ -178,10 +178,116 @@ h3.mb-3 {
     border: 1px solid rgba(11, 79, 74, 0.06) !important;
 }
 
+/* Main Destination Card */
+
+.destination-card {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px auto 50px;
+    background: #ffffff;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Left Image */
+
+.destination-image-box {
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+}
+
 .destination-image {
     width: 100%;
-    height: 360px;
+    height: 100%;
     object-fit: cover;
+    display: block;
+}
+
+/* Right Content */
+
+.destination-content {
+    padding: 45px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.destination-title {
+    color: #075e5b;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.destination-description {
+    color: #64748b;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+/* Information */
+
+.destination-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+    background: #faf7ef;
+    border-radius: 14px;
+}
+
+.info-icon {
+    font-size: 25px;
+}
+
+.info-item small {
+    display: block;
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.info-item strong {
+    display: block;
+    color: #d65336;
+    font-size: 17px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .destination-card {
+        grid-template-columns: 1fr;
+    }
+
+    .destination-image-box {
+        height: 280px;
+    }
+
+    .destination-content {
+        padding: 30px 25px;
+    }
+
+    .destination-title {
+        font-size: 28px;
+    }
+
+    .destination-info {
+        grid-template-columns: 1fr;
+    }
 }
 
 .card.shadow-lg .card-body {
@@ -203,6 +309,46 @@ h3.mb-3 {
 .card.shadow-lg .row.text-center {
     border-top: 1px dashed var(--sand-dark);
     padding-top: 1.5rem;
+}
+
+
+
+/* ---------- Feedback ---------- */
+
+.feedback-box {
+    background: var(--sand);
+    border: 1px dashed var(--sand-dark);
+    border-radius: var(--radius-md);
+    padding: 1.1rem 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.75rem;
+}
+
+.feedback-box span {
+    font-weight: 600;
+    color: var(--ink);
+    font-size: 0.95rem;
+}
+
+.feedback-btn {
+    background: var(--white);
+    border: 1.5px solid var(--sand-dark);
+    color: var(--ink-soft);
+    border-radius: 999px;
+    padding: 0.5rem 1.1rem;
+    font-size: 1rem;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.feedback-btn:hover {
+    border-color: var(--lagoon-mid);
+    color: var(--lagoon-deep);
+    transform: translateY(-2px);
 }
 
 .card.shadow-lg .row.text-center h5 {

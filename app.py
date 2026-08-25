@@ -143,7 +143,6 @@ def logout():
 
     return redirect("/login")
 
-
 @app.route("/recommend", methods=["POST"])
 def recommend():
 
@@ -166,11 +165,22 @@ def recommend():
 
         cur = mysql.connection.cursor()
 
+        # Check whether the same plan already exists
         cur.execute("""
-            INSERT INTO travel_planner
-            (user_id, district, interest, budget, budget_level,
-             travelers, hotel_type, transport, rating, travel_date, duration)
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+            SELECT planner_id
+            FROM travel_planner
+            WHERE user_id = %s
+              AND district = %s
+              AND interest = %s
+              AND budget = %s
+              AND budget_level = %s
+              AND travelers = %s
+              AND hotel_type = %s
+              AND transport = %s
+              AND rating = %s
+              AND travel_date = %s
+              AND duration = %s
+            LIMIT 1
         """, (
             session["user_id"],
             district,
@@ -185,14 +195,39 @@ def recommend():
             duration
         ))
 
-        mysql.connection.commit()
+        existing_plan = cur.fetchone()
+
+        # Insert only if the same plan does not already exist
+        if not existing_plan:
+
+            cur.execute("""
+                INSERT INTO travel_planner
+                (user_id, district, interest, budget, budget_level,
+                 travelers, hotel_type, transport, rating, travel_date, duration)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+            """, (
+                session["user_id"],
+                district,
+                interest,
+                budget,
+                budget_level,
+                travelers,
+                hotel_type,
+                transport,
+                rating,
+                travel_date,
+                duration
+            ))
+
+            mysql.connection.commit()
+
         cur.close()
 
     # Budget Range
     budget_min = budget * 0.8
     budget_max = budget * 1.2
 
-     # Encode Inputs
+    # Encode Inputs
     district_encoded = encoders["district"].transform([district])[0]
     category_encoded = encoders["category"].transform([interest])[0]
     budget_level_encoded = encoders["budget_level"].transform([budget_level])[0]
@@ -210,6 +245,19 @@ def recommend():
     # Predict Destination
     prediction = model.predict(input_data)
     predicted_place = encoders["place_name"].inverse_transform(prediction)[0]
+
+    # ---- Match Score (confidence) ----
+    try:
+        probabilities = model.predict_proba(input_data)[0]
+        raw_score = max(probabilities)
+
+        # Scale into a wider, more realistic 60-95% range
+        match_score = round(60 + (raw_score * 35))
+        match_score = min(match_score, 95)
+
+    except AttributeError:
+        # Model doesn't support predict_proba (e.g. some regressors)
+        match_score = 85  # fallback static value
 
     # -----------------------------------
     # Get Place Details
@@ -263,10 +311,11 @@ def recommend():
     }
 
     image_name = image_map.get(predicted_place, "default.jpg")
+
     # -----------------------------------
     # Nearby Attractions
     # -----------------------------------
-    
+
     nearby_places = tourism_df[
         (tourism_df["district"].str.lower() == district.lower()) &
         (tourism_df["place_name"] != predicted_place)
@@ -278,7 +327,7 @@ def recommend():
         .head(4)
         .to_dict("records")
     )
-   
+
     # -----------------------------------
     # Hotels
     # -----------------------------------
@@ -304,7 +353,6 @@ def recommend():
 
     hotels = hotels.head(3).to_dict("records")
 
-
     # -----------------------------------
     # Restaurants
     # -----------------------------------
@@ -315,6 +363,7 @@ def recommend():
     ]
 
     restaurants = restaurants.head(3).to_dict("records")
+
     return render_template(
         "recommendation.html",
         name=name,
@@ -334,6 +383,7 @@ def recommend():
         nearby_places=nearby_places,
         latitude=latitude,
         longitude=longitude,
+        match_score=match_score,
         image_name=image_name
     )
 
@@ -463,6 +513,28 @@ def weather():
         "weather.html",
         weather=weather_data
     )
+
+@app.route("/feedback", methods=["GET", "POST"])
+def feedback():
+
+    if request.method == "GET":
+        return redirect("/")
+
+    place_name = request.form["place_name"]
+    is_helpful = request.form["is_helpful"]
+
+    user_id = session.get("user_id")
+
+    cur = mysql.connection.cursor()
+    cur.execute("""
+        INSERT INTO feedback (user_id, place_name, is_helpful)
+        VALUES (%s, %s, %s)
+    """, (user_id, place_name, is_helpful))
+    mysql.connection.commit()
+    cur.close()
+
+    flash("Thanks for your feedback!", "success")
+    return redirect(request.referrer or "/")
 
 if __name__ == "__main__":
     app.run(debug=True)
