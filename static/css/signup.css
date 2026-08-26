@@ -9,9 +9,10 @@ body{
 .signup-section{
     min-height:100vh;
     display:flex;
-    justify-content:center;
+    justify-content:flex-start;
     align-items:center;
-    padding:40px 20px;
+
+    padding:15px 0 15px 8%;
 
     background:
     linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
@@ -22,98 +23,76 @@ body{
     background-repeat:no-repeat;
 }
 
+
 /* Signup Card */
 .signup-card{
-
     width:500px;
-    max-width:100%;
+    max-width:90%;
 
     background:rgba(255,255,255,.95);
 
-    padding:35px;
+    padding:20px 28px;
 
     border-radius:20px;
 
     backdrop-filter:blur(10px);
 
     box-shadow:0 15px 35px rgba(0,0,0,.30);
-
 }
+
 
 /* Heading */
 .signup-card h2{
-
     color:#198754;
     font-weight:700;
-
+    margin-bottom:3px;
 }
+
 
 /* Subtitle */
-
 .signup-card p{
-
     color:#6c757d;
-
+    margin-bottom:8px;
 }
+
 
 /* Labels */
-
 .form-label{
-
     font-weight:600;
-    margin-bottom:8px;
-
+    margin-bottom:3px;
 }
+
 
 /* Inputs */
-
 .form-control{
-
-    height:50px;
-
+    height:42px;
     border-radius:10px;
-
-    margin-bottom:5px;
-
+    margin-bottom:3px;
 }
 
-.form-control:focus{
-
-    border-color:#198754;
-
-    box-shadow:0 0 8px rgba(25,135,84,.25);
-
-}
 
 /* Password Help */
-
 .form-text{
-
-    font-size:13px;
-
+    font-size:11px;
     color:#6c757d !important;
-
-    line-height:1.5;
-
+    line-height:1.2;
 }
+
 
 /* Checkbox */
-
 .form-check{
-
-    margin-top:10px;
-
-    margin-bottom:15px;
-
+    margin-top:5px;
+    margin-bottom:7px;
 }
 
-/* Button */
 
+/* Button */
 .btn-success{
     width:100%;
-    height:50px;
+    height:44px;
     border-radius:30px;
-    font-size:17px;
+
+    font-size:16px;
     font-weight:600;
 
     display:flex;
@@ -124,43 +103,30 @@ body{
     transition:.3s;
 }
 
-.btn-success:hover{
-    transform:translateY(-2px);
-}
+
 /* Login Link */
-
 .text-center{
-
-    margin-top:20px;
-
+    margin-top:8px;
 }
+
 
 .text-center a{
-
     text-decoration:none;
-
     font-weight:600;
-
     color:#198754;
-
 }
 
-.text-center a:hover{
-
-    text-decoration:underline;
-
-}
 
 /* Mobile */
-
 @media(max-width:576px){
 
-.signup-card{
+    .signup-section{
+        padding:15px;
+        justify-content:center;
+    }
 
-    width:100%;
-
-    padding:25px;
-
-}
-
+    .signup-card{
+        width:100%;
+        padding:18px;
+    }
 }
